@@ -834,7 +834,7 @@
     "Restart Gradio and Refresh components (Custom Scripts, ui.py, js and css only)": "重新啟動 Gradio 及刷新組件（僅限自訂指令碼，ui.py，JS 和 CSS）",
     "Install": "安裝",
     "Installing...": "安裝中…",
-    "Installed": "已安裝"
+    "Installed": "已安裝",
     "Available": "可用",
     "Install from URL": "從網址安裝",
     "Apply and restart UI": "應用並重新啟動使用者介面",
