@@ -53,6 +53,8 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 
 ![image](https://user-images.githubusercontent.com/116663807/204525694-65bc1077-adf4-4a79-a902-50a0a12c4215.png)
 
+3. 如果存在新版本的語言包，自動下載完成之後點擊 `Apply and restart UI` 橙色按鈕
+
 ## 使用說明
 
 1. 在 `Settings` 頁籤中，把 `Localization (requires restart)` 的下拉式選單選成 `zh_TW`：
