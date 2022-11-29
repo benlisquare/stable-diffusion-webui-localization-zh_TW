@@ -48,12 +48,14 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 
 為了確保漢化語言包支持Stable Diffusion web UI的新功能，請記住定期更新此擴充。
 
-1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Installed` 頁籤
-2. 點擊 `Check for updates` 按鈕：
+1. 點擊 `Extensions`／`擴充功能` 頁籤，然後點擊下面的 `Installed`／`已安裝` 頁籤
+2. 點擊 `Check for updates`／`檢查更新` 按鈕：
 
 ![image](https://user-images.githubusercontent.com/116663807/204525694-65bc1077-adf4-4a79-a902-50a0a12c4215.png)
 
-3. 如果存在新版本的語言包，自動下載完成之後點擊 `Apply and restart UI` 橙色按鈕
+![image](https://user-images.githubusercontent.com/116663807/204548204-4b0e7715-ecd2-4627-b574-a69d1b8bae7f.png)
+
+3. 如果存在新版本的語言包，自動下載完成之後點擊 `Apply and restart UI`／`應用並重新啟動使用者介面` 橙色按鈕
 
 ## 使用說明
 
