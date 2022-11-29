@@ -12,7 +12,7 @@ Traditional Chinese translation extension for [Stable Diffusion web UI](https://
 
 ### 通過官方擴充列表
 
-1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Available`頁籤
+1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Available` 頁籤
 2. 取消 `localization` 的核取方塊，然後點擊橙色的 `Load from` 按鈕
 
 ![image](https://user-images.githubusercontent.com/116663807/204526214-420e117b-4590-4f54-b553-ee36fdc2238c.png)
@@ -23,7 +23,7 @@ Traditional Chinese translation extension for [Stable Diffusion web UI](https://
 
 ### 通過GitHub倉庫網址
 
-1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Install from URL`頁籤
+1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Install from URL` 頁籤
 2. 複製以下的網址，然後貼進 `URL for extension's git repository` 欄：
 
 ```
@@ -48,7 +48,7 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 
 為了確保漢化語言包支持Stable Diffusion web UI的新功能，請記住定期更新此擴充。
 
-1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Installed`頁籤
+1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Installed` 頁籤
 2. 點擊 `Check for updates` 按鈕：
 
 ![image](https://user-images.githubusercontent.com/116663807/204525694-65bc1077-adf4-4a79-a902-50a0a12c4215.png)
