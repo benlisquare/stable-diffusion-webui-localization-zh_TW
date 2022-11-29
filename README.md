@@ -4,6 +4,56 @@ Traditional Chinese translation extension for [Stable Diffusion web UI](https://
 ## 正體中文
 正體中文翻譯擴充功能，應用於AUTOMATIC1111的 [Stable Diffusion使用者介面](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
 
+![image](https://user-images.githubusercontent.com/116663807/204528719-4f4e9418-b1d7-4c4f-ae18-e7f86d88339a.png)
+
+## 安裝說明
+
+總共有3種方法可以安裝這個擴充功能：
+
+### 通過官方擴充列表
+
+1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Available`頁籤
+2. 取消 `localization` 的核取方塊，然後點擊橙色的 `Load from` 按鈕
+
+![image](https://user-images.githubusercontent.com/116663807/204526214-420e117b-4590-4f54-b553-ee36fdc2238c.png)
+
+3. 在 `zh_TW Localization` 這一項點擊 `Install` 按鈕
+
+![image](https://user-images.githubusercontent.com/116663807/204526605-33a3c5ba-2786-476d-92ba-3682b3851b67.png)
+
+### 通過GitHub網址
+
+manual from url
+
+![image](https://user-images.githubusercontent.com/116663807/204526841-45f4c104-9958-48b0-81d7-6e1046e463c2.png)
+
+manual zip 1
+
+![image](https://user-images.githubusercontent.com/116663807/204527142-94e3225b-40fe-4ee6-b136-92a24fe8fc16.png)
+
+manual zip 2
+
+![image](https://user-images.githubusercontent.com/116663807/204527428-174c17ed-716a-428e-b4f1-3ef3c11d5a3c.png)
+
+update
+
+![image](https://user-images.githubusercontent.com/116663807/204525694-65bc1077-adf4-4a79-a902-50a0a12c4215.png)
+
+## 使用說明
+
+selector
+
+![image](https://user-images.githubusercontent.com/116663807/204527689-154521c0-de5e-493a-987e-45ef9b57ab1e.png)
+
+apply
+
+![image](https://user-images.githubusercontent.com/116663807/204528104-e81e55a8-f1de-427a-86e1-6bfb59367095.png)
+
+restart
+
+![image](https://user-images.githubusercontent.com/116663807/204528137-ae0c4d95-2b86-46e4-a646-1753baae9592.png)
+
+## 參考
 ### 翻譯內容基底參考
 [stable-diffusion-webui-old-localizations](https://github.com/AUTOMATIC1111/stable-diffusion-webui-old-localizations)
 [stable-diffusion-webui-localization-zh_CN](https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN)  
