@@ -5,7 +5,7 @@
     "sampler": "採樣器",
     "cfg_scale": "提示詞相關性（CFG）",
     "sd_model_hash": "SD模型雜湊值",
-    "seed": "seed",
+    "seed": "種子",
     "hash": "雜湊值",
     "Save tags (Windows only)": "儲存標籤（僅限Windows）",
     "Save category (Windows only)": "儲存類別（僅限Windows）",
