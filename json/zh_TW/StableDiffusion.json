@@ -607,5 +607,7 @@
     "Ignores step count - uses a number of steps determined by the CFG and resolution": "忽略步驟數，使用由 CFG 和解析度確定的步驟數",
     "Denoising Diffusion Implicit Models - best at inpainting": "Denoising Diffusion Implicit models - 最擅長局部重繪",
     "If this values is non-zero, it will be added to seed and used to initialize RNG for noises when using samplers with Eta. You can use this to produce even more variation of images, or you can use this to match images of other software if you know what you are doing.": "如果這個值不為零，它將被加入到隨機種子中，並在使用帶有 Eta 的採樣器時用於初始化隨機噪點。你可以使用它來產生更多的圖像變化，或者你可以使用它來模仿其他軟體生成的圖像，如果你知道你在做什麼",
-    "Leave empty for auto": "留空時自動生成"
+    "Leave empty for auto": "留空時自動生成",
+    "Upscaler 1": "放大演算法 1",
+    "Upscaler 2": "放大演算法 2"
 }
