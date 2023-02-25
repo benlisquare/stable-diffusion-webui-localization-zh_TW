@@ -5,6 +5,7 @@
     "sampler": "sampler",
     "cfg_scale": "cfg_scale",
     "sd_model_hash": "sd_model_hash",
+    "seed": "seed",
     "hash": "hash",
     "Save tags (Windows only)": "Save tags (Windows only)",
     "Save category (Windows only)": "Save category (Windows only)",
