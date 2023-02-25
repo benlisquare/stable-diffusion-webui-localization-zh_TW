@@ -607,5 +607,7 @@
     "Ignores step count - uses a number of steps determined by the CFG and resolution": "Ignores step count - uses a number of steps determined by the CFG and resolution",
     "Denoising Diffusion Implicit Models - best at inpainting": "Denoising Diffusion Implicit Models - best at inpainting",
     "If this values is non-zero, it will be added to seed and used to initialize RNG for noises when using samplers with Eta. You can use this to produce even more variation of images, or you can use this to match images of other software if you know what you are doing.": "If this values is non-zero, it will be added to seed and used to initialize RNG for noises when using samplers with Eta. You can use this to produce even more variation of images, or you can use this to match images of other software if you know what you are doing.",
-    "Leave empty for auto": "Leave empty for auto"
+    "Leave empty for auto": "Leave empty for auto",
+    "Upscaler 1": "Upscaler 1",
+    "Upscaler 2": "Upscaler 2"
 }
