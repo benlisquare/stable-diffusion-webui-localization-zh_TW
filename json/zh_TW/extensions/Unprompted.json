@@ -1867,18 +1867,5 @@
     "my_var another_var": "my_var another_var",
     "Leave blank to use the initial img2img image. Supports multiple paths.": "Leave blank to use the initial img2img image. Supports multiple paths.",
     "e.g. tan or 127,127,127": "e.g. tan or 127,127,127",
-    "Test prompt": "Test prompt",
-    "Waiting...": "Waiting...",
-    "8/75": "8/75",
-    "15% ETA: 23s": "15% ETA: 23s",
-    "50% ETA: 5s": "50% ETA: 5s",
-    "95% ETA: 0s": "95% ETA: 0s",
-    "Time taken:": "Time taken:",
-    "9.02s": "9.02s",
-    "Torch active/reserved: 5760/6026 MiB,": "Torch active/reserved: 5760/6026 MiB,",
-    "Sys VRAM: 7905/8192 MiB (96.5%)": "Sys VRAM: 7905/8192 MiB (96.5%)",
-    "Masterpiece, best quality, drawing of a (brunette eurasian man) smiling": "Masterpiece, best quality, drawing of a (brunette eurasian man) smiling",
-    "Negative prompt: mutation, mutated, bad anatomy, bad hands, text, error, missing fingers, extra limb, deformed, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, username, watermark, blurry": "Negative prompt: mutation, mutated, bad anatomy, bad hands, text, error, missing fingers, extra limb, deformed, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, username, watermark, blurry",
-    "Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 3579906023, Size: 512x512, Model hash: 69528490df, Model: anything-v4.0-pruned": "Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 3579906023, Size: 512x512, Model hash: 69528490df, Model: anything-v4.0-pruned",
-    "/9.0": "/9.0"
+    "Test prompt": "Test prompt"
 }
