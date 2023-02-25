@@ -5,13 +5,22 @@ import shutil
 from collections import defaultdict
 
 json_folder = './json/zh_TW/'
+extensions_folder = './json/zh_TW/extensions'
 merged_file = './localizations/zh_TW.json'
 report_file = './json/merge_report.txt'
 
 
-def merge_json_files(folder):
+def merge_json_files():
     # Get all JSON files in the folder
-    json_files = glob.glob(os.path.join(folder, '*.json'))
+    json_files = glob.glob(os.path.join(json_folder, '*.json'))
+    if os.path.exists(extensions_folder):
+        json_files += glob.glob(os.path.join(extensions_folder, '*.json'))
+
+    # Put StableDiffusion.json as the first element in the list
+    stable_diffusion_file = './json/zh_TW\\StableDiffusion.json'
+    if stable_diffusion_file in json_files:
+        json_files.remove(stable_diffusion_file)
+        json_files.insert(0, stable_diffusion_file)
 
     # Merge all JSON files
     merged = defaultdict(lambda: defaultdict(str))
@@ -57,7 +66,8 @@ def merge_dict(dict1, dict2, duplicate_keys, file):
     for key in dict2.keys():
         if key in dict1 and isinstance(dict1[key], dict) and isinstance(dict2[key], dict):
             # Key already exists, recursively merge subkeys
-            dict1[key] = merge_dict(dict1[key], dict2[key], duplicate_keys, file)
+            dict1[key] = merge_dict(
+                dict1[key], dict2[key], duplicate_keys, file)
         elif key in dict1:
             # Key already exists, add to list of duplicate keys
             duplicate_keys[key].append(file)
@@ -67,8 +77,4 @@ def merge_dict(dict1, dict2, duplicate_keys, file):
 
 
 if __name__ == '__main__':
-    for foldername, subfolders, filenames in os.walk(json_folder):
-        for subfolder in subfolders:
-            folder = os.path.join(foldername, subfolder)
-            merge_json_files(folder)
-        merge_json_files(foldername)
+    merge_json_files()
