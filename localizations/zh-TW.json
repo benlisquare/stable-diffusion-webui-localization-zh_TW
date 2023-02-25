@@ -1,3 +1,5 @@
 {
-    "stable-diffusion-webui-wd14-tagger": "stable-diffusion-webui-wd14-tagger"
+    "Wildcards": "Wildcards",
+    "Use same seed for all images": "Use same seed for all images",
+    "stable-diffusion-webui-wildcards": "stable-diffusion-webui-wildcards"
 }
