@@ -29,7 +29,6 @@
     "aesthetic_score": "aesthetic_score",
     "cfg scale": "cfg scale",
     "steps": "steps",
-    "seed": "seed",
     "sampler": "sampler",
     "size": "size",
     "model": "model",
