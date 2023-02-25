@@ -1,0 +1,6 @@
+targets:
+  - name: Extensions
+    sources:
+      - json/source/*.json
+    file: json/%locale%/%original_file_name%.json
+    format: crowdin-json
