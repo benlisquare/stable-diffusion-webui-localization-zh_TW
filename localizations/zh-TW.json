@@ -1,5 +1,14 @@
 {
-    "novelai-2-local-prompt": "novelai-2-local-prompt",
-    "NAIConvert": "NAIConvert",
-    "History": "History"
+    "OpenPose Editor": "OpenPose Editor",
+    "width": "width",
+    "height": "height",
+    "Add": "Add",
+    "Reset": "Reset",
+    "Load from JSON": "Load from JSON",
+    "Detect from image": "Detect from image",
+    "Add Background image": "Add Background image",
+    "json": "json",
+    "Save JSON": "Save JSON",
+    "Save PNG": "Save PNG",
+    "openpose-editor": "openpose-editor"
 }
