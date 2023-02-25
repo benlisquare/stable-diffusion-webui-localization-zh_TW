@@ -1,16 +1,12 @@
 targets:
-  - name: Extensions
+  - name: extensions
     sources:
       - /json/source/extensions/*.json
-    file: /json/%locale%/extensions/%original_file_name%.json
+    file: /localizations/%locale%.json
     format: crowdin-json
   - name: StableDiffusion
     sources:
       - /json/source/StableDiffusion.json
-    file: /json/%locale%/StableDiffusion.json
-    format: crowdin-json
-  - name: ExtensionPage
-    sources:
       - /json/source/ExtensionPage.json
-    file: /json/%locale%/ExtensionPage.json
+    file: /localizations/%locale%.json
     format: crowdin-json
