@@ -96,8 +96,10 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 7. 額外對差集後的檔案進行人工修正，例如非必要翻譯之符號、下拉式選單的檔案名稱以及擴充功能git網址等，此步驟請自行斟酌處理。
 **PS.多次進行擴充功能拆分作業，請將StableDiffusion安裝目錄下"\ebui\extensions\"的擴充功能資料夾刪除後，關閉執行終端讓程式完整重起。（避免複數擴充功能文本重複出線）**
 ### 翻譯工作流
-使用[Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW)進行翻譯，完成後同步至本地並進行合併作業。
+使用[Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW)進行翻譯，完成後同步至GitHub並Pull至本地進行合併作業。
 以下是如何進行翻譯檔合併的步驟：
 1. 將"/json/Merger.py"在終端機進行執行（需安裝python）。
 2. 合併完成之檔案儲存於"/localizations/zh_TW.json"。
 3. 查看"/json/merge_report.txt"是否有異常的重複問題（如果有大量重複內，需查看擴充功能拆分時是否有錯誤）。
+
+不想使用Crowdin進行翻譯嗎？也可以下載'/json/source/extensions/'內的原文檔案進行手動翻譯，完成後再到 Discussions 發文請求合併，之後會將其上傳至 Crowdin。
