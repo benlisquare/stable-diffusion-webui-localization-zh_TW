@@ -3,6 +3,7 @@ Traditional Chinese translation extension for [Stable Diffusion web UI](https://
 
 [![zh-TW translation](https://img.shields.io/badge/dynamic/json?color=blue&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-13011757-570269.json)
 ![zh-TW proofreading](https://img.shields.io/badge/dynamic/json?color=green&label=zh-TW&style=flat&logo=crowdin&query=%24.progress.0.data.approvalProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-13011757-570269.json)](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW)
+
 ![zh-TW proofreading](https://badges.awesome-crowdin.com/translation-13011757-570269.png)
 ## 正體中文
 正體中文翻譯擴充功能，應用於AUTOMATIC1111的 [Stable Diffusion使用者介面](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
