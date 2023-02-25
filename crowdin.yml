@@ -12,8 +12,8 @@ targets:
     format: crowdin-json
 files:
   - source: /json/source/extensions/*.json
-    translation: /localizations/%locale%.json
+    translation: /json/%locale_with_underscore%/extensions/%original_file_name%
   - source: /json/source/StableDiffusion.json
-    translation: /localizations/%locale%.json
+    translation: /json/%locale_with_underscore%/StableDiffusion.json
   - source: /json/source/ExtensionPage.json
-    translation: /localizations/%locale%.json
+    translation: /json/%locale_with_underscore%/ExtensionPage.json
