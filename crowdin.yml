@@ -13,3 +13,7 @@ targets:
 files:
   - source: /json/source/extensions/*.json
     translation: /localizations/%locale%.json
+  - source: /json/source/StableDiffusion.json
+    translation: /localizations/%locale%.json
+  - source: /json/source/ExtensionPage.json
+    translation: /localizations/%locale%.json
