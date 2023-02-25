@@ -27,7 +27,7 @@ for key in list(source_data.keys()):
         del source_data[key]
 
 # 將處理後的內容寫入完成檔案
-output_file_path = './json/source/' + os.path.basename(source_file_path)
+output_file_path = './json/source/extensions/' + os.path.basename(source_file_path)
 with open(output_file_path, 'w', encoding='utf-8') as f:
     json.dump(source_data, f, ensure_ascii=False, indent=4)
 
