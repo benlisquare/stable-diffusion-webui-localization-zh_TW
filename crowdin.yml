@@ -10,3 +10,6 @@ targets:
       - /json/source/ExtensionPage.json
     file: /localizations/%locale%.json
     format: crowdin-json
+files:
+  - source: /json/source/extensions/*.json
+    translation: /localizations/%locale%.json
