@@ -9,15 +9,9 @@ merged_file = './localizations/zh_TW.json'
 report_file = './json/merge_report.txt'
 
 
-def merge_json_files():
+def merge_json_files(folder):
     # Get all JSON files in the folder
-    json_files = glob.glob(os.path.join(json_folder, '*.json'))
-
-    # Put StableDiffusion.json as the first element in the list
-    stable_diffusion_file = os.path.join(json_folder, 'StableDiffusion.json')
-    if stable_diffusion_file in json_files:
-        json_files.remove(stable_diffusion_file)
-        json_files.insert(0, stable_diffusion_file)
+    json_files = glob.glob(os.path.join(folder, '*.json'))
 
     # Merge all JSON files
     merged = defaultdict(lambda: defaultdict(str))
@@ -29,7 +23,7 @@ def merge_json_files():
                 if key in merged and isinstance(merged[key], dict) and isinstance(data[key], dict):
                     # Key already exists, recursively merge subkeys
                     merged[key] = merge_dict(
-                        merged[key], data[key], duplicate_keys)
+                        merged[key], data[key], duplicate_keys, file)
                 elif key in merged:
                     # Key already exists, add to list of duplicate keys
                     duplicate_keys[key].append(file)
@@ -39,7 +33,6 @@ def merge_json_files():
     # Write merged JSON file
     with open(merged_file, 'w', encoding='utf-8') as f:
         json.dump(merged, f, ensure_ascii=False, indent=4)
-
 
     # Write report file
     with open(report_file, 'w', encoding='utf-8') as f:
@@ -59,12 +52,12 @@ def merge_json_files():
             f.write('沒有發現重複的key。')
 
 
-def merge_dict(dict1, dict2, duplicate_keys):
+def merge_dict(dict1, dict2, duplicate_keys, file):
     # Recursively merge dictionaries
     for key in dict2.keys():
         if key in dict1 and isinstance(dict1[key], dict) and isinstance(dict2[key], dict):
             # Key already exists, recursively merge subkeys
-            dict1[key] = merge_dict(dict1[key], dict2[key], duplicate_keys)
+            dict1[key] = merge_dict(dict1[key], dict2[key], duplicate_keys, file)
         elif key in dict1:
             # Key already exists, add to list of duplicate keys
             duplicate_keys[key].append(file)
@@ -74,4 +67,8 @@ def merge_dict(dict1, dict2, duplicate_keys):
 
 
 if __name__ == '__main__':
-    merge_json_files()
+    for foldername, subfolders, filenames in os.walk(json_folder):
+        for subfolder in subfolders:
+            folder = os.path.join(foldername, subfolder)
+            merge_json_files(folder)
+        merge_json_files(foldername)

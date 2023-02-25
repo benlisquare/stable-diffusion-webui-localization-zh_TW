@@ -80,3 +80,6 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 [中國、台灣計算機術語對照表](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8)
 
 以此作為基底進行本地化
+
+### 翻譯工作流
+使用[Crowdin](https://crowdin.com/project/stable-diffsion-web-ui-localization-zh_TW)進行翻譯，完成後同步至本地並在終端使用Merger.py合併翻譯檔至localizations資料夾。
