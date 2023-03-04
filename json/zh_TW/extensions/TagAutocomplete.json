@@ -1,7 +1,6 @@
 {
     "Tag Autocomplete": "標記自動補齊",
     "Tag filename": "標記檔檔名",
-    "extra-quality-tags.csv": "extra-quality-tags.csv",
     "Enable Tag Autocompletion": "啟用標記自動補齊",
     "Active in txt2img (Requires restart)": "在文生圖中啟用（需要儲存設定並重新啟動）",
     "Active in img2img (Requires restart)": "在圖生圖中啟用（需要儲存設定並重新啟動）",

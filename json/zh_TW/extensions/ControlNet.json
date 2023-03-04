@@ -59,6 +59,6 @@
     "Skip img2img processing when using img2img initial image": "Skip img2img processing when using img2img initial image",
     "Enable optimized monocular depth estimation": "Enable optimized monocular depth estimation",
     "Only use mid-control when inference": "Only use mid-control when inference",
-    "Enable CFG-Based guidance": "Enable CFG-Based guidance",
+    "Enable CFG-Based guidance": "啟用以提示詞相關性引導",
     "sd-webui-controlnet": "ControlNet"
 }
