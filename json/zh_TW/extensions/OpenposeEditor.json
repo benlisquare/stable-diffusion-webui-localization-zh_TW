@@ -10,6 +10,6 @@
   "json": "json",
   "Save JSON": "儲存為 JSON",
   "Save PNG": "儲存為 PNG",
-  "Send to": "Send to",
+  "Send to": ">> ControlNet",
   "openpose-editor": "openPose 編輯器"
 }
