@@ -1,4 +1,5 @@
 {
+  "Smart Preprocess": "Smart Preprocess",
   "sd_smartprocess": "智慧預處理",
   "Rename images": "Rename images",
   "Directories": "Directories",
@@ -6,6 +7,7 @@
   "Output Size": "Output Size",
   "Pad Images": "Pad Images",
   "Crop Images": "Crop Images",
+  "Captions": "Captions",
   "Generate Captions": "Generate Captions",
   "Max Caption Length (0=unlimited)": "Max Caption Length (0=unlimited)",
   "Existing Caption Action": "Existing Caption Action",
@@ -29,7 +31,8 @@
   "Subject class to crop (leave blank to auto-detect)": "Subject class to crop (leave blank to auto-detect)",
   "Subject Name": "Subject Name",
   "Subject Name to replace class with in captions": "Subject Name to replace class with in captions",
-  "Cancel": "Cancel",
+  "Post-Processing": "Post-Processing",
   "Face Restore Model": "Face Restore Model",
-  "Upscale and Resize": "Upscale and Resize"
+  "Upscale and Resize": "Upscale and Resize",
+  "Cancel": "Cancel"
 }
