@@ -456,7 +456,7 @@
     "filter out those tags from deepbooru output (separated by comma)": "從 deepbooru 輸出中過濾掉那些標籤（以逗號分隔）",
     "Default view for Extra Networks": "額外網絡的默認視圖",
     "cards": "卡片",
-    "thumbs": "thumbs",
+    "thumbs": "縮圖",
     "Show grid in results for web": "在網頁的結果中顯示宮格圖",
     "Do not show any images in results for web": "不在網頁的結果中顯示任何圖像",
     "Add model hash to generation information": "將模型的雜湊值加入到生成資訊",
