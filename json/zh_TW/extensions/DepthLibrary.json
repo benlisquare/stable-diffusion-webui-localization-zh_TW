@@ -1,7 +1,7 @@
 {
-  "sd-webui-depth-lib": "sd-webui-depth-lib",
-  "Depth Library": "Depth Library",
-  "Pages:": "Pages:",
-  "Selected": "Selected",
-  "Send to ControlNet": "Send to ControlNet"
+  "sd-webui-depth-lib": "深度圖圖庫",
+  "Depth Library": "深度圖圖庫",
+  "Pages:": "頁碼：",
+  "Selected": "已選取",
+  "Send to ControlNet": ">> ControlNet"
 }
