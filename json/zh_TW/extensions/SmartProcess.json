@@ -15,7 +15,7 @@
   "Number of CLIP beams": "Number of CLIP beams",
   "CLIP Minimum length": "最小 CLIP 長度",
   "CLIP Maximum length": "最小 CLIP 長度",
-  "Use v2 CLIP Model": "Use v2 CLIP Model",
+  "Use v2 CLIP Model": "使用 v2 CLIP 模型",
   "Append Flavor tags from CLIP": "Append Flavor tags from CLIP",
   "Max flavors to append.": "Max flavors to append.",
   "Append Medium tags from CLIP": "Append Medium tags from CLIP",
