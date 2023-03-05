@@ -32,7 +32,7 @@
   "Subject Name": "Subject Name",
   "Subject Name to replace class with in captions": "Subject Name to replace class with in captions",
   "Post-Processing": "Post-Processing",
-  "Face Restore Model": "Face Restore Model",
+  "Face Restore Model": "面部修復模型",
   "Upscale and Resize": "Upscale and Resize",
-  "Cancel": "Cancel"
+  "Cancel": "取消"
 }
