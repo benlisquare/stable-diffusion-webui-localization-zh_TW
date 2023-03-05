@@ -1,0 +1,19 @@
+targets:
+  - name: extensions
+    sources:
+      - /json/source/extensions/*.json
+    file: /localizations/%locale%.json
+    format: crowdin-json
+  - name: StableDiffusion
+    sources:
+      - /json/source/StableDiffusion.json
+      - /json/source/ExtensionPage.json
+    file: /localizations/%locale%.json
+    format: crowdin-json
+files:
+  - source: /json/source/extensions/*.json
+    translation: /json/%locale_with_underscore%/extensions/%original_file_name%
+  - source: /json/source/StableDiffusion.json
+    translation: /json/%locale_with_underscore%/StableDiffusion.json
+  - source: /json/source/ExtensionList.json
+    translation: /json/%locale_with_underscore%/ExtensionList.json
