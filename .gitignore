@@ -1,3 +1,4 @@
 /.vs
 json/merge_report.txt
 json/devScript.py
+dev/*
