@@ -7,7 +7,7 @@
     "Slerp interpolation": "球面線性插值角度",
     "Aesthetic imgs embedding": "美學圖集嵌入",
     "Aesthetic text for imgs": "該圖集的美學描述",
-    "Slerp angle": "Slerp 角度",
+    "Slerp angle": "球面線性插值角度",
     "Is negative text": "是反向提示詞",
     "Create an aesthetic embedding out of any number of images": "從任意數量的圖像中建立美學嵌入",
     "Create images embedding": "建立圖集嵌入",
