@@ -34,5 +34,6 @@
   "Post-Processing": "Post-Processing",
   "Face Restore Model": "Face Restore Model",
   "Upscale and Resize": "Upscale and Resize",
-  "Cancel": "Cancel"
+  "Cancel": "Cancel",
+  "url": "https://github.com/d8ahazard/sd_smartprocess.git"
 }

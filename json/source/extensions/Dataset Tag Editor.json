@@ -156,5 +156,6 @@
     "stable-diffusion-webui-dataset-tag-editor": "stable-diffusion-webui-dataset-tag-editor",
     ".txt (on Load and Save)": ".txt (on Load and Save)",
     "Reconstruct prompt from existing image and put it into the prompt field.": "Reconstruct prompt from existing image and put it into the prompt field.",
-    "txt": "txt"
+    "txt": "txt",
+    "https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor.git": "https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor.git"
 }
