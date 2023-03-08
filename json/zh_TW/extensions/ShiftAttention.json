@@ -1,9 +1,0 @@
-{
-    "Shift attention": "轉移注意力",
-    "Show generated images in ui": "在用戶介面上顯示生成了的圖像",
-    "Save results as video": "儲存結果為影片",
-    "Frames per second": "每秒多少幀",
-    "Number of frames for lead in/out": "導入／導出幀數",
-    "Upscale ratio": "放大比率",
-    "shift-attention": "注意力轉移"
-}
