@@ -53,7 +53,7 @@
     "Enable Jinja2 templates": "啟用 Jinja2 模板",
     "Help for Jinja2 templates": "Jinja2 模板幫助",
     "Jinja2 templates is an experimental feature for advanced template generation. It is not recommended for general use unless you are comfortable with writing scripts.": "Jinja2 模板是一個用於高級模板生成的實驗特性。如果不熟悉編寫指令碼，正常使用時不推薦啟用",
-    "Literals": "字面量",
+    "Literals": "字面值，定數，常值",
     "I love red roses": "I love red roses",
     "Random choices": "隨機選擇",
     "I love {{ choice('red', 'blue', 'green') }} roses": "I love {{ choice('red', 'blue', 'green') }} roses",
