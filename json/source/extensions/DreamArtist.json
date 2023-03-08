@@ -29,5 +29,6 @@
     "Process": "Process",
     "Image": "Image",
     "DreamArtist-sd-webui-extension": "DreamArtist-sd-webui-extension",
-    "Path to classifier ckpt, can be empty": "Path to classifier ckpt, can be empty"
+    "Path to classifier ckpt, can be empty": "Path to classifier ckpt, can be empty",
+    "https://github.com/7eu7d7/DreamArtist-sd-webui-extension.git": "https://github.com/7eu7d7/DreamArtist-sd-webui-extension.git"
 }
