@@ -1,6 +1,6 @@
 {
   "LLuL": "LLuL",
-  "Enabled": "Enabled",
+  "Enabled": "啟用",
   "Multiplication (2^N)": "Multiplication (2^N)",
   "Weight": "權重",
   "Force convert half to float on interpolation (for some platforms)": "Force convert half to float on interpolation (for some platforms)",
