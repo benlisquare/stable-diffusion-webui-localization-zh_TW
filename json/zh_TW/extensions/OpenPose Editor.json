@@ -1,8 +1,8 @@
 {
-  "OpenPose Editor": "OpenPose 編輯器",
+  "OpenPose Editor": "OpenPose編輯器",
   "width": "寬度",
   "height": "高度",
-  "Add": "添加",
+  "Add": "加入",
   "Reset": "重置",
   "Load from JSON": "從 JSON 載入",
   "Detect from image": "從圖像偵測",

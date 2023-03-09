@@ -33,5 +33,6 @@
   "Insert before": "前綴插入",
   "Insert after": "後綴插入",
   "Booru tag autocompletion": "Booru 標記自動補齊",
-  "a1111-sd-webui-tagcomplete": "標記自動補齊"
+  "a1111-sd-webui-tagcomplete": "標記自動補齊",
+  "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git": "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git"
 }

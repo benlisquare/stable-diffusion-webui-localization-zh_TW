@@ -31,5 +31,6 @@
     "Path to read videos from": "Path to read videos from",
     "Path to store extracted frame sets in": "Path to store extracted frame sets in",
     "Default cropped image output directory": "Default cropped image output directory",
-    "training-picker": "training-picker"
+    "training-picker": "training-picker",
+    "url": "https://github.com/Maurdekye/training-picker.git"
 }

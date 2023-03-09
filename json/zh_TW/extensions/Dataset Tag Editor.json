@@ -1,5 +1,5 @@
 {
-    "Dataset Tag Editor": "Dataset Tag Editor",
+    "Dataset Tag Editor": "數據集標記編輯器",
     "hidden_idx_next": "hidden_idx_next",
     "hidden_idx_prev": "hidden_idx_prev",
     "hidden_s_or_n": "hidden_s_or_n",
@@ -22,7 +22,7 @@
     "Save current settings": "Save current settings",
     "Restore settings to default": "Restore settings to default",
     "Caption File Ext": "Caption File Ext",
-    "Load": "Load",
+    "Load": "載入",
     "Dataset Load Settings": "Dataset Load Settings",
     "Load from subdirectories": "Load from subdirectories",
     "Load caption from filename if no text file exists": "Load caption from filename if no text file exists",
@@ -71,7 +71,7 @@
     "NONE": "NONE",
     "Filter Images by Tags": "Filter Images by Tags",
     "(EXCLUSIVE)": "(EXCLUSIVE)",
-    "Number": "Number",
+    "Number": "數量",
     "Select images from the left gallery.": "Select images from the left gallery.",
     "Add selection [Enter]": "Add selection [Enter]",
     "Add ALL Displayed": "Add ALL Displayed",
@@ -153,8 +153,9 @@
     "DELETE cannot be undone. The files will be deleted completely.": "DELETE cannot be undone. The files will be deleted completely.",
     "DELETE File(s)": "DELETE File(s)",
     "Number of columns on image gallery": "Number of columns on image gallery",
-    "stable-diffusion-webui-dataset-tag-editor": "stable-diffusion-webui-dataset-tag-editor",
+    "stable-diffusion-webui-dataset-tag-editor": "資料集標記編輯器",
     ".txt (on Load and Save)": ".txt (on Load and Save)",
-    "Reconstruct prompt from existing image and put it into the prompt field.": "Reconstruct prompt from existing image and put it into the prompt field.",
-    "txt": "txt"
+    "Reconstruct prompt from existing image and put it into the prompt field.": "從現有的圖像中重構出提示詞，並將其放入提示詞的輸入文字方塊",
+    "txt": "txt",
+    "https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor.git": "https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor.git"
 }

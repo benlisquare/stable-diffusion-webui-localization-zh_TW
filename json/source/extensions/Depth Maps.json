@@ -32,6 +32,7 @@
   "Generate video from inpainted mesh.": "Generate video from inpainted mesh.",
   "Video": "Video",
   "A file on the same machine where the server is running.": "A file on the same machine where the server is running.",
+
   "Number of frames": "Number of frames",
   "Framerate": "Framerate",
   "Format": "Format",

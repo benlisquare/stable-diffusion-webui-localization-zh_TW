@@ -31,5 +31,6 @@
     "Path to read videos from": "讀取影片的路徑",
     "Path to store extracted frame sets in": "儲存截取幀的路徑",
     "Default cropped image output directory": "裁切後的成品的默認輸出目錄",
-    "training-picker": "訓練圖挑選器"
+    "training-picker": "訓練圖挑選器",
+    "url": "https://github.com/Maurdekye/training-picker.git"
 }
