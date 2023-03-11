@@ -152,8 +152,8 @@
     "tooltip": "啟用後，當用戶取消訓練時將生成一個CKPT。"
   },
   "Generate lora weights Generate lora weights for additional networks.": {
-    "key": "生成附加網路的 Lora。（警告：如有使用 Lora 擴充功能，此選項無效）",
-    "tooltip": "啟用後，將在modelsLora目錄生成相容的lora.safetensors模型。與[lora擴充]不相容。"
+    "key": "生成附加網路的 LoRA。（警告：如有使用 LoRA 擴充功能，此選項無效）",
+    "tooltip": "啟用後，將在modelsLoRA目錄生成相容的lora.safetensors模型。與[lora擴充]不相容。"
   },
   "Generate lora weights when saving during training.": {
     "key": "在訓練期間保存時生成 lora。",
@@ -217,35 +217,35 @@
   },
   "Lora Model": {
     "key": "LoRA 模型",
-    "tooltip": "繼續微調或產生檢查點時要載入的Lora模型。"
+    "tooltip": "繼續微調或產生檢查點時要載入的LoRA模型。"
   },
   "Use Lora Extended": {
     "key": "使用 LoRA 擴充",
-    "tooltip": "使用 ResNet 層來訓練 Lora 模型。這將始終提高質量和可編輯性，但會導致更大的文件。"
+    "tooltip": "使用 ResNet 層來訓練 LoRA 模型。這將始終提高質量和可編輯性，但會導致更大的文件。"
   },
   "Lora UNET Rank": {
-    "key": "Lora UNET等級",
-    "tooltip": "Lora UNET 的等級（預設值為4）。等級越高，品質和可編輯性越好，但檔案大小也越大。等級越低，品質越低，檔案大小越小。不同值下的學習率有不同的工作方式。以高精度 （fp32）保存的 Lora 會導致較大的 Lora 檔案。"
+    "key": "LoRA UNET等級",
+    "tooltip": "LoRA UNET 的等級（預設值為4）。等級越高，品質和可編輯性越好，但檔案大小也越大。等級越低，品質越低，檔案大小越小。不同值下的學習率有不同的工作方式。以高精度 （fp32）保存的 LoRA 會導致較大的 LoRA 檔案。"
   },
   "Lora Text Encoder Rank": {
-    "key": "Lora Text Encoder等級",
-    "tooltip": "Lora 文本編碼器的等級（預設為 4）。等級越高，品質越好，但文件大小越大。等級越低，牺牲品質，文件大小越小。在不同的等級下，學習率的運作方式也不同。以高精度 (fp32) 保存的 Lora 將導致更大的 Lora 文件。"
+    "key": "LoRA Text Encoder等級",
+    "tooltip": "LoRA 文本編碼器的等級（預設為 4）。等級越高，品質越好，但文件大小越大。等級越低，牺牲品質，文件大小越小。在不同的等級下，學習率的運作方式也不同。以高精度 (fp32) 保存的 LoRA 將導致更大的 LoRA 文件。"
   },
   "Lora Text Learning Rate": {
-    "key": "Lora Text Encoder學習率",
-    "tooltip": "用於訓練Lora Text Encoder的學習速率。常規學習速率被忽略。"
+    "key": "LoRA Text Encoder學習率",
+    "tooltip": "用於訓練LoRA Text Encoder的學習速率。常規學習速率被忽略。"
   },
   "Lora Text Weight": {
-    "key": "Lora 文本權重",
-    "tooltip": "在創建模型時應該將多少Lora權重應用於文本編碼器。"
+    "key": "LoRA 文本權重",
+    "tooltip": "在創建模型時應該將多少LoRA權重應用於文本編碼器。"
   },
   "Lora UNET Learning Rate": {
-    "key": "Lora UNET學習率",
-    "tooltip": "用於訓練Lora UNet的學習速率。常規學習速率被忽略。"
+    "key": "LoRA UNET學習率",
+    "tooltip": "用於訓練LoRA UNet的學習速率。常規學習速率被忽略。"
   },
   "Lora Weight": {
-    "key": "Lora 權重",
-    "tooltip": "在創建檢查點時應該將多少Lora權重應用於UNet。"
+    "key": "LoRA 權重",
+    "tooltip": "在創建檢查點時應該將多少LoRA權重應用於UNet。"
   },
   "Max Resolution": {
     "key": "最高解析度",
