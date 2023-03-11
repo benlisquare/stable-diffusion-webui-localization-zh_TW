@@ -1,0 +1,506 @@
+{
+  "API Key": {
+    "key": "API Key",
+    "tooltip": "Used for securing the Web API. Click the refresh button to the right to (re)generate your key, the trash icon to remove it."
+  },
+  "AdamW Weight Decay": {
+    "key": "AdamW 權重衰減",
+    "tooltip": "The weight decay of the AdamW Optimizer. Values closer to 0 closely match your training dataset, and values closer to 1 generalize more and deviate from your training dataset. Default is 1e-2, values lower than 0.1 are recommended."
+  },
+  "Amount of time to pause between Epochs (s)": {
+    "key": "每訓練週期之間暫停的時間（秒）",
+    "tooltip": "When 'Pause After N Epochs' is greater than 0, this is the amount of time, in seconds, that training will be paused for"
+  },
+  "Apply Horizontal Flip": {
+    "key": "套用水平翻轉",
+    "tooltip": "Randomly decide to flip images horizontally."
+  },
+  "Batch Size": {
+    "key": "批次大小",
+    "tooltip": "How many images to process at once per training step?"
+  },
+  "Cache Latents": {
+    "key": "緩存潛在的",
+    "tooltip": "When this box is checked latents will be cached. Caching latents will use more VRAM, but improve training speed."
+  },
+  "Cancel": {
+    "key": "取消",
+    "tooltip": "Cancel training."
+  },
+  "Class Batch Size": {
+    "key": "類別批次大小",
+    "tooltip": "How many classifier/regularization images to generate at once."
+  },
+  "Class Images Per Instance Image": {
+    "key": "每個實例圖像的分類圖像數量",
+    "tooltip": "How many classification images to use per instance image."
+  },
+  "Class Prompt": {
+    "key": "分類提示詞",
+    "tooltip": "A prompt for generating classification/regularization images. See the readme for more info."
+  },
+  "Class Token": {
+    "key": "分類名稱",
+    "tooltip": "When using [filewords], this is the class identifier to use/find in existing prompts. Should be a single word."
+  },
+  "Classification CFG Scale": {
+    "key": "分類提示詞相關性",
+    "tooltip": "The Classifier-Free Guidance Scale to use for classifier/regularization images."
+  },
+  "Classification Dataset Directory": {
+    "key": "分類數據集目錄",
+    "tooltip": "The directory containing classification/regularization images."
+  },
+  "Classification Image Negative Prompt": {
+    "key": "分類圖像反向提示詞",
+    "tooltip": "A negative prompt to use when generating class images. Can be empty."
+  },
+  "Classification Steps": {
+    "key": "分類步驟",
+    "tooltip": "The number of steps to use when generating classifier/regularization images."
+  },
+  "Clip Skip": {
+    "key": "Clip 跳過層",
+    "tooltip": "Use output of nth layer from back of text encoder (n>=1)"
+  },
+  "Concepts List": {
+    "key": "概念列表",
+    "tooltip": "The path to the concepts JSON file, or a JSON string."
+  },
+  "Constant/Linear Starting Factor": {
+    "key": "常數/線性起始因子",
+    "tooltip": "Sets the initial learning rate to the main_lr * this value. If you had a target LR of .000006 and set this to .5, the scheduler would start at .000003 and increase until it reached .000006."
+  },
+  "Create From Hub": {
+    "key": "從 huggingface 建立",
+    "tooltip": "Import a model from Huggingface.co instead of using a local checkpoint. Hub model MUST contain diffusion weights. You can specify a local folder with a cloned model, no HF token will be needed in this case."
+  },
+  "Create Model": {
+    "key": "建立模型",
+    "tooltip": "Create a new model."
+  },
+  "Create": {
+    "key": "建立",
+    "tooltip": "Create the danged model already."
+  },
+  "Custom Model Name": {
+    "key": "自訂模型名稱",
+    "tooltip": "A custom name to use when saving .ckpt and .pt files. Subdirectories will also be named this."
+  },
+  "Dataset Directory": {
+    "key": "實例圖像數據目錄",
+    "tooltip": "The directory containing training images."
+  },
+  "Debug Buckets": {
+    "key": "除錯",
+    "tooltip": "Examine the instance and class images and report any instance images without corresponding class images."
+  },
+  "Discord Webhook": {
+    "key": "Discord Webhook",
+    "tooltip": "Send training samples to a Discord channel after generation."
+  },
+  "Existing Prompt Contents": {
+    "key": "Existing Prompt Contents",
+    "tooltip": "If using [filewords], this tells the string builder how the existing prompts are formatted."
+  },
+  "Extract EMA Weights": {
+    "key": "提取 EMA 權重",
+    "tooltip": "If EMA weights are saved in a model, these will be extracted instead of the full Unet. Probably not necessary for training or fine-tuning."
+  },
+  "Freeze CLIP Normalization Layers": {
+    "key": "凍結 CLIP 正規化層",
+    "tooltip": "Keep the normalization layers of CLIP frozen during training. Advanced usage, may increase model performance and editability."
+  },
+  "Generate Ckpt": {
+    "key": "產生 ckpt",
+    "tooltip": "Generate a checkpoint at the current training level."
+  },
+  "Generate Class Images": {
+    "key": "生成分類圖片",
+    "tooltip": "Create classification images using training settings without training."
+  },
+  "Generate Classification Images Using txt2img": {
+    "key": "使用文生圖產生分類圖",
+    "tooltip": "Use the source checkpoint and TXT2IMG to generate class images."
+  },
+  "Generate Classification Images to match Instance Resolutions": {
+    "key": "Generate Classification Images to match Instance Resolutions",
+    "tooltip": "Instead of generating square class images, they will be generated at the same resolution(s) as class images."
+  },
+  "Generate Graph": {
+    "key": "生成圖形",
+    "tooltip": "Generate graphs from training logs showing learning rate and loss averages over the course of training."
+  },
+  "Generate Sample Images": {
+    "key": "生成樣本圖像",
+    "tooltip": "Generate sample images using the currently saved diffusers model."
+  },
+  "Generate Samples": {
+    "key": "產生樣本",
+    "tooltip": "Trigger sample generation after the next training epoch."
+  },
+  "Generate a .ckpt file when saving during training.": {
+    "key": "在訓練期間儲存時產生 .ckpt 檔案。",
+    "tooltip": "When enabled, a checkpoint will be generated at the specified epoch intervals while training is active. This also controls manual generation using the 'save weights' button while training is active."
+  },
+  "Generate a .ckpt file when training completes.": {
+    "key": "在訓練完成時產生 .ckpt 檔案。",
+    "tooltip": "When enabled, a checkpoint will be generated when training completes successfully."
+  },
+  "Generate a .ckpt file when training is cancelled.": {
+    "key": "Generate a .ckpt file when training is cancelled.",
+    "tooltip": "When enabled, a checkpoint will be generated when training is cancelled by the user."
+  },
+  "Generate lora weights Generate lora weights for additional networks.": {
+    "key": "Generate lora weights Generate lora weights for additional networks.",
+    "tooltip": "When enabled, a lora .safetensors file will be generated in the ui lora model directory that is compatible with additional networks. Not compatible with extended lora."
+  },
+  "Generate lora weights when saving during training.": {
+    "key": "在訓練期間保存時生成 lora。",
+    "tooltip": "When enabled, lora .pt files will be generated at each specified epoch interval during training. This also affects whether .pt files will be generated when manually clicking the 'Save Weights' button."
+  },
+  "Generate lora weights when training completes.": {
+    "key": "在訓練完成時生成 lora。",
+    "tooltip": "When enabled, lora .pt files will be generated when training completes."
+  },
+  "Generate lora weights when training is canceled.": {
+    "key": "在訓練取消時生成 lora。",
+    "tooltip": "When enabled, lora .pt files will be generated when training is cancelled by the user."
+  },
+  "Gradient Accumulation Steps": {
+    "key": "梯度累積疊代步數",
+    "tooltip": "Number of updates steps to accumulate before performing a backward/update pass. You should try to make this the same as your batch size."
+  },
+  "Gradient Checkpointing": {
+    "key": "梯度進度記錄 - 以時間換顯存",
+    "tooltip": "This is a technique to reduce memory usage by clearing activations of certain layers and recomputing them during a backward pass. Effectively, this trades extra computation time for reduced memory usage."
+  },
+  "Graph Smoothing Steps": {
+    "key": "圖形平滑步驟",
+    "tooltip": "How many timesteps to smooth graph data over. A lower value means a more jagged graph with more information, higher value will make things prettier but slightly less accurate."
+  },
+  "Half Model": {
+    "key": "半精度模型",
+    "tooltip": "Enable this to generate model with fp16 precision. Results in a smaller checkpoint with minimal loss in quality."
+  },
+  "HuggingFace Token": {
+    "key": "Huggingface標記",
+    "tooltip": "Your huggingface token to use for cloning files."
+  },
+  "Instance Prompt": {
+    "key": "實例提示詞",
+    "tooltip": "A prompt describing the subject. Use [Filewords] to parse image filename/.txt to insert existing prompt here."
+  },
+  "Instance Token": {
+    "key": "實例名稱",
+    "tooltip": "When using [filewords], this is the instance identifier that is unique to your subject. Should be a single word."
+  },
+  "Learning Rate Scheduler": {
+    "key": "學習率調度器",
+    "tooltip": "The learning rate scheduler to use. All schedulers use the provided warmup time except for 'constant'."
+  },
+  "Learning Rate Warmup Steps": {
+    "key": "學習率預熱步數",
+    "tooltip": "Number of steps for the warmup in the lr scheduler. LR will start at 0 and increase to this value over the specified number of steps."
+  },
+  "Learning Rate": {
+    "key": "學習率",
+    "tooltip": "The rate at which the model learns. Default is 2e-6."
+  },
+  "Load Settings": {
+    "key": "載入設定",
+    "tooltip": "Load last saved training parameters for the model."
+  },
+  "Log Memory": {
+    "key": "Log Memory",
+    "tooltip": "Log the current GPU memory usage."
+  },
+  "Lora Model": {
+    "key": "Lora 模型",
+    "tooltip": "The Lora model to load for continued fine-tuning or checkpoint generation."
+  },
+  "Use Lora Extended": {
+    "key": "使用 Lora 擴充",
+    "tooltip": "Trains the Lora model with resnet layers. This will always improves quality and editability, but leads to bigger files."
+  },
+  "Lora UNET Rank": {
+    "key": "Lora UNET 等級",
+    "tooltip": "The rank for the Lora UNET (Default 4). Higher values = better quality with large file size. Lower values = sacrifice quality with lower file size. Learning rates work differently at different ranks. Saved loras at high precision (fp32) will lead to larger lora files."
+  },
+  "Lora Text Encoder Rank": {
+    "key": "Lora Text Encoder 等級",
+    "tooltip": "The rank for the Lora Text Encoder (Default 4). Higher values = better quality with large file size. Lower values = sacrifice quality with lower file size. Learning rates work differently at different ranks. Saved loras at high precision (fp32) will lead to larger lora files."
+  },
+  "Lora Text Learning Rate": {
+    "key": "Lora Text Learning Rate",
+    "tooltip": "The learning rate at which to train lora text encoder. Regular learning rate is ignored."
+  },
+  "Lora Text Weight": {
+    "key": "Lora 文本權重",
+    "tooltip": "What percentage of the lora weights should be applied to the text encoder when creating a checkpoint."
+  },
+  "Lora UNET Learning Rate": {
+    "key": "Lora UNET 學習率",
+    "tooltip": "The learning rate at which to train lora unet. Regular learning rate is ignored."
+  },
+  "Lora Weight": {
+    "key": "Lora 權重",
+    "tooltip": "What percentage of the lora weights should be applied to the unet when creating a checkpoint."
+  },
+  "Max Resolution": {
+    "key": "最高解析度",
+    "tooltip": "The resolution of input images. When using bucketing, this is the maximum size of image buckets."
+  },
+  "Max Token Length": {
+    "key": "最大標記長度",
+    "tooltip": "Maximum token length to respect. You probably want to leave this at 75."
+  },
+  "Memory Attention": {
+    "key": "記憶體注意力",
+    "tooltip": "The type of memory attention to use. 'Xformers' will provide better performance than flash_attention, but requires a separate installation."
+  },
+  "Min Learning Rate": {
+    "key": "最小學習率",
+    "tooltip": "The minimum learning rate to decrease to over time."
+  },
+  "Mixed Precision": {
+    "key": "混合精度",
+    "tooltip": "Use FP16 or BF16 (if available) will help improve memory performance. Required when using 'xformers'."
+  },
+  "Model Path": {
+    "key": "模型路徑",
+    "tooltip": "The URL to the model on huggingface. Should be in the format of 'developer/model_name'."
+  },
+  "Model": {
+    "key": "模型",
+    "tooltip": "The model to train."
+  },
+  "Name": {
+    "key": "名稱",
+    "tooltip": "The name of the model to create."
+  },
+  "Number of Hard Resets": {
+    "key": "硬重置數量",
+    "tooltip": "Number of hard resets of the lr in cosine_with_restarts scheduler."
+  },
+  "Number of Samples to Generate": {
+    "key": "產生樣本的數量",
+    "tooltip": "How many samples to generate per subject."
+  },
+  "Offset Noise": {
+    "key": "噪聲偏移",
+    "tooltip": "Allows the model to learn brightness and contrast with greater detail during training. Value controls the strength of the effect, 0 disables it."
+  },
+  "Pad Tokens": {
+    "key": "標記墊齊",
+    "tooltip": "Pad the input images token length to this amount. You probably want to do this."
+  },
+  "Pause After N Epochs": {
+    "key": "N 階段後暫停",
+    "tooltip": "Number of epochs after which training will be paused for the specified time. Useful if you want to give your GPU a rest."
+  },
+  "Performance Wizard (WIP)": {
+    "key": "效能嚮導 (WIP)",
+    "tooltip": "Attempt to automatically set training parameters based on total VRAM. Still under development."
+  },
+  "Polynomial Power": {
+    "key": "多項式功率",
+    "tooltip": "Power factor of the polynomial scheduler."
+  },
+  "Pretrained VAE Name or Path": {
+    "key": "預訓練 VAE 名稱或路徑",
+    "tooltip": "To use an alternate VAE, you can specify the path to a directory containing a pytorch_model.bin representing your VAE."
+  },
+  "Preview Prompts": {
+    "key": "Preview Prompts",
+    "tooltip": "Generate a JSON representation of prompt data used for training."
+  },
+  "Prior Loss Weight": {
+    "key": "先前損失權重",
+    "tooltip": "Prior loss weight."
+  },
+  "Sample CFG Scale": {
+    "key": "樣本提示詞相關性",
+    "tooltip": "The Classifier-Free Guidance Scale to use for preview images."
+  },
+  "Sample Image Prompt": {
+    "key": "樣本圖像提示詞",
+    "tooltip": "The prompt to use when generating preview images."
+  },
+  "Sample Negative Prompt": {
+    "key": "樣本反向提詞",
+    "tooltip": "A negative prompt to use when generating preview images."
+  },
+  "Sample Prompt Template File": {
+    "key": "樣本提示詞範本檔案",
+    "tooltip": "The path to a txt file to use for sample prompts. Use [filewords] or [name] to insert class token in sample prompts"
+  },
+  "Sample Prompt": {
+    "key": "樣本提詞",
+    "tooltip": "The prompt to use to generate a sample image"
+  },
+  "Sample Seed": {
+    "key": "樣本種子",
+    "tooltip": "The seed to use when generating samples. Set to -1 to use a random seed every time."
+  },
+  "Sample Steps": {
+    "key": "樣本步數",
+    "tooltip": "The number of steps to use when generating classifier/regularization images."
+  },
+  "Sanity Sample Prompt": {
+    "key": "樣本提示詞",
+    "tooltip": "A prompt used to generate a 'baseline' image that will be created with other samples to verify model fidelity."
+  },
+  "Sanity Sample Seed": {
+    "key": "樣本種子",
+    "tooltip": "The seed to use when generating the validation sample image. -1 is not supported."
+  },
+  "Save Checkpoint to Subdirectory": {
+    "key": "儲存模型權重存檔點到子目錄",
+    "tooltip": "When enabled, checkpoints will be saved to a subdirectory in the selected checkpoints folder."
+  },
+  "Save Model Frequency (Epochs)": {
+    "key": "儲存模型頻率（訓練週期）",
+    "tooltip": "Save a checkpoint every N epochs."
+  },
+  "Save Model Frequency (Step)": {
+    "key": "Save Model Frequency (Step)",
+    "tooltip": "Save a checkpoint every N epochs. Must be divisible by batch number."
+  },
+  "Save Preview(s) Frequency (Epochs)": {
+    "key": "儲存預覽頻率（訓練週期）",
+    "tooltip": "Generate preview images every N epochs."
+  },
+  "Save Preview(s) Frequency (Step)": {
+    "key": "Save Preview(s) Frequency (Step)",
+    "tooltip": "Generate preview images every N steps. Must be divisible by batch number."
+  },
+  "Save Settings": {
+    "key": "Save Settings",
+    "tooltip": "Save the current training parameters to the model config file."
+  },
+  "Save Weights": {
+    "key": "儲存權重",
+    "tooltip": "Save weights/checkpoint/snapshot as specified in the saving section for saving 'during' training."
+  },
+  "Save and Test Webhook": {
+    "key": "儲存並測試 Webhook",
+    "tooltip": "Save the currently entered webhook URL and send a test message to it."
+  },
+  "Save separate diffusers snapshots when saving during training.": {
+    "key": "在訓練期間保存獨立的模型。",
+    "tooltip": "When enabled, a unique snapshot of the diffusion weights will be saved at each specified epoch interval. This uses more HDD space (A LOT), but allows resuming from training, including the optimizer state."
+  },
+  "Save separate diffusers snapshots when training completes.": {
+    "key": "訓練完成後保存獨立的模型。",
+    "tooltip": "When enabled, a unique snapshot of the diffusion weights will be saved when training completes. This uses more HDD space, but allows resuming from training including the optimizer state."
+  },
+  "Save separate diffusers snapshots when training is cancelled.": {
+    "key": "Save separate diffusers snapshots when training is cancelled.",
+    "tooltip": "When enabled, a unique snapshot of the diffusion weights will be saved when training is canceled. This uses more HDD space, but allows resuming from training including the optimizer state."
+  },
+  "Save EMA Weights to Generated Models": {
+    "key": "將 EMA 權重儲存到生成的模型中",
+    "tooltip": "If a model was extracted or trained with EMA weights, these will be appended separately to the model for use in training later."
+  },
+  "Scale Position": {
+    "key": "比例位置",
+    "tooltip": "The percent in training where the 'final' learning rate should be achieved. If training at 100 epochs and this is set to 0.25, the final LR will be reached at epoch 25."
+  },
+  "Scheduler": {
+    "key": "排程器，排程程式",
+    "tooltip": "Model scheduler to use. Only applies to models before 2.0."
+  },
+  "Set Gradients to None When Zeroing": {
+    "key": "將梯度設置為 0 的時候設置為無",
+    "tooltip": "When performing the backwards pass, gradients will be set to none, instead of creating a new empty tensor. This will slightly improve VRAM."
+  },
+  "Shuffle After Epoch": {
+    "key": "Shuffle After Epoch",
+    "tooltip": "When enabled, will shuffle the dataset after the first epoch. Will enable text encoder training and latent caching (More VRAM)."
+  },
+  "Shuffle Tags": {
+    "key": "洗牌標籤",
+    "tooltip": "When enabled, tags after the first ',' in a prompt will be randomly ordered, which can potentially improve training."
+  },
+  "Source Checkpoint": {
+    "key": "源模型權重存檔點",
+    "tooltip": "The source checkpoint to extract for training."
+  },
+  "Step Ratio of Text Encoder Training": {
+    "key": "文字編碼器訓練步驟比率",
+    "tooltip": "The number of steps per image (Epoch) to train the text encoder for. Set 0.5 for 50% of the epochs"
+  },
+  "Strict Tokens": {
+    "key": "嚴格的提詞",
+    "tooltip": "Parses instance prompts separated by the following characters [,;.!?], and prevents breaking up tokens when using the tokenizer. Useful if you have prompts separated by a lot of tags."
+  },
+  "Total Number of Class/Reg Images": {
+    "key": "Total Number of Class/Reg Images",
+    "tooltip": "Total number of classification/regularization images to use. If no images exist, they will be generated. Set to 0 to disable prior preservation."
+  },
+  "Train Imagic Only": {
+    "key": "僅意象訓練",
+    "tooltip": "Uses Imagic for training instead of full dreambooth, useful for training with a single instance image."
+  },
+  "Train Text Encoder": {
+    "key": "Train Text Encoder",
+    "tooltip": "Enabling this will provide better results and editability, but cost more VRAM."
+  },
+  "Train": {
+    "key": "訓練",
+    "tooltip": "Start training."
+  },
+  "Training Steps Per Image (Epochs)": {
+    "key": "每張圖像的訓練步數（訓練週期）",
+    "tooltip": "This is the total number of training steps that will be performed on each instance image."
+  },
+  "Training Wizard (Object/Style)": {
+    "key": "訓練嚮導（物件 / 風格）",
+    "tooltip": "Calculate training parameters for a non-human subject based on number of instance images and set larning rate. Disables prior preservation."
+  },
+  "Training Wizard (Person)": {
+    "key": "訓練嚮導（人物）",
+    "tooltip": "Calculate training parameters for a human subject based on number of instance images and set learning rate. Enables prior preservation."
+  },
+  "Unfreeze Model": {
+    "key": "解凍模型",
+    "tooltip": "Unfreezes model layers and allows for potentially better training, but makes increased VRAM usage more likely."
+  },
+  "Use 8bit Adam": {
+    "key": "Use 8bit Adam",
+    "tooltip": "Enable this to save VRAM."
+  },
+  "Use CPU Only (SLOW)": {
+    "key": "Use CPU Only (SLOW)",
+    "tooltip": "Guess what - this will be incredibly slow, but it will work for < 8GB GPUs."
+  },
+  "Use Concepts List": {
+    "key": "使用概念列表",
+    "tooltip": "Train multiple concepts from a JSON file or string."
+  },
+  "Use EMA": {
+    "key": "使用 EMA",
+    "tooltip": "Enabling this will provide better results and editability, but cost more VRAM."
+  },
+  "Use EMA Weights for Inference": {
+    "key": "使用 EMA 權重進行推論",
+    "tooltip": "Enabling this will save the EMA unet weights as the 'normal' model weights and ignore the regular unet weights."
+  },
+  "Use Epoch Values for Save Frequency": {
+    "key": "Use Epoch Values for Save Frequency",
+    "tooltip": "When enabled, save frequencies below are based on number of epochs. When disabled, frequencies are based on number of training steps."
+  },
+  "Use LORA": {
+    "key": "使用 Lora",
+    "tooltip": "Uses Low-rank Adaptation for Fast Text-to-Image Diffusion Fine-tuning. Uses less VRAM, saves a .pt file instead of a full checkpoint"
+  },
+  "Use Lifetime Epochs When Saving": {
+    "key": "Use Lifetime Epochs When Saving",
+    "tooltip": "When checked, will save preview images and checkpoints using lifetime epochs, versus current training epochs."
+  },
+  "Use Lifetime Steps When Saving": {
+    "key": "Use Lifetime Steps When Saving",
+    "tooltip": "When checked, will save preview images and checkpoints using lifetime steps, versus current training steps."
+  }
+}
