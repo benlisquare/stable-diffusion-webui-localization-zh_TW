@@ -152,7 +152,7 @@
     "tooltip": "啟用後，當用戶取消訓練時將生成一個CKPT。"
   },
   "Generate lora weights Generate lora weights for additional networks.": {
-    "key": "生成附加網路的LoRA。(警告:如有使用LoRA擴充功能，此選項無效)",
+    "key": "生成附加網路的 Lora。（警告：如有使用 Lora 擴充功能，此選項無效）",
     "tooltip": "啟用後，將在modelsLora目錄生成相容的lora.safetensors模型。與[lora擴充]不相容。"
   },
   "Generate lora weights when saving during training.": {
@@ -193,7 +193,7 @@
   },
   "Instance Token": {
     "key": "實例名稱",
-    "tooltip": "在使用[Filewords]時，這是獨特於您的主題的實例識別符。應為單個單詞。"
+    "tooltip": "在使用[filewords]時，這是獨特於您的主題的實例識別符。應為單個單詞。"
   },
   "Learning Rate Scheduler": {
     "key": "學習率演算法",
@@ -225,7 +225,7 @@
   },
   "Lora UNET Rank": {
     "key": "Lora UNET等級",
-    "tooltip": "Lora UNET的等級（預設值為4）。等級越高，品質和可編輯性越好，但檔案大小也越大。等級越低，品質越低，檔案大小越小。不同值下的學習率有不同的工作方式。以高精度(fp32)保存的Lora會導致較大的Lora檔案。"
+    "tooltip": "Lora UNET 的等級（預設值為4）。等級越高，品質和可編輯性越好，但檔案大小也越大。等級越低，品質越低，檔案大小越小。不同值下的學習率有不同的工作方式。以高精度 （fp32）保存的 Lora 會導致較大的 Lora 檔案。"
   },
   "Lora Text Encoder Rank": {
     "key": "Lora Text Encoder等級",
@@ -333,7 +333,7 @@
   },
   "Sample Prompt Template File": {
     "key": "樣本提詞文件",
-    "tooltip": "用於樣本提示的txt文件的路徑。使用[filewords]或[name]在樣本提示中插入分類標記。"
+    "tooltip": "用於樣本提示的txt文件的路徑。使用 [filewords] 或 [name] 在樣本提示中插入分類標記。"
   },
   "Sample Prompt": {
     "key": "樣本提詞",
