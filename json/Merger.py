@@ -17,7 +17,7 @@ def merge_json_files():
         json_files += glob.glob(os.path.join(extensions_folder, '*.json'))
 
     # Put StableDiffusion.json as the first element in the list
-    stable_diffusion_file = './json/zh_TW\\StableDiffusion.json'
+    stable_diffusion_file = './json/zh_TW/StableDiffusion.json'
     if stable_diffusion_file in json_files:
         json_files.remove(stable_diffusion_file)
         json_files.insert(0, stable_diffusion_file)
