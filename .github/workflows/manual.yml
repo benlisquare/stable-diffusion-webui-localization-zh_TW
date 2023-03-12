@@ -2,9 +2,6 @@ name: Merge Translates
 
 on:
   workflow_dispatch:
-    inputs:
-      name:
-        description: "Merge translate to zh_TW"
 
 jobs:
   buid:
