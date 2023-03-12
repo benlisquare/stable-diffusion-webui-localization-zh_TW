@@ -34,7 +34,7 @@
     "Basic": "基本設定",
     "General": "一般",
     "Use LORA": "使用 LoRA",
-    "Use Lora Extended": "使用 LoRA 擴充",
+    "Use Lora Extended": "使用 LoRA 擴充功能（Locon）",
     "Train Imagic Only": "僅意象訓練",
     "Train Inpainting Model": "訓練局部重繪模型",
     "Generate Classification Images Using txt2img": "使用文生圖產生分類圖",
