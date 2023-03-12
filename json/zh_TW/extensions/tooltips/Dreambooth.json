@@ -61,7 +61,7 @@
   },
   "Clip Skip": {
     "key": "Clip 跳過層",
-    "tooltip": "使用文本編碼器後面第 n 層的輸出 (n>=1)"
+    "tooltip": "使用文字編碼器後面第 n 層的輸出 (n>=1)"
   },
   "Concepts List": {
     "key": "概念列表",
@@ -100,7 +100,7 @@
     "tooltip": "生成後將訓練樣本發送到 Discord 頻道。"
   },
   "Existing Prompt Contents": {
-    "key": "如果使用 [filewords]，這將告訴字符串生成器現有提示的格式。",
+    "key": "現有提示詞內容",
     "tooltip": "如果使用 [filewords]，這將告訴字符串生成器現有提示的格式。"
   },
   "Extract EMA Weights": {
@@ -193,7 +193,7 @@
   },
   "Instance Token": {
     "key": "實例名稱",
-    "tooltip": "在使用[filewords]時，這是獨特於您的主題的實例識別符。應為單個單詞。"
+    "tooltip": "在使用 [filewords] 時，這是獨特於您的主題的實例識別符。應為單個單詞。"
   },
   "Learning Rate Scheduler": {
     "key": "學習率調度器",
@@ -212,7 +212,7 @@
     "tooltip": "加載模型的上次保存的訓練參數。"
   },
   "Log Memory": {
-    "key": "記錄當前GPU內存使用情況。",
+    "key": "記錄記憶體",
     "tooltip": "記錄當前GPU內存使用情況。"
   },
   "Lora Model": {
@@ -228,16 +228,16 @@
     "tooltip": "LoRA UNET 的等級（預設值為4）。等級越高，品質和可編輯性越好，但檔案大小也越大。等級越低，品質越低，檔案大小越小。不同值下的學習率有不同的工作方式。以高精度 （fp32）保存的 LoRA 會導致較大的 LoRA 檔案。"
   },
   "Lora Text Encoder Rank": {
-    "key": "LoRA Text Encoder等級",
+    "key": "LoRA 文字編碼器等級",
     "tooltip": "LoRA 文本編碼器的等級（預設為 4）。等級越高，品質越好，但文件大小越大。等級越低，牺牲品質，文件大小越小。在不同的等級下，學習率的運作方式也不同。以高精度 (fp32) 保存的 LoRA 將導致更大的 LoRA 文件。"
   },
   "Lora Text Learning Rate": {
-    "key": "LoRA Text Encoder學習率",
-    "tooltip": "用於訓練LoRA Text Encoder的學習速率。常規學習速率被忽略。"
+    "key": "LoRA 文字學習率",
+    "tooltip": "用於訓練 LoRA 文字編碼器的學習速率。常規學習速率被忽略。"
   },
   "Lora Text Weight": {
     "key": "LoRA 文本權重",
-    "tooltip": "在創建模型時應該將多少LoRA權重應用於文本編碼器。"
+    "tooltip": "在創建模型時應該將多少 LoRA 權重應用於文字編碼器。"
   },
   "Lora UNET Learning Rate": {
     "key": "LoRA UNET 學習率",
@@ -408,7 +408,7 @@
     "tooltip": "訓練百分比，在此百分比處應實現“最終”學習率。如果在100個訓練週期中將其設置為0.25，則最終LR將在第25個訓練週期達到。"
   },
   "Scheduler": {
-    "key": "排程程式",
+    "key": "排程器",
     "tooltip": "使用的模型排程器。僅適用於 2.0 之前的模型。"
   },
   "Set Gradients to None When Zeroing": {
@@ -416,12 +416,12 @@
     "tooltip": "在進行反向傳遞時，梯度將設置為無，而不是創建一個新的空張量。這將稍微提高 VRAM。"
   },
   "Shuffle After Epoch": {
-    "key": "啟用後，將在第一個 epoch 後對數據集進行洗牌。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。",
-    "tooltip": "啟用後，將在第一個 epoch 後對數據集進行洗牌。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。"
+    "key": "訓練週期後隨機排序",
+    "tooltip": "啟用後，將在第一個訓練週期後對數據集進行隨機排序。這將啟用文字編碼器訓練和潛在緩存（更多 VRAM）。"
   },
   "Shuffle Tags": {
     "key": "洗牌標籤",
-    "tooltip": "啟用後，將在第一個 epoch 後對數據集進行洗牌。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。"
+    "tooltip": "啟用後，將在第一個 epoch 後對數據集進行隨機排序。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。"
   },
   "Source Checkpoint": {
     "key": "源模型權重存檔點",
@@ -444,8 +444,8 @@
     "tooltip": "使用 Imagic 進行訓練，而不是使用完整的 Dreambooth，這對於使用單個實例圖像進行訓練很有用。"
   },
   "Train Text Encoder": {
-    "key": "啟用此功能將提供更好的結果和可編輯性，但VRAM更高。",
-    "tooltip": "啟用此功能將提供更好的結果和可編輯性，但VRAM更高。"
+    "key": "訓練文字編碼器",
+    "tooltip": "啟用此功能將提供更好的結果和可編輯性，但使用更多 VRAM。"
   },
   "Train": {
     "key": "訓練",
@@ -481,7 +481,7 @@
   },
   "Use EMA": {
     "key": "使用 EMA",
-    "tooltip": "啟用此功能將提供更好的結果和可編輯性，但VRAM更高。"
+    "tooltip": "啟用此功能將提供更好的結果和可編輯性，但使用更多 VRAM。"
   },
   "Use EMA Weights for Inference": {
     "key": "使用EMA權重進行推論",
