@@ -1,4 +1,10 @@
 {
+  "3D Model Loader": "3D Model Loader",
+  "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.": "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.",
+  "Corridor Crawler Outpainting": "Corridor Crawler Outpainting",
+  "Generate hallways with the depth-to-image model at 512 resolution. It can be tweaked to work with other models/resolutions.": "Generate hallways with the depth-to-image model at 512 resolution. It can be tweaked to work with other models/resolutions.",
+  "MultiDiffusion with Tiled VAE": "MultiDiffusion with Tiled VAE",
+  "Seamless Image Fusion, along with vram efficient tiled vae script.": "Seamless Image Fusion, along with vram efficient tiled vae script.",
   "VRAM Estimator": "VRAM Estimator",
   "Runs txt2img, img2img, highres-fix at increasing dimensions and batch sizes until OOM, and outputs data to graph.": "Runs txt2img, img2img, highres-fix at increasing dimensions and batch sizes until OOM, and outputs data to graph.",
   "Dump U-Net": "Dump U-Net",
