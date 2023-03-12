@@ -147,7 +147,7 @@
     "Generate a .ckpt file when training completes.": "在訓練完成時生成 .ckpt 文件。",
     "Generate a .ckpt file when training is canceled.": "在訓練取消時生成 .ckpt 文件。",
     "Lora UNET Rank": "LoRA UNET等級",
-    "Lora Text Encoder Rank": "LoRA Text Encoder等級",
+    "Lora Text Encoder Rank": "LoRA 文字編碼器等級",
     "Lora Weight": "LoRA 權重",
     "Lora Text Weight": "LoRA 文本權重",
     "Generate lora weights when saving during training.": "在訓練期間保存時生成 lora。",
