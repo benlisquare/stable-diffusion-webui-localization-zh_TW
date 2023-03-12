@@ -449,7 +449,7 @@
   "Emphasis: use (text) to make model pay more attention to text and [text] to make it pay less attention": "強調符：使用 (文字) 使模型更關注該文本，使用 [文字] 使其減少關注",
   "Make K-diffusion samplers produce same images in a batch as when making a single image": "使 K-diffusion 採樣器批量生成與生成單個圖像時，產出相同的圖像",
   "Increase coherency by padding from the last comma within n tokens when using more than 75 tokens": "當使用超過 75 個標記時，通過從 n 個標記中的最後一個逗號填補來提高一致性",
-  "Upcast cross attention layer to float32": "值",
+  "Upcast cross attention layer to float32": "Upcast cross attention layer to float32",
   "Multiplier for extra networks": "額外網絡的乘數",
   "Add hypernetwork to prompt": "將超網路（Hypernetwork）添加到提示詞",
   "Add Lora to prompt": "將 LoRA 添加到提示詞",
