@@ -12,11 +12,11 @@
     "tooltip": "When 'Pause After N Epochs' is greater than 0, this is the amount of time, in seconds, that training will be paused for"
   },
   "Apply Horizontal Flip": {
-    "key": "應用水平翻轉",
+    "key": "套用水平翻轉",
     "tooltip": "隨機決定水平翻轉圖像。"
   },
   "Batch Size": {
-    "key": "每批數量",
+    "key": "批次大小",
     "tooltip": "每個訓練步驟一次要處理多少圖像？"
   },
   "Cache Latents": {
@@ -28,15 +28,15 @@
     "tooltip": "取消訓練。"
   },
   "Class Batch Size": {
-    "key": "分類批次大小",
+    "key": "類別批次大小",
     "tooltip": "一次要生成多少分類/正則化圖像。"
   },
   "Class Images Per Instance Image": {
-    "key": "每個實例圖片的分類圖片數量",
+    "key": "每個實例圖像的分類圖片數量",
     "tooltip": "每個實例圖像要使用多少分類圖像。"
   },
   "Class Prompt": {
-    "key": "分類提詞",
+    "key": "分類提示詞",
     "tooltip": "生成分類/正則化圖像的提示。有關更多信息，請參閱自述文件。"
   },
   "Class Token": {
@@ -52,7 +52,7 @@
     "tooltip": "包含分類/正則化圖像的目錄。"
   },
   "Classification Image Negative Prompt": {
-    "key": "分類圖片反向提詞",
+    "key": "分類圖像反向提示詞",
     "tooltip": "生成類圖像時使用的否定提示。可留空。"
   },
   "Classification Steps": {
@@ -60,7 +60,7 @@
     "tooltip": "生成分類器/正則化圖像時使用的步驟數。"
   },
   "Clip Skip": {
-    "key": "Clip 跳過",
+    "key": "Clip 跳過層",
     "tooltip": "使用文本編碼器後面第 n 層的輸出 (n>=1)"
   },
   "Concepts List": {
@@ -72,15 +72,15 @@
     "tooltip": "將初始學習率設置為 main_lr * 此值。如果您的目標 LR 為 .000006 並將其設置為 .5，則調度程序將從 .000003 開始並增加直到達到 .000006。"
   },
   "Create From Hub": {
-    "key": "從huggingface創建",
+    "key": "從 huggingface 建立",
     "tooltip": "從Huggingface.co導入模型，而不是使用本地檢查點。Hub模型必須包含擴散權重。"
   },
   "Create Model": {
-    "key": "創建模型",
+    "key": "建立模型",
     "tooltip": "創建一個新模型。"
   },
   "Create": {
-    "key": "創建",
+    "key": "建立",
     "tooltip": "已經創建了模型。"
   },
   "Custom Model Name": {
@@ -100,11 +100,11 @@
     "tooltip": "生成後將訓練樣本發送到 Discord 頻道。"
   },
   "Existing Prompt Contents": {
-    "key": "Existing Prompt Contents",
+    "key": "如果使用 [filewords]，這將告訴字符串生成器現有提示的格式。",
     "tooltip": "如果使用 [filewords]，這將告訴字符串生成器現有提示的格式。"
   },
   "Extract EMA Weights": {
-    "key": "提取EMA權重",
+    "key": "提取 EMA 權重",
     "tooltip": "如果 EMA 權重保存在模型中，這些將被提取而不是完整的 Unet。可能不需要訓練或微調。"
   },
   "Freeze CLIP Normalization Layers": {
@@ -112,7 +112,7 @@
     "tooltip": "在訓練期間保持 CLIP 的規範化層凍結。高級用法，可能會提高模型性能和可編輯性。"
   },
   "Generate Ckpt": {
-    "key": "產生CKPT",
+    "key": "產生 ckpt",
     "tooltip": "在當前訓練級別生成一個CKPT。"
   },
   "Generate Class Images": {
@@ -120,11 +120,11 @@
     "tooltip": "在沒有訓練的情況下使用訓練設置創建分類圖像。"
   },
   "Generate Classification Images Using txt2img": {
-    "key": "使用 txt2img 生成分類圖",
+    "key": "使用文生圖產生分類圖",
     "tooltip": "使用源檢查點和 TXT2IMG 生成類圖像。"
   },
   "Generate Classification Images to match Instance Resolutions": {
-    "key": "Generate Classification Images to match Instance Resolutions",
+    "key": "而不是生成正方形類圖像，它們將以與類圖像相同的分辨率生成。",
     "tooltip": "而不是生成正方形類圖像，它們將以與類圖像相同的分辨率生成。"
   },
   "Generate Graph": {
@@ -168,11 +168,11 @@
     "tooltip": "啟用後，當用戶取消訓練時，將生成 lora .pt 文件。"
   },
   "Gradient Accumulation Steps": {
-    "key": "梯度累積步數",
+    "key": "梯度累積疊代步數",
     "tooltip": "在進行反向傳播/更新之前累積的更新步驟數前。您應該嘗試將其設置為與您的批次大小相同。"
   },
   "Gradient Checkpointing": {
-    "key": "梯度檢查點",
+    "key": "梯度進度記錄 - 以時間換顯存",
     "tooltip": "這是一種通過清除某些層的激活並在向後傳遞期間重新計算它們來減少內存使用量的技術。實際上，這會以額外的計算時間來換取減少的內存使用量。"
   },
   "Graph Smoothing Steps": {
@@ -184,11 +184,11 @@
     "tooltip": "啟用此功能以生成具有fp16精度的模型。結果是更小的檢查點，品質幾乎沒有損失。"
   },
   "HuggingFace Token": {
-    "key": "HuggingFace 憑證",
+    "key": "Huggingface標記",
     "tooltip": "您的Huggingface憑證，用於複製文件。"
   },
   "Instance Prompt": {
-    "key": "實例提詞",
+    "key": "實例提示詞",
     "tooltip": "描述主題的提示。使用[Filewords]解析圖像文件名/.txt，以將現有提示插入此處。"
   },
   "Instance Token": {
@@ -196,7 +196,7 @@
     "tooltip": "在使用[filewords]時，這是獨特於您的主題的實例識別符。應為單個單詞。"
   },
   "Learning Rate Scheduler": {
-    "key": "學習率演算法",
+    "key": "學習率調度器",
     "tooltip": "要使用的學習率調度器。除了'constant'外，所有調度器都使用提供的熱身時間。"
   },
   "Learning Rate Warmup Steps": {
@@ -208,11 +208,11 @@
     "tooltip": "模型學習的速率。默認值為2e-6。"
   },
   "Load Settings": {
-    "key": "讀取設定",
+    "key": "載入設定",
     "tooltip": "加載模型的上次保存的訓練參數。"
   },
   "Log Memory": {
-    "key": "Log Memory",
+    "key": "記錄當前GPU內存使用情況。",
     "tooltip": "記錄當前GPU內存使用情況。"
   },
   "Lora Model": {
@@ -220,7 +220,7 @@
     "tooltip": "繼續微調或產生檢查點時要載入的LoRA模型。"
   },
   "Use Lora Extended": {
-    "key": "使用 LoRA 擴充",
+    "key": "使用 LoRA 擴充功能（Locon）",
     "tooltip": "使用 ResNet 層來訓練 LoRA 模型。這將始終提高質量和可編輯性，但會導致更大的文件。"
   },
   "Lora UNET Rank": {
@@ -240,7 +240,7 @@
     "tooltip": "在創建模型時應該將多少LoRA權重應用於文本編碼器。"
   },
   "Lora UNET Learning Rate": {
-    "key": "LoRA UNET學習率",
+    "key": "LoRA UNET 學習率",
     "tooltip": "用於訓練LoRA UNet的學習速率。常規學習速率被忽略。"
   },
   "Lora Weight": {
@@ -292,11 +292,11 @@
     "tooltip": "此功能允許模型在訓練期間更詳細地學習亮度和對比度。該值控制效果的強度，0 表示禁用該功能。"
   },
   "Pad Tokens": {
-    "key": "填充標記",
+    "key": "標記墊齊",
     "tooltip": "將輸入圖像的 token 長度填充到這個數量。建議這樣做。"
   },
   "Pause After N Epochs": {
-    "key": "N階段後暫停",
+    "key": "N 階段後暫停",
     "tooltip": "訓練多少個 epoch 後暫停指定時間。如果您想讓 GPU 休息一下，這很有用。"
   },
   "Performance Wizard (WIP)": {
@@ -308,7 +308,7 @@
     "tooltip": "多項式調度器的指數因子。"
   },
   "Pretrained VAE Name or Path": {
-    "key": "預訓練VAE名稱或路徑",
+    "key": "預訓練 VAE 名稱或路徑",
     "tooltip": "若要使用替代 VAE，可以指定包含 pytorch_model.bin 的目錄路徑。"
   },
   "Preview Prompts": {
@@ -324,7 +324,7 @@
     "tooltip": "用於預覽圖像的分類器自由指導比例尺。"
   },
   "Sample Image Prompt": {
-    "key": "樣本圖片提詞",
+    "key": "樣本圖像提示詞",
     "tooltip": "生成預覽圖像時要使用的提示。"
   },
   "Sample Negative Prompt": {
@@ -332,7 +332,7 @@
     "tooltip": "生成預覽圖像時要使用的反向提詞。"
   },
   "Sample Prompt Template File": {
-    "key": "樣本提詞文件",
+    "key": "樣本提示詞範本檔案",
     "tooltip": "用於樣本提示的txt文件的路徑。使用 [filewords] 或 [name] 在樣本提示中插入分類標記。"
   },
   "Sample Prompt": {
@@ -345,10 +345,10 @@
   },
   "Sample Steps": {
     "key": "樣本步數",
-    "tooltip": "生成分類器/正規化圖像時要使用的步數。"
+    "tooltip": "生成分類器/正則化圖像時使用的步驟數。"
   },
   "Sanity Sample Prompt": {
-    "key": "樣本提示",
+    "key": "樣本提示詞",
     "tooltip": "用於生成“基準”圖像的提示，此圖像將與其他樣本一起創建以驗證模型的忠實度。"
   },
   "Sanity Sample Seed": {
@@ -360,7 +360,7 @@
     "tooltip": "啟用時，將在所選檢查點文件夾的子目錄中保存檢查點。"
   },
   "Save Model Frequency (Epochs)": {
-    "key": "保存模型頻率（訓練週期）",
+    "key": "儲存模型頻率（訓練週期）",
     "tooltip": "每N個訓練週期保存一個檢查點。"
   },
   "Save Model Frequency (Step)": {
@@ -368,7 +368,7 @@
     "tooltip": "每N個訓練週期儲存一個檢查點。必須能夠被批次數整除。"
   },
   "Save Preview(s) Frequency (Epochs)": {
-    "key": "保存預覽頻率（訓練週期）",
+    "key": "儲存預覽頻率（訓練週期）",
     "tooltip": "每N個訓練週期生成一次預覽圖像。"
   },
   "Save Preview(s) Frequency (Step)": {
@@ -384,7 +384,7 @@
     "tooltip": "根據保存部分指定的方式，保存權重/檢查點/快照以在訓練期間進行保存。"
   },
   "Save and Test Webhook": {
-    "key": "保存和測試Webhook",
+    "key": "儲存並測試 Webhook",
     "tooltip": "保存當前輸入的webhook URL並向其發送測試消息。"
   },
   "Save separate diffusers snapshots when saving during training.": {
@@ -408,27 +408,27 @@
     "tooltip": "訓練百分比，在此百分比處應實現“最終”學習率。如果在100個訓練週期中將其設置為0.25，則最終LR將在第25個訓練週期達到。"
   },
   "Scheduler": {
-    "key": "排程演算法:",
+    "key": "排程程式",
     "tooltip": "使用的模型排程器。僅適用於 2.0 之前的模型。"
   },
   "Set Gradients to None When Zeroing": {
-    "key": "將梯度設置為0的時候設置為無",
+    "key": "將梯度設置為 0 的時候設置為無",
     "tooltip": "在進行反向傳遞時，梯度將設置為無，而不是創建一個新的空張量。這將稍微提高 VRAM。"
   },
   "Shuffle After Epoch": {
-    "key": "Shuffle After Epoch",
+    "key": "啟用後，將在第一個 epoch 後對數據集進行洗牌。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。",
     "tooltip": "啟用後，將在第一個 epoch 後對數據集進行洗牌。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。"
   },
   "Shuffle Tags": {
-    "key": "Shuffle After Epoch",
+    "key": "洗牌標籤",
     "tooltip": "啟用後，將在第一個 epoch 後對數據集進行洗牌。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。"
   },
   "Source Checkpoint": {
-    "key": "來源模型",
+    "key": "源模型權重存檔點",
     "tooltip": "用於訓練的源檢查點。"
   },
   "Step Ratio of Text Encoder Training": {
-    "key": "文本編碼器訓練步驟比率",
+    "key": "文字編碼器訓練步驟比率",
     "tooltip": "每個圖像（訓練週期）訓練文本編碼器的步數。將 0.5 設置為 50% 的 epoch。"
   },
   "Strict Tokens": {
@@ -444,7 +444,7 @@
     "tooltip": "使用 Imagic 進行訓練，而不是使用完整的 Dreambooth，這對於使用單個實例圖像進行訓練很有用。"
   },
   "Train Text Encoder": {
-    "key": "Train Text Encoder",
+    "key": "啟用此功能將提供更好的結果和可編輯性，但VRAM更高。",
     "tooltip": "啟用此功能將提供更好的結果和可編輯性，但VRAM更高。"
   },
   "Train": {
@@ -452,15 +452,15 @@
     "tooltip": "開始訓練。"
   },
   "Training Steps Per Image (Epochs)": {
-    "key": "每張圖片的訓練步數（訓練週期）",
+    "key": "每張圖像的訓練步數（訓練週期）",
     "tooltip": "這是在每個實例圖像上執行的總訓練步數。"
   },
   "Training Wizard (Object/Style)": {
-    "key": "訓練精靈（物品/風格）",
+    "key": "訓練嚮導（物件 / 風格）",
     "tooltip": "根據示例圖像的數量計算非人類主體的訓練參數並設置學習率。禁用先前保留功能。"
   },
   "Training Wizard (Person)": {
-    "key": "訓練精靈（人物）",
+    "key": "訓練嚮導（人物）",
     "tooltip": "根據示例圖像的數量計算人類主體的訓練參數並設置學習率。啟用先前保留功能。"
   },
   "Unfreeze Model": {
@@ -480,15 +480,15 @@
     "tooltip": "從 JSON 文件或字符串訓練多個概念。"
   },
   "Use EMA": {
-    "key": "使用EMA",
-    "tooltip": "啟用此功能可提供更好的結果和編輯性，但成本更高的 VRAM。"
+    "key": "使用 EMA",
+    "tooltip": "啟用此功能將提供更好的結果和可編輯性，但VRAM更高。"
   },
   "Use EMA Weights for Inference": {
     "key": "使用EMA權重進行推論",
     "tooltip": "啟用此功能將會將 EMA UNET 的權重儲存為「正常」模型的權重並忽略常規 UNET 的權重。"
   },
   "Use Epoch Values for Save Frequency": {
-    "key": "Use Epoch Values for Save Frequency",
+    "key": "啟用此功能時，保存頻率是基於訓練週期。當禁用時，頻率是基於訓練步驟數的。",
     "tooltip": "啟用此功能時，保存頻率是基於訓練週期。當禁用時，頻率是基於訓練步驟數的。"
   },
   "Use LORA": {
