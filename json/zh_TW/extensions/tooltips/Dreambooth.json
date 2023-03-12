@@ -16,7 +16,7 @@
     "tooltip": "隨機決定水平翻轉圖像。"
   },
   "Batch Size": {
-    "key": "批次大小",
+    "key": "每批數量",
     "tooltip": "每個訓練步驟一次要處理多少圖像？"
   },
   "Cache Latents": {
@@ -28,7 +28,7 @@
     "tooltip": "取消訓練。"
   },
   "Class Batch Size": {
-    "key": "類別批次大小",
+    "key": "類別每批數量",
     "tooltip": "一次要生成多少分類/正則化圖像。"
   },
   "Class Images Per Instance Image": {
@@ -124,7 +124,7 @@
     "tooltip": "使用源檢查點和 TXT2IMG 生成類圖像。"
   },
   "Generate Classification Images to match Instance Resolutions": {
-    "key": "而不是生成正方形類圖像，它們將以與類圖像相同的分辨率生成。",
+    "key": "Generate Classification Images to match Instance Resolutions",
     "tooltip": "而不是生成正方形類圖像，它們將以與類圖像相同的分辨率生成。"
   },
   "Generate Graph": {
@@ -184,7 +184,7 @@
     "tooltip": "啟用此功能以生成具有fp16精度的模型。結果是更小的檢查點，品質幾乎沒有損失。"
   },
   "HuggingFace Token": {
-    "key": "Huggingface標記",
+    "key": "HuggingFace 標記",
     "tooltip": "您的Huggingface憑證，用於複製文件。"
   },
   "Instance Prompt": {
@@ -292,7 +292,7 @@
     "tooltip": "此功能允許模型在訓練期間更詳細地學習亮度和對比度。該值控制效果的強度，0 表示禁用該功能。"
   },
   "Pad Tokens": {
-    "key": "標記墊齊",
+    "key": "填充標記",
     "tooltip": "將輸入圖像的 token 長度填充到這個數量。建議這樣做。"
   },
   "Pause After N Epochs": {
