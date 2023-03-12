@@ -300,7 +300,7 @@
     "tooltip": "訓練多少個 epoch 後暫停指定時間。如果您想讓 GPU 休息一下，這很有用。"
   },
   "Performance Wizard (WIP)": {
-    "key": "性能嚮導 (WIP)",
+    "key": "效能嚮導（半成品）",
     "tooltip": "嘗試根據 VRAM 自動設置訓練參數。仍在開發中。"
   },
   "Polynomial Power": {
