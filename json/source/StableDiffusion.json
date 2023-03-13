@@ -449,7 +449,7 @@
   "Emphasis: use (text) to make model pay more attention to text and [text] to make it pay less attention": "Emphasis: use (text) to make model pay more attention to text and [text] to make it pay less attention",
   "Make K-diffusion samplers produce same images in a batch as when making a single image": "Make K-diffusion samplers produce same images in a batch as when making a single image",
   "Increase coherency by padding from the last comma within n tokens when using more than 75 tokens": "Increase coherency by padding from the last comma within n tokens when using more than 75 tokens",
-  "Upcast cross attention layer to float32": "value",
+  "Upcast cross attention layer to float32": "Upcast cross attention layer to float32",
   "Multiplier for extra networks": "Multiplier for extra networks",
   "Add hypernetwork to prompt": "Add hypernetwork to prompt",
   "Add Lora to prompt": "Add Lora to prompt",

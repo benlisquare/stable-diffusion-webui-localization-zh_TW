@@ -119,10 +119,17 @@ Crowdin 有許多好處，例如翻譯記憶、術語表提示、螢幕截圖對
 
 > **⚠️透過上述方式拆分之擴充功能翻譯樣板，偶爾會發生原文缺漏的錯誤（如 textarea 的 placeholder 或是 tooltips 等），必要時需手動修改**
 ## 譯文合併作業
-不論是用哪一種方式翻譯，最後都需要管理者進行兩個步驟。
+不論是用哪一種方式翻譯，最後都需要管理者進行合併作業步驟。
+### 手動合併
 1. 從 Crowdin 將翻譯內容同步到 GitHub（依設定最快能每小時自動更新）。
 2. 批准 Crowdin 的 PR，將翻譯內容從 `I10n_main_` 合併回 `main`。
 3. 將 `'json/Merger.py'` 在終端機進行合併作業。
 4. 合併完成之檔案會自動儲存於 `localizations/zh_TW.json`。
 5. 查看 `'json/merge_report.txt'` 是否有異常的重複問題（非必要）。
 6. commit 並 push 到 HitHub。
+
+### 自動合併
+1. 點選 Github 的 Actions 標籤。
+2. 點選 Actions 下的 Merge Translates。
+3. 點選 Run workflow 後，確定 Branch 為 main，再按下 Run workflow 按鈕。
+4. 等待 workflow 運行。

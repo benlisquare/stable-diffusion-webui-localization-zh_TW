@@ -18,7 +18,7 @@
   "Search for wildcards": "搜尋萬用字元",
   "Search for embeddings": "搜尋嵌入",
   "Search for hypernetworks": "搜尋超網絡",
-  "Search for Loras": "搜尋 Lora",
+  "Search for Loras": "搜尋 LoRA",
   "Show '?' next to tags, linking to its Danbooru or e621 wiki page (Warning: This is an external site and very likely contains NSFW examples!)": "在標記旁顯示「？」，連結到其 Danbooru 或 e621 wiki 頁面（警告：這是外部網站，很可能包含 NSFW 內容！）",
   "Replace underscores with spaces on insertion": "插入時將下橫線替換成空格",
   "Escape parentheses on insertion": "插入時轉義括號",
