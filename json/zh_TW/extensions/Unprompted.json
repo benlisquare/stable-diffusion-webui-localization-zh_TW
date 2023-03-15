@@ -242,5 +242,5 @@
     "my_var another_var": "my_var another_var",
     "Leave blank to use the initial img2img image. Supports multiple paths.": "Leave blank to use the initial img2img image. Supports multiple paths.",
     "e.g. tan or 127,127,127": "e.g. tan or 127,127,127",
-    "Test prompt": "Test prompt"
+    "Test prompt": "測試提示詞"
 }
