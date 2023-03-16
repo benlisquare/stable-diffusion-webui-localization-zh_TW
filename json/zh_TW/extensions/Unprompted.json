@@ -1,6 +1,6 @@
 {
-    "Unprompted": "非文本（代碼化）提示詞",
-    "Enabled": "Enabled",
+    "Unprompted": "非文本（代码化）提示词",
+    "Enabled": "启用",
     "Unprompted Seed": "Unprompted Seed",
     "Learn More ➜": "Learn More ➜",
     "Functions": "Functions",
@@ -230,7 +230,7 @@
     "Save the mask size to the following variable 🡢 size_var": "Save the mask size to the following variable 🡢 size_var",
     "Process Text": "Process Text",
     "Re-process extra networks after Unprompted is finished (WIP - this is not yet functional!)": "Re-process extra networks after Unprompted is finished (WIP - this is not yet functional!)",
-    "unprompted": "非文本（代碼化）提示詞",
+    "unprompted": "非文本（代码化）提示词",
     "Photo of a cat": "Photo of a cat",
     "Walter White": "Walter White",
     "my_array": "my_array",
