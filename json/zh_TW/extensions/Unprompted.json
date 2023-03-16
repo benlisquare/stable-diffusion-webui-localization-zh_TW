@@ -1,6 +1,6 @@
 {
-    "Unprompted": "非文本（代码化）提示词",
-    "Enabled": "启用",
+    "Unprompted": "非文本（代碼化）提示詞",
+    "Enabled": "啟用",
     "Unprompted Seed": "Unprompted Seed",
     "Functions": "Functions",
     "Select function:": "Select function:",
@@ -285,6 +285,6 @@
     "Test prompt": "測試提示詞",
     "Process Text": "Process Text",
     "Re-process extra networks after Unprompted is finished (WIP - this is not yet functional!)": "Re-process extra networks after Unprompted is finished (WIP - this is not yet functional!)",
-    "unprompted": "非文本（代码化）提示词",
+    "unprompted": "非文本（代碼化）提示詞",
     "https://github.com/ThereforeGames/unprompted.git": "https://github.com/ThereforeGames/unprompted.git"
 }
