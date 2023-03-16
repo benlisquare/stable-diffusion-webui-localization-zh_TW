@@ -9,7 +9,7 @@
     "Name matching rule for preview files": "預覽檔的名稱符合規則",
     "Loose": "寬鬆",
     "Strict": "嚴格",
-    "Folder": "資料夾 (win), 檔案夾 (mac)",
+    "Folder": "檔案夾",
     "Index": "索引",
     "Limit the height of preivews to the height of the browser window (.html preview files are always limited regardless of this setting)": "將預覽的高度限制為瀏覽器視窗高度（.html 預覽檔始終受此設置的限制）",
     "sd-model-preview-xd": "模型預覽器",
