@@ -1,6 +1,6 @@
 {
     "Dataset Tag Editor": "數據集標記編輯器",
-    "hidden_idx_next": "999",
+    "hidden_idx_next": "hidden_idx_next",
     "hidden_idx_prev": "hidden_idx_prev",
     "hidden_s_or_n": "hidden_s_or_n",
     "Dataset Filter": "Dataset Filter",
