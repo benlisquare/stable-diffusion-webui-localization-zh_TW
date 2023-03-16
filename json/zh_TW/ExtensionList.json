@@ -1,6 +1,6 @@
 {
-  "3D Model Loader": "3D Model Loader",
-  "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.": "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.",
+  "3D Model Loader": "3D 模型載入器",
+  "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.": "載入你的 3D 模型 / 動畫到 WebUI，然後傳送截圖至文生圖或圖生圖的ControlNet。",
   "Corridor Crawler Outpainting": "Corridor Crawler Outpainting",
   "Generate hallways with the depth-to-image model at 512 resolution. It can be tweaked to work with other models/resolutions.": "Generate hallways with the depth-to-image model at 512 resolution. It can be tweaked to work with other models/resolutions.",
   "MultiDiffusion with Tiled VAE": "MultiDiffusion with Tiled VAE",
