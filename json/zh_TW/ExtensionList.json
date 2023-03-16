@@ -1,4 +1,6 @@
 {
+  "db-storage1111": "db-storage1111",
+  "Allows to store pictures and their metadata in a database. (supports MongoDB)": "Allows to store pictures and their metadata in a database. (supports MongoDB)",
   "3D Model Loader": "3D 模型載入器",
   "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.": "載入你的 3D 模型 / 動畫到 WebUI，然後傳送截圖至文生圖或圖生圖的ControlNet。",
   "Corridor Crawler Outpainting": "Corridor Crawler Outpainting",
