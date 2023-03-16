@@ -1,4 +1,6 @@
 {
+  "db-storage1111": "db-storage1111",
+  "Allows to store pictures and their metadata in a database. (supports MongoDB)": "Allows to store pictures and their metadata in a database. (supports MongoDB)",
   "3D Model Loader": "3D Model Loader",
   "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.": "Load your 3D model/animation inside webui, then send screenshot to txt2img or img2img to ControlNet.",
   "Corridor Crawler Outpainting": "Corridor Crawler Outpainting",
