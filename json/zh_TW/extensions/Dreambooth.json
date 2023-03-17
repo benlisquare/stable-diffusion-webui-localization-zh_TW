@@ -153,7 +153,7 @@
     "Generate lora weights when saving during training.": "在訓練期間保存時生成 lora。",
     "Generate lora weights when training completes.": "在訓練完成時生成 lora。",
     "Generate lora weights when training is canceled.": "在訓練取消時生成 lora。",
-    "Generate lora weights for extra networks.": "生成附加網路的 LoRA。（警告：如有使用 LoRA 擴充功能，此選項無效）",
+    "Generate lora weights for extra networks.": "生成附加網路的 LoRA。（警告：如有使用 LoCon功能，需先安裝擴充。）",
     "Diffusion Weights": "擴散權重",
     "Save separate diffusers snapshots when saving during training.": "在訓練期間保存獨立的模型。",
     "Save separate diffusers snapshots when training completes.": "訓練完成後保存獨立的模型。",
