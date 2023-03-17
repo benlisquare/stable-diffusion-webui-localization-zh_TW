@@ -19,3 +19,9 @@ files:
     translation: /json/%locale_with_underscore%/ExtensionList.json
   - source: /json/source/extensions/tooltips/*.json
     translation: /json/%locale_with_underscore%/extensions/tooltips/%original_file_name%
+  - source: /template/source/extensions/*.json
+    translation: /template/%locale_with_underscore%/extensions/%original_file_name%
+  - source: /template/source/StableDiffusion.json
+    translation: /template/%locale_with_underscore%/StableDiffusion.json
+  - source: /template/source/ExtensionList.json
+    translation: /template/%locale_with_underscore%/ExtensionList.json
