@@ -1,7 +1,7 @@
 {
-  "stable-diffusion-webui-two-shot": "潛在空間伴侶",
-  "Latent Couple": "Latent Couple",
-  "Enabled": "Enabled",
+  "stable-diffusion-webui-two-shot": "潛空間伴侶",
+  "Latent Couple": "潛空間伴侶",
+  "Enabled": "啟用",
   "Divisions": "分割",
   "Positions": "位置",
   "Weights": "權重",

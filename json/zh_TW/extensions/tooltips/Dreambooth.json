@@ -121,7 +121,7 @@
   },
   "Generate Classification Images Using txt2img": {
     "key": "使用文生圖產生分類圖",
-    "tooltip": "使用源檢查點和 TXT2IMG 生成類圖像。"
+    "tooltip": "使用源模型權重存檔點和文生圖生成類圖像。"
   },
   "Generate Classification Images to match Instance Resolutions": {
     "key": "Generate Classification Images to match Instance Resolutions",
