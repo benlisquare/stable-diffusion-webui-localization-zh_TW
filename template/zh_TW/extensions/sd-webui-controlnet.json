@@ -1,6 +1,6 @@
 {
   "ControlNet": "ControlNet",
-  "Image": "圖像",
+  "Image": "映像檔",
   "Annotator result": "適配器結果",
   "Invert colors if your image has white background.": "如果您的圖像具有白色背景，請反轉顏色。",
   "Change your brush width to make it thinner if you want to draw something.": "如果您想繪製某些內容，請將筆刷寬度調小使其變窄。",
