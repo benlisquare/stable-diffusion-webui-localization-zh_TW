@@ -1,0 +1,38 @@
+name: Update source files from stable-diffusion-webui-localization-source
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  download_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository content
+        uses: actions/checkout@v3
+
+      - name: download folder from stable-diffusion-webui-localization-source
+        run: |
+          mkdir -p temp/source
+          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-source/archive/refs/heads/main.tar.gz | tar -xz --strip-components=3 -C temp/source stable-diffusion-webui-localization-source-main/source
+
+      - name: copy and overwrite source files
+        run: |
+          mkdir -p template
+          cp -rf temp/source/* template
+
+      - name: configure git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: commit changes
+        run: |
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "✨ feat: update extension source" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
