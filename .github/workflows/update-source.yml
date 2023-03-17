@@ -15,7 +15,7 @@ jobs:
       - name: download folder from stable-diffusion-webui-localization-source
         run: |
           mkdir -p temp/source
-          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-source/archive/refs/heads/main.tar.gz | tar -xz --strip-components=3 -C temp/source stable-diffusion-webui-localization-source-main/source
+          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-source/archive/refs/heads/main.tar.gz | tar -xz -C temp/source stable-diffusion-webui-localization-source-main/source
 
       - name: copy and overwrite source files
         run: |
