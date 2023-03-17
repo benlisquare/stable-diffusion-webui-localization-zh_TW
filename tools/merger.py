@@ -4,10 +4,10 @@ import glob
 import shutil
 from collections import defaultdict
 
-json_folder = 'template\zh_TW'
-extensions_folder = 'template\zh_TW\extensions'
-merged_file = 'localizations\zh_TW.json'
-report_file = 'tools\merge_report.txt'
+json_folder = './template/zh_TW'
+extensions_folder = './template/zh_TW/extensions'
+merged_file = './localizations/zh_TW.json'
+report_file = './tools/merge_report.txt'
 
 
 def merge_json_files():
@@ -15,13 +15,13 @@ def merge_json_files():
     json_files = glob.glob(os.path.join(json_folder, '*.json'))
     if os.path.exists(extensions_folder):
         json_files += glob.glob(os.path.join(extensions_folder, '*.json'))
-
+    # print(json_files)
     # Put StableDiffusion.json as the first element in the list
-    stable_diffusion_file = 'template\zh_TW\StableDiffusion.json'
+    stable_diffusion_file = './template/zh_TW\\StableDiffusion.json'
     if stable_diffusion_file in json_files:
         json_files.remove(stable_diffusion_file)
         json_files.insert(0, stable_diffusion_file)
-
+    print(json_files)
     # Merge all JSON files
     merged = defaultdict(lambda: defaultdict(str))
     duplicate_keys = defaultdict(list)
