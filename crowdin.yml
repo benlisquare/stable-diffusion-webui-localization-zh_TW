@@ -25,3 +25,5 @@ files:
     translation: /template/%locale_with_underscore%/StableDiffusion.json
   - source: /template/source/ExtensionList.json
     translation: /template/%locale_with_underscore%/ExtensionList.json
+  - source: /template/source/extensions/tooltips/*.json
+    translation: /template/%locale_with_underscore%/extensions/tooltips/%original_file_name%
