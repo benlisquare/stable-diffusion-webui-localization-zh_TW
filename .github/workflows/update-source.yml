@@ -19,7 +19,7 @@ jobs:
 
       - name: copy and overwrite source files
         run: |
-          mkdir -p template
+          mkdir -p template/source
           cp -rf temp/source/* template/source
 
       - name: configure git
