@@ -15,8 +15,8 @@ jobs:
         with:
           python-version: "3.10.6"
 
-      - name: execute Merger.py
-        run: python 'template/merger.py'
+      - name: execute merger.py
+        run: python 'tools/merger.py'
 
       - name: commit files
         run: |

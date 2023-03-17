@@ -4,10 +4,10 @@ import glob
 import shutil
 from collections import defaultdict
 
-json_folder = './json/zh_TW/'
-extensions_folder = './json/zh_TW/extensions'
+json_folder = './template/zh_TW/'
+extensions_folder = './template/zh_TW/extensions'
 merged_file = './localizations/zh_TW.json'
-report_file = './json/merge_report.txt'
+report_file = './tools/merge_report.txt'
 
 
 def merge_json_files():
@@ -17,7 +17,7 @@ def merge_json_files():
         json_files += glob.glob(os.path.join(extensions_folder, '*.json'))
 
     # Put StableDiffusion.json as the first element in the list
-    stable_diffusion_file = './json/zh_TW/StableDiffusion.json'
+    stable_diffusion_file = './template/zh_TW/StableDiffusion.json'
     if stable_diffusion_file in json_files:
         json_files.remove(stable_diffusion_file)
         json_files.insert(0, stable_diffusion_file)
@@ -46,7 +46,7 @@ def merge_json_files():
     # Write report file
     with open(report_file, 'w', encoding='utf-8') as f:
         if len(duplicate_keys) > 0:
-            f.write('在下列檔案中發現重複的key：\n')
+            f.write('Duplicate keys found in these files: \n')
             for key, files in duplicate_keys.items():
                 f.write(f'\n"{key}"\n')
                 for file in files:
@@ -58,7 +58,7 @@ def merge_json_files():
                     # Write the value for the key in the file
                     f.write(f'"{value}".\n')
         else:
-            f.write('沒有發現重複的key。')
+            f.write('Duplicate keys not found.')
 
 
 def merge_dict(dict1, dict2, duplicate_keys, file):
