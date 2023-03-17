@@ -19,8 +19,8 @@ jobs:
 
       - name: copy and overwrite source files
         run: |
-          mkdir -p template/source
-          cp -rf temp/source/* template/source
+          mkdir -p template/source/extensions
+          cp -rf temp/source/* template/source/extensions
 
       - name: configure git
         run: |
@@ -29,7 +29,7 @@ jobs:
 
       - name: commit changes
         run: |
-          git add template/source
+          git add template/source/extensions
           git diff-index --quiet HEAD || (git commit -a -m "✨ feat: update extension source" --allow-empty)
 
       - name: push changes
