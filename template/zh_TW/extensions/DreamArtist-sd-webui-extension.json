@@ -26,8 +26,8 @@
   "beta2": "β2",
   "Since there is a self-attention operation in VAE, it may change the distribution of features. This processing will superimpose the attention map of self-attention on the original Att-Map.": "由於 VAE 中使用了自我注意力機制，這可能會改變特徵的分佈。這種處理會將自我注意力產生的注意力圖與原始的注意力圖疊加在一起。",
   "Data directory": "資料目錄",
-  "Process": "處理",
-  "Image": "圖像",
+  "Process": "行程, 程序",
+  "Image": "映像檔",
   "DreamArtist-sd-webui-extension": "夢想家（DreamArtist）",
   "Path to classifier ckpt, can be empty": "分類器的路徑，可以是空白",
   "https://github.com/7eu7d7/DreamArtist-sd-webui-extension.git": "https://github.com/7eu7d7/DreamArtist-sd-webui-extension.git"
