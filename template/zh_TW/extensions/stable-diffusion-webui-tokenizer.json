@@ -4,7 +4,7 @@
   "Text input": "文本輸入",
   "ID input": "ID 輸入",
   "Tokenize": "標記拆分",
-  "Text": "文本",
+  "Text": "文字",
   "Tokens": "標記",
   "stable-diffusion-webui-tokenizer": "標記解析器",
   "Prompt for tokenization": "給標記化準備的提示詞",
