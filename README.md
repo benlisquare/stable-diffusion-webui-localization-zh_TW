@@ -85,3 +85,6 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 ### 本地化詞彙參考
 [中國、台灣計算機術語對照表](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8)
 以此作為基底進行本地化（已加入 Crowdin 術語表）
+
+# 協助翻譯
+**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，如果你對協助翻譯有興趣，請參考 [CONTRIBUTING.md](https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/contribute) 頁面。
