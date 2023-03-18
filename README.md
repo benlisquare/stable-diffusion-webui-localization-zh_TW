@@ -87,4 +87,4 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 以此作為基底進行本地化（已加入 Crowdin 術語表）
 
 # 協助翻譯
-**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，如果你對協助翻譯有興趣，請參考 [CONTRIBUTING.md](https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/contribute) 頁面。
+**stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，如果你對協助翻譯有興趣，請參考 [CONTRIBUTING.md](https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/blob/main/.github/CONTRIBUTING.md) 頁面。
