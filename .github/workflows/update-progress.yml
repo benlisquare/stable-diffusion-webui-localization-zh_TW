@@ -23,9 +23,9 @@ jobs:
           path: "./requirements.txt"
 
       - name: execute crowdin tool.py
-        run: python 'tools/crowdin tool.py'
-        with:
+        env:
           crowdin_api_token : ${{ CROWDIN_PROGRESS_CHECKER_API_KEY }}
+        run: python 'tools/crowdin tool.py'
 
       - name: commit files
         run: |
