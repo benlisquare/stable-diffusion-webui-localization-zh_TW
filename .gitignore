@@ -1,1 +1,4 @@
 tools/merge_report.txt
+tools/config.py
+tools/__pycache__
+tools/PROGRESS.md
