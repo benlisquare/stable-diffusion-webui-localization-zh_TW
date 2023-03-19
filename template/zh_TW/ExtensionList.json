@@ -1,7 +1,7 @@
 {
   "3D Openpose Editor": "3D Openpose Editor",
   "Edit the pose of 3D models in the WebUI, and generate Openpose/Depth/Normal/Canny maps for ControlNet.": "Edit the pose of 3D models in the WebUI, and generate Openpose/Depth/Normal/Canny maps for ControlNet.",
-  "sd-webui-tunnels": "sd-webui-tunnels",
+  "sd-webui-tunnels": "使用者介面隧道",
   "Add alternatives to the default tunneling methods. (including cloudflared)": "Add alternatives to the default tunneling methods. (including cloudflared)",
   "db-storage1111": "db-storage1111",
   "Allows to store pictures and their metadata in a database. (supports MongoDB)": "Allows to store pictures and their metadata in a database. (supports MongoDB)",
