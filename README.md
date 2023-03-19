@@ -1,5 +1,6 @@
 # stable-diffusion-webui-localization-zh_TW
-正體中文翻譯擴充功能，應用於 AUTOMATIC1111的 [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
+
+正體中文翻譯擴充功能，應用於 AUTOMATIC1111 的 [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
 
 > 推薦搭配 [Bilingual Localization（雙語翻譯對照）](https://github.com/journey-ad/sd-webui-bilingual-localization) 一起使用。
 
@@ -65,6 +66,7 @@
 </details>
 
 # 安裝說明
+
 ## 通過官方擴充功能列表（推薦）
 
 1. 點擊 `Extensions` 頁籤，然後點擊下面的 `Available` 頁籤
@@ -76,8 +78,8 @@
 
 ![image](https://user-images.githubusercontent.com/116663807/204526605-33a3c5ba-2786-476d-92ba-3682b3851b67.png)
 
-
 ## 其他安裝方法（不推薦）
+
 <details>
 <summary>通過GitHub倉庫網址</summary>
 
@@ -91,23 +93,25 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 3. 點擊橙色的 `Install` 按鈕：
 
 ![image](https://user-images.githubusercontent.com/116663807/204526841-45f4c104-9958-48b0-81d7-6e1046e463c2.png)
+
 </details>
 
 <details>
 <summary>下载ZIP壓縮檔案，手動安裝</summary>
 
-1. [下載本GitHub倉庫](https://codeload.github.com/benlisquare/stable-diffusion-webui-localization-zh_TW/zip/refs/heads/main)為 ZIP 壓縮檔案
+1. [下載本 GitHub 倉庫](https://codeload.github.com/benlisquare/stable-diffusion-webui-localization-zh_TW/zip/refs/heads/main)為 ZIP 壓縮檔案
 
 ![image](https://user-images.githubusercontent.com/116663807/204527142-94e3225b-40fe-4ee6-b136-92a24fe8fc16.png)
 
 2. 解壓後把資料夾放在 `stable-diffusion-webui` 根目錄裏面的 `extensions` 資料夾中：
 
 ![image](https://user-images.githubusercontent.com/116663807/204527428-174c17ed-716a-428e-b4f1-3ef3c11d5a3c.png)
+
 </details>
 
 # 安裝更新
 
-為了確保漢化語言包支持Stable Diffusion web UI的新功能，請記住定期更新此擴充。
+為了確保漢化語言包支持 Stable Diffusion web UI 的新功能，請記住定期更新此擴充。
 
 1. 點擊 `Extensions`／`擴充功能` 頁籤，然後點擊下面的 `Installed`／`已安裝` 頁籤
 2. 點擊 `Check for updates`／`檢查更新` 按鈕：
@@ -133,12 +137,16 @@ https://github.com/benlisquare/stable-diffusion-webui-localization-zh_TW
 ![image](https://user-images.githubusercontent.com/116663807/204528137-ae0c4d95-2b86-46e4-a646-1753baae9592.png)
 
 ## 參考資料
+
 ### 翻譯內容基底參考
+
 1. [stable-diffusion-webui-old-localizations](https://github.com/AUTOMATIC1111/stable-diffusion-webui-old-localizations)
-2. [stable-diffusion-webui-localization-zh_CN](https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN)  
+2. [stable-diffusion-webui-localization-zh_CN](https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN)
 
 ### 本地化詞彙參考
+
 以 [中國、台灣計算機術語對照表](https://zh.wikibooks.org/zh-tw/%E5%A4%A7%E9%99%86%E5%8F%B0%E6%B9%BE%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9C%AF%E8%AF%AD%E5%AF%B9%E7%85%A7%E8%A1%A8) 此作為基底進行本地化（已加入 Crowdin 術語表）
 
 # 協助翻譯
+
 **stable diffusion webui 正體中文本地化**非常需要廣大社群的幫忙，如果你對協助翻譯有興趣，請參考 [CONTRIBUTING.md](https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/blob/main/.github/CONTRIBUTING.md) 頁面。
