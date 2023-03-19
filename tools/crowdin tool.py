@@ -1,11 +1,10 @@
 import os
 import json
-import config
 from tqdm import tqdm
 from crowdin_api import CrowdinClient
 
 # setup variables
-project_token = config.crowdin_project_token
+project_token = os.environ['crowdin_api_token']
 project_id = 570269
 stablediffusion_dir_id = 245
 extension_dir_id = 247

@@ -1,0 +1,41 @@
+name: Update progress in README.md
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 0 * * *"
+
+jobs:
+  buid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository content
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: "3.10.6"
+
+      - name: install python dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: "./requirements.txt"
+
+      - name: execute crowdin tool.py
+        run: python 'tools/crowdin tool.py'
+          with:
+            crowdin_api_token : ${{ CROWDIN_PROGRESS_CHECKER_API_KEY }}
+
+      - name: commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "📃 docs(READMI.md): update translate progress in README.md" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
