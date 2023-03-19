@@ -1,5 +1,5 @@
 name: Update progress
-run name: Updateing each file's traslate progress into README.md
+run-name: Updateing each file's traslate progress into README.md
 
 on:
   workflow_dispatch:
