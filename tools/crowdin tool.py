@@ -4,12 +4,11 @@ import config
 from tqdm import tqdm
 from crowdin_api import CrowdinClient
 
-# setting variables
+# setup variables
 project_token = config.crowdin_project_token
-project_id = config.crowdin_project_id
-stablediffusion_dir_id = config.crowdin_stablediffusion_dir_id
-extension_dir_id = config.crowdin_extension_dir_id
-tooltip_dir_id = config.crowdin_tooltip_dir_id
+project_id = 570269
+stablediffusion_dir_id = 245
+extension_dir_id = 247
 
 # fetch all crowdin source files
 client = CrowdinClient(token=project_token)
@@ -19,6 +18,8 @@ extension_files = client.source_files.with_fetch_all(
 ).list_files(projectId=project_id, directoryId=extension_dir_id)
 
 # function to get file progress and print to markdown strings
+
+
 def crowndin(file_scope):
     progress_list = []
 
@@ -51,7 +52,7 @@ def crowndin(file_scope):
                     elif file_name == 'ExtensionList':
                         extension_url = 'https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md'
                     else:
-                        extension_url = ''      
+                        extension_url = ''
         else:
             print(f"url not found at '{file_path}'")
 
@@ -63,19 +64,26 @@ def crowndin(file_scope):
     return progress_list
 
 
-# write resault to file
-with open("./tools/PROGRESS.md", "w", encoding='utf-8') as file:
-    # title
-    file.write("# 本地化進度\n\n")
+# read README.md
+with open('./README.md', 'r', encoding='utf-8') as file:
+    readme_content = file.read()
 
-    # stable diffusion progress
-    file.write("<details>\n<summary>Stable Diffusion web UI 本地化進度</summary>\n\n")
-    for string in crowndin(stablediffusion_files):
-        file.write(f"{string}\n")
-    file.write("</details>\n\n")
+# extract contents without progress section
+start_index = readme_content.find('# 本地化進度')
+end_index = readme_content.find('# 安裝說明')
+top_content = readme_content[0:start_index]
+bottom_content = readme_content[end_index:len(readme_content)]
 
-    # extension progress
-    file.write("<details>\n<summary>擴充功能本地化進度</summary>\n\n")
-    for string in crowndin(extension_files):
-        file.write(f"{string}\n")
-    file.write("</details>\n\n")
+# generating new progress content
+middle_content = '# 本地化進度\n\n<details>\n<summary>Stable Diffusion web UI 本地化進度</summary>\n\n'
+for string in crowndin(stablediffusion_files):
+    middle_content += f"{string}\n"
+middle_content += '</details>\n\n<details>\n<summary>擴充功能本地化進度</summary>\n\n'
+for string in crowndin(extension_files):
+    middle_content += f"{string}\n"
+middle_content += '</details>\n\n'
+
+# write new contents back to README.md
+new_content = top_content+middle_content+bottom_content
+with open('./README.md', 'w', encoding='utf-8') as f:
+    f.write(new_content)
