@@ -42,7 +42,7 @@
 - [ ] ![sd-webui-llul translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-llul](https://github.com/hnmr293/sd-webui-llul)
 - [x] ![sd-webui-tunnels translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
 - [x] ![sd_dreambooth_extension translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_dreambooth_extension]()
-- [ ] ![sd_smartprocess translated 33%](https://geps.dev/progress/33?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess)
+- [ ] ![sd_smartprocess translated 60%](https://geps.dev/progress/60?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess)
 - [x] ![seed_travel translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [seed_travel](https://github.com/yownas/seed_travel)
 - [x] ![shift-attention translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [shift-attention](https://github.com/yownas/shift-attention)
 - [x] ![stable-diffusion-webui-aesthetic-gradients translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-aesthetic-gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients)
