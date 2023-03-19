@@ -24,7 +24,7 @@ jobs:
 
       - name: execute crowdin tool.py
         env:
-          crowdin_api_token : ${{ CROWDIN_PROGRESS_CHECKER_API_KEY }}
+          crowdin_api_token : ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
         run: python 'tools/crowdin tool.py'
 
       - name: commit files
