@@ -1,9 +1,10 @@
-name: Update progress in README.md
+name: Update progress
+run name: Updateing each file's traslate progress into README.md
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   buid:
@@ -22,7 +23,7 @@ jobs:
         with:
           path: "./requirements.txt"
 
-      - name: execute crowdin tool.py
+      - name: run crowdin tool.py
         env:
           crowdin_api_token : ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
         run: python 'tools/crowdin tool.py'
@@ -32,7 +33,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "📃 docs(READMI.md): update translate progress in README.md" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "📃 docs(README.md): update translate progress in README.md" --allow-empty)
 
       - name: push changes
         uses: ad-m/github-push-action@master

@@ -1,4 +1,5 @@
-name: Manual merge zh_TW.json
+name: Merge localization
+run-name: Merging translated files to zh_TW.json in localization folder
 
 on:
   workflow_dispatch:
@@ -17,7 +18,7 @@ jobs:
         with:
           python-version: "3.10.6"
 
-      - name: execute merger.py
+      - name: run merger.py
         run: python 'tools/merger.py'
 
       - name: commit files
@@ -25,7 +26,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "🔧 build: merge zh_TW.json" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "🔧 build(zh_TW.json): merge localization" --allow-empty)
 
       - name: push changes
         uses: ad-m/github-push-action@master

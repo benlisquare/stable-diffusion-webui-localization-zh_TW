@@ -1,4 +1,5 @@
-name: Update source files from stable-diffusion-webui-localization-source
+name: Update source
+run-name: Downloading and pushing source files from stable-diffusion-webui-localization-source
 
 on:
   workflow_dispatch:
@@ -30,7 +31,7 @@ jobs:
       - name: commit changes
         run: |
           git add template
-          git diff-index --quiet HEAD || (git commit -a -m "✨ feat: update extension source" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "✨ feat(source files): update extension source" --allow-empty)
 
       - name: push changes
         uses: ad-m/github-push-action@master
