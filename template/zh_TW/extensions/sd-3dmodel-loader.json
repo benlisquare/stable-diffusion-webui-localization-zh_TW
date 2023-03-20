@@ -1,6 +1,6 @@
 {
     "3D Model Loader": "3D 模型載入器",
-    "Target": "Target",
+    "Target": "目標",
     "Light": "Light",
     "Model": "模型",
     "Position/Rotate X": "Position/Rotate X",
@@ -15,14 +15,14 @@
     "Model Scale": "Model Scale",
     "Load Model": "Load Model",
     "Reset": "重置",
-    "Send to": ">> ControlNet",
+    "Send to": "發送至",
     "Play/Pause": "Play/Pause",
     "Stop": "Stop",
     "3D Model": "3D Model",
-    "Canvas Background Color": "Canvas Background Color",
-    "Canvas Ground Color": "Canvas Ground Color",
+    "Canvas Background Color": "畫布背景顏色",
+    "Canvas Ground Color": "畫布地面顏色",
     "Canvas Width": "畫布寬度",
     "Canvas Height": "畫布高度",
-    "sd-3dmodel-loader": "sd-3dmodel-loader",
+    "sd-3dmodel-loader": "3D 模型載入器",
     "https://github.com/jtydhr88/sd-3dmodel-loader.git": "https://github.com/jtydhr88/sd-3dmodel-loader.git"
 }
