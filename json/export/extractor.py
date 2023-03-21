@@ -26,9 +26,17 @@ for key in list(source_data.keys()):
     if key in target_data:
         del source_data[key]
 
-# 將處理後的內容寫入完成檔案
+# 如果现有数据中存在一个在源数据中不存在的键，它将被添加到源数据中
 output_file_path = './json/source/extensions/' + os.path.basename(source_file_path)
+if os.path.exists(output_file_path):
+    with open(output_file_path, 'r', encoding='utf-8') as f:
+        existing_data = json.load(f)
+    for key, value in existing_data.items():
+        if key not in source_data:
+            source_data[key] = value
+
+# 將處理後的內容寫入完成檔案
 with open(output_file_path, 'w', encoding='utf-8') as f:
-    json.dump(source_data, f, ensure_ascii=False, indent=4)
+    json.dump(source_data, f, ensure_ascii=False, indent=4, sort_keys=True)
 
 print(f'處理完成，結果已儲存至 {output_file_path}')
