@@ -108,6 +108,6 @@
   "missing metadata": "缺少中繼資料",
   "Max number of top tags to show": "最多顯示幾個常用標記",
   "Max number of dataset folders to show": "最多顯示幾個數據集資料夾",
-  "sd-webui-additional-networks": "附加網路（LoRA擴充功能）",
+  "sd-webui-additional-networks": "sd-webui-additional-networks",
   "https://github.com/kohya-ss/sd-webui-additional-networks.git": "https://github.com/kohya-ss/sd-webui-additional-networks.git"
 }

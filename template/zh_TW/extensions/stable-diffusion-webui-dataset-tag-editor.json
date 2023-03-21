@@ -153,7 +153,7 @@
   "DELETE cannot be undone. The files will be deleted completely.": "DELETE cannot be undone. The files will be deleted completely.",
   "DELETE File(s)": "DELETE File(s)",
   "Number of columns on image gallery": "Number of columns on image gallery",
-  "stable-diffusion-webui-dataset-tag-editor": "資料集標記編輯器",
+  "stable-diffusion-webui-dataset-tag-editor": "stable-diffusion-webui-dataset-tag-editor",
   ".txt (on Load and Save)": ".txt (on Load and Save)",
   "Reconstruct prompt from existing image and put it into the prompt field.": "從現有的圖像中重構出提示詞，並將其放入提示詞的輸入文字方塊",
   "txt": "txt",

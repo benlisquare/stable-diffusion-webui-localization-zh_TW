@@ -5,6 +5,6 @@
   "Max Batch Count": "最大批次數量",
   "Run benchmark": "執行效能評測",
   "Load results": "載入結果",
-  "a1111-stable-diffusion-webui-vram-estimator": "VRAM 估量器",
+  "a1111-stable-diffusion-webui-vram-estimator": "a1111-stable-diffusion-webui-vram-estimator",
   "https://github.com/space-nuko/a1111-stable-diffusion-webui-vram-estimator.git": "https://github.com/space-nuko/a1111-stable-diffusion-webui-vram-estimator.git"
 }

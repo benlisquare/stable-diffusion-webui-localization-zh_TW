@@ -9,6 +9,6 @@
   "Cond.fix: High (recommended)": "條件修復： 高（推薦）",
   "Cond.fix: Highest": "條件修復： 最高",
   "Cond.fix: Full": "條件修復： 完全",
-  "stable-diffusion-webui-conditioning-highres-fix": "高解析度修復原圖調節強度",
+  "stable-diffusion-webui-conditioning-highres-fix": "stable-diffusion-webui-conditioning-highres-fix",
   "https://github.com/klimaleksus/stable-diffusion-webui-conditioning-highres-fix.git": "https://github.com/klimaleksus/stable-diffusion-webui-conditioning-highres-fix.git"
 }

@@ -21,6 +21,6 @@
   "Fast Decoder": "快速解碼器",
   "Fast Encoder may change colors; Can fix it with more RAM and lower speed.": "快速編碼器會導致顏色變更；可以使用更多記憶體與時間來修復。",
   "Encoder Color Fix": "編碼器顏色修復",
-  "multidiffusion-upscaler-for-automatic1111": "MultiDiffusion 放大器",
+  "multidiffusion-upscaler-for-automatic1111": "multidiffusion-upscaler-for-automatic1111",
   "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111.git": "https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111.git"
 }

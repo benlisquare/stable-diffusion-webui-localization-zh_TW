@@ -13,6 +13,6 @@
   "X panning": "沿 X 軸滾動",
   "Y panning": "沿 Y 軸滾動",
   "Maximum steps fraction to mirror at": "鏡像干涉止步於總疊代步數的",
-  "SD-latent-mirroring": "鏡像潛空間圖像",
+  "SD-latent-mirroring": "SD-latent-mirroring",
   "https://github.com/dfaker/SD-latent-mirroring.git": "https://github.com/dfaker/SD-latent-mirroring.git"
 }

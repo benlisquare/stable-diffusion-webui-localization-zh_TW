@@ -13,6 +13,6 @@
   "Heatmap image scale": "熱度圖縮放比例",
   "Trace each layers": "追蹤每個層級",
   "Use layers as row instead of Batch Length": "將圖層作為行而非批次長度使用",
-  "stable-diffusion-webui-daam": "擴散注意力歸因圖（DAAM）",
+  "stable-diffusion-webui-daam": "stable-diffusion-webui-daam",
   "https://github.com/toriato/stable-diffusion-webui-daam.git": "https://github.com/toriato/stable-diffusion-webui-daam.git"
 }

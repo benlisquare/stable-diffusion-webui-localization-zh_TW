@@ -6,7 +6,7 @@
   "Highres. Width": "高解析度修復：第一遍寬度",
   "Highres. Height": "高解析度修復：第一遍高度",
   "Stop at CLIP layers": "在 CLIP 模型的最後哪一層停下",
-  "stable-diffusion-webui-randomize": "隨機化",
+  "stable-diffusion-webui-randomize": "stable-diffusion-webui-randomize",
   "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git": "https://github.com/innightwolfsleep/stable-diffusion-webui-randomize.git",
   "Comma separated list OR * for all": "以逗號分隔的列表或以 * 代表全部",
   "Range of stepped values (min, max, step)": "含步數的隨機範圍（最小，最大，步數）",

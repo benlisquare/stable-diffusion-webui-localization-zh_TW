@@ -223,10 +223,10 @@
   "Preserves the UI state after reload/restart.": "Preserves the UI state after reload/restart.",
   "ModelScope text2video": "ModelScope text2video",
   "Implementation of ModelScope text2video using only Auto1111 webui dependencies.": "Implementation of ModelScope text2video using only Auto1111 webui dependencies.",
-  "Aspect Ratio Helper": "Aspect Ratio Helper",
+  "Aspect Ratio Helper": "長寬比小幫手",
   "Easily scale dimensions while retaining the same aspect ratio.": "Easily scale dimensions while retaining the same aspect ratio.",
   "zh_CN Localization": "簡體中文本地化語言包",
-  "Simplified Chinese localization, recommend using with Bilingual Localization.": "Simplified Chinese localization, recommend using with Bilingual Localization.",
+  "Simplified Chinese localization, recommend using with Bilingual Localization.": "簡體中文本地化，推薦搭配雙語翻譯對照擴充功能使用。",
   "zh_TW Localization": "正體中文在地化語言包",
   "Traditional Chinese localization": "正體中文本地化",
   "ko_KR Localization": "韓文在地化語言包",
@@ -251,8 +251,8 @@
   "Russian localization": "俄語本地化",
   "fi_FI Localization": "芬蘭語本地化語言包",
   "Finnish localization": "芬蘭語本地化",
-  "zh_Hans Localization": "zh_Hans Localization",
-  "Simplified Chinese localization.": "Simplified Chinese localization.",
+  "zh_Hans Localization": "簡體中文本地化語言包",
+  "Simplified Chinese localization.": "簡體中文本地化。",
   "old localizations": "過時的本地化語言包",
   "Old unmaintained localizations that used to be a part of main repository": "曾經在主分支上但現在不再維護的舊語言包"
 }
