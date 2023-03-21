@@ -50,6 +50,7 @@ def crowndin(file_scope):
 
         progress_list.append(
             f"- {check_box} ![{file_name} translated {file_progress}%](https://geps.dev/progress/{file_progress}?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [{file_name}]({extension_url})")
+        print(f"{file_name} translation progress update success.")
 
     return progress_list
 
