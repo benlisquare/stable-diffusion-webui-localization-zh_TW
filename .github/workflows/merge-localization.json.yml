@@ -1,0 +1,35 @@
+name: Merge localization
+run-name: Merging translated files to zh_TW.json in localization folder
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,6,12,18 * * *"
+
+jobs:       
+  buid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository content
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: "3.10.6"
+
+      - name: run merger.py
+        run: python 'tools/merger.py'
+
+      - name: commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "🔧 build(zh_TW.json): merge localization" --allow-empty)
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
