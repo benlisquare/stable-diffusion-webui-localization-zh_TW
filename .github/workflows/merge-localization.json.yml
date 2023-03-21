@@ -4,7 +4,7 @@ run-name: Merging translated files to zh_TW.json in localization folder
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0,6,12,18 * * *"
+    - cron: "0 0,12 * * *"
 
 jobs:       
   buid:

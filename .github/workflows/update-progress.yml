@@ -4,7 +4,7 @@ run-name: Updating each file's traslate progress into README.md
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
 
 jobs:
   buid:
@@ -26,7 +26,7 @@ jobs:
       - name: run crowdin tool.py
         env:
           crowdin_api_token : ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
-        run: python 'tools/crowdin tool.py'
+        run: python 'tools/crowdin-tool.py'
 
       - name: commit files
         run: |

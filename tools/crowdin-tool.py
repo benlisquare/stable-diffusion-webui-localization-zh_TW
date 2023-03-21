@@ -1,6 +1,5 @@
 import os
 import json
-from tqdm import tqdm
 from crowdin_api import CrowdinClient
 
 # setup variables
@@ -16,16 +15,10 @@ stablediffusion_files = client.source_files.with_fetch_all(
 extension_files = client.source_files.with_fetch_all(
 ).list_files(projectId=project_id, directoryId=extension_dir_id)
 
-# function to get file progress and print to markdown strings
-
 
 def crowndin(file_scope):
     progress_list = []
-
-    # init progress bar
-    file_count = len(file_scope['data'])
-    progress = tqdm(desc='requesting: ', total=file_count)
-
+    # get file progress and print to markdown strings
     for filedata in file_scope['data']:
         # setting variables
         file_id = filedata['data']['id']
@@ -57,8 +50,6 @@ def crowndin(file_scope):
 
         progress_list.append(
             f"- {check_box} ![{file_name} translated {file_progress}%](https://geps.dev/progress/{file_progress}?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [{file_name}]({extension_url})")
-
-        progress.update(1)
 
     return progress_list
 
