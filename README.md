@@ -32,7 +32,7 @@
 - [x] ![openOutpaint-webUI-extension translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension)
 - [x] ![openpose-editor translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [openpose-editor](https://github.com/fkunn1326/openpose-editor)
 - [ ] ![posex translated 9%](https://geps.dev/progress/9?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [posex](https://github.com/hnmr293/posex)
-- [ ] ![sd-3dmodel-loader translated 23%](https://geps.dev/progress/23?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader)
+- [ ] ![sd-3dmodel-loader translated 39%](https://geps.dev/progress/39?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-3dmodel-loader](https://github.com/jtydhr88/sd-3dmodel-loader)
 - [ ] ![sd-dynamic-prompts translated 55%](https://geps.dev/progress/55?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-dynamic-prompts](https://github.com/adieyal/sd-dynamic-prompts)
 - [x] ![sd-model-preview-xd translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-model-preview-xd](https://github.com/CurtisDS/sd-model-preview-xd)
 - [x] ![sd-webui-additional-networks translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-additional-networks](https://github.com/kohya-ss/sd-webui-additional-networks)
@@ -63,7 +63,7 @@
 - [x] ![training-picker translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [training-picker](https://github.com/Maurdekye/training-picker)
 - [x] ![ultimate-upscale-for-automatic1111 translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ultimate-upscale-for-automatic1111](https://github.com/Coyote-A/ultimate-upscale-for-automatic1111)
 - [ ] ![unprompted translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [unprompted](https://github.com/ThereforeGames/unprompted)
-- [ ] ![multidiffusion-upscaler-for-automatic1111 translated 1%](https://geps.dev/progress/1?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
+- [x] ![multidiffusion-upscaler-for-automatic1111 translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [ ] ![stable-diffusion-webui-rembg translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-rembg](https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg)
 </details>
 
