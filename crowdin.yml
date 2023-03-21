@@ -1,10 +1,8 @@
-pull_request_title:
-  - '✨ feat: new crowdin updates.'
+pull_request_title: "✨ feat: new crowdin updates."
 pull_request_labels:
   - crowdin
-  - l10n
-commit_message: '✨ feat: new translation \n\n
-%original_file_name% translations from Crowdin (%language%)'
+    l10n
+commit_message: '✨ feat(%original_file_name%): new translation \n\n new translations from Crowdin (%language%)'
 append_commit_message: false
 files:
   - source: /template/source/**/**
