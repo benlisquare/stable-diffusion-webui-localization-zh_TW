@@ -140,7 +140,7 @@
   "sd-webui-controlnet": "sd-webui-controlnet",
   "WebUI extension for ControlNet. Note: (WIP), so don't expect seed reproducibility - as updates may change things.": "WebUI extension for ControlNet. Note: (WIP), so don't expect seed reproducibility - as updates may change things.",
   "Latent Couple": "Latent Couple",
-  "An extension of the built-in Composable Diffusion, allows you to determine the region of the latent space that reflects your subprompts.": "An extension of the built-in Composable Diffusion, allows you to determine the region of the latent space that reflects your subprompts.",
+  "An extension of the built-in Composable Diffusion, allows you to determine the region of the latent space that reflects your subprompts. Note: New maintainer, uninstall prev. ext if needed.": "An extension of the built-in Composable Diffusion, allows you to determine the region of the latent space that reflects your subprompts. Note: New maintainer, uninstall prev. ext if needed.",
   "Composable LoRA": "Composable LoRA",
   "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.": "Enables using AND keyword(composable diffusion) to limit LoRAs to subprompts. Useful when paired with Latent Couple extension.",
   "Auto TLS-HTTPS": "Auto TLS-HTTPS",
