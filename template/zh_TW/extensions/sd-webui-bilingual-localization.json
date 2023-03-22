@@ -6,6 +6,6 @@
   "Translation First": "翻譯優先",
   "Original First": "原文優先",
   "Localization dirs": "本地化路徑",
-  "sd-webui-bilingual-localization": "雙語翻譯對照",
+  "sd-webui-bilingual-localization": "sd-webui-bilingual-localization",
   "https://github.com/journey-ad/sd-webui-bilingual-localization.git": "https://github.com/journey-ad/sd-webui-bilingual-localization.git"
 }

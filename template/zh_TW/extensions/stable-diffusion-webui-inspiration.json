@@ -31,6 +31,6 @@
   "Maximum number of samples, used to determine which folders to skip when continue running the create script": "Maximum number of samples, used to determine which folders to skip when continue running the create script",
   "Number of rows on the page": "每頁行數",
   "Minimum number of pages per load": "每次載入的最小頁數",
-  "stable-diffusion-webui-inspiration": "靈感",
+  "stable-diffusion-webui-inspiration": "stable-diffusion-webui-inspiration",
   "https://github.com/yfszzx/stable-diffusion-webui-inspiration.git": "https://github.com/yfszzx/stable-diffusion-webui-inspiration.git"
 }

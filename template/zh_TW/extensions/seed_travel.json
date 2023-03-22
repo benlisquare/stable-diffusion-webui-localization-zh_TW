@@ -20,6 +20,6 @@
   "Quick start": "快速開始（Quick start）",
   "Rate strength": "速率強度",
   "Allow the default Euler a Sampling method. (Does not produce good results)": "允許使用默認的 Eular a 採樣方法.（通常不會產生好的結果）",
-  "seed_travel": "種子變遷",
+  "seed_travel": "seed_travel",
   "https://github.com/yownas/seed_travel.git": "https://github.com/yownas/seed_travel.git"
 }

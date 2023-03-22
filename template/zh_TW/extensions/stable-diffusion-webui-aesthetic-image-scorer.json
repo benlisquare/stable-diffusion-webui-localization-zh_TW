@@ -11,6 +11,6 @@
   "Save category (Windows only)": "儲存類別（僅限Windows）",
   "Save generation params text": "儲存生成參數文本",
   "Force CPU (Requires Custom Script Reload)": "強制使用 CPU（需要重新加載自定義腳本）",
-  "stable-diffusion-webui-aesthetic-image-scorer": "美學圖像評分器",
+  "stable-diffusion-webui-aesthetic-image-scorer": "stable-diffusion-webui-aesthetic-image-scorer",
   "https://github.com/tsngo/stable-diffusion-webui-aesthetic-image-scorer.git": "https://github.com/tsngo/stable-diffusion-webui-aesthetic-image-scorer.git"
 }

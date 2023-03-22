@@ -6,7 +6,7 @@
   "Tokenize": "標記拆分",
   "Text": "文字",
   "Tokens": "標記",
-  "stable-diffusion-webui-tokenizer": "標記解析器",
+  "stable-diffusion-webui-tokenizer": "stable-diffusion-webui-tokenizer",
   "Prompt for tokenization": "給標記化準備的提示詞",
   "Ids for tokenization (example: 9061, 631, 736)": "用於標記化的 ID（例：9061，631，736）",
   "https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer.git": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-tokenizer.git"

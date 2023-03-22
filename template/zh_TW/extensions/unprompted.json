@@ -285,6 +285,6 @@
   "Test prompt": "測試提示詞",
   "Process Text": "Process Text",
   "Re-process extra networks after Unprompted is finished (WIP - this is not yet functional!)": "Re-process extra networks after Unprompted is finished (WIP - this is not yet functional!)",
-  "unprompted": "非文本（代碼化）提示詞",
+  "unprompted": "unprompted",
   "https://github.com/ThereforeGames/unprompted.git": "https://github.com/ThereforeGames/unprompted.git"
 }

@@ -99,7 +99,7 @@
   "Number of columns on the page": "每頁列數",
   "Number of rows on the page": "每頁行數",
   "Minimum number of pages per load": "每次載入的最小頁數",
-  "stable-diffusion-webui-images-browser": "圖庫瀏覽器",
+  "stable-diffusion-webui-images-browser": "stable-diffusion-webui-images-browser",
   "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git": "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser.git",
   "Input images directory": "輸入圖像目錄"
 }

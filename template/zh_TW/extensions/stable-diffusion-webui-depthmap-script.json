@@ -1,5 +1,5 @@
 {
-  "stable-diffusion-webui-depthmap-script": "深度圖",
+  "stable-diffusion-webui-depthmap-script": "stable-diffusion-webui-depthmap-script",
   "Compute on": "計算於",
   "GPU": "GPU",
   "CPU": "CPU",

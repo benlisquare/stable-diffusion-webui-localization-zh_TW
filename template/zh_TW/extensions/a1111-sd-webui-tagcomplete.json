@@ -10,7 +10,7 @@
   "Mode to use for model list": "模型名稱清單的使用模式",
   "Blacklist": "黑名單",
   "Whitelist": "白名單",
-  "Move completion popup together with text cursor": "Move completion popup together with text cursor",
+  "Move completion popup together with text cursor": "移動彈出視窗至文字游標處",
   "Maximum results": "最大結果",
   "Show all results": "顯示所有結果",
   "How many results to load at once": "一次載入多少個結果",
@@ -33,6 +33,6 @@
   "Insert before": "前綴插入",
   "Insert after": "後綴插入",
   "Booru tag autocompletion": "Booru 標記自動補齊",
-  "a1111-sd-webui-tagcomplete": "標記自動補齊",
+  "a1111-sd-webui-tagcomplete": "a1111-sd-webui-tagcomplete",
   "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git": "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git"
 }

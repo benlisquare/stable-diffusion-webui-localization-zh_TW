@@ -12,7 +12,7 @@
   "Folder": "檔案夾",
   "Index": "索引",
   "Limit the height of preivews to the height of the browser window (.html preview files are always limited regardless of this setting)": "將預覽的高度限制為瀏覽器視窗高度（.html 預覽檔始終受此設置的限制）",
-  "sd-model-preview-xd": "模型預覽器",
+  "sd-model-preview-xd": "sd-model-preview-xd",
   "No Preview Found": "查無預覽檔",
   "https://github.com/CurtisDS/sd-model-preview-xd.git": "https://github.com/CurtisDS/sd-model-preview-xd.git"
 }

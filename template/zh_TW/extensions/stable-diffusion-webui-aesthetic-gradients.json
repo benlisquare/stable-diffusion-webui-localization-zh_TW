@@ -11,7 +11,7 @@
   "Is negative text": "是反向提示詞",
   "Create an aesthetic embedding out of any number of images": "從任意數量的圖像中建立美學嵌入",
   "Create images embedding": "建立圖集嵌入",
-  "stable-diffusion-webui-aesthetic-gradients": "美學梯度",
+  "stable-diffusion-webui-aesthetic-gradients": "stable-diffusion-webui-aesthetic-gradients",
   "This text is used to rotate the feature space of the imgs embs": "此文本用於旋轉圖集嵌入的特徵空間",
   "https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients.git": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients.git"
 }

@@ -5,6 +5,6 @@
   "Frames per second": "每秒多少幀",
   "Number of frames for lead in/out": "導入／導出幀數",
   "Upscale ratio": "放大比率",
-  "shift-attention": "關注轉移",
+  "shift-attention": "shift-attention",
   "https://github.com/yownas/shift-attention.git": "https://github.com/yownas/shift-attention.git"
 }
