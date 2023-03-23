@@ -13,7 +13,7 @@
 <details>
 <summary>Stable Diffusion web UI 本地化進度</summary>
 
-- [ ] ![StableDiffusion translated 99%](https://geps.dev/progress/99?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [ ] ![StableDiffusion translated 93%](https://geps.dev/progress/93?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 - [ ] ![ExtensionList translated 74%](https://geps.dev/progress/74?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
 </details>
 
@@ -65,8 +65,8 @@
 - [ ] ![unprompted translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [unprompted](https://github.com/ThereforeGames/unprompted)
 - [x] ![multidiffusion-upscaler-for-automatic1111 translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [multidiffusion-upscaler-for-automatic1111](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111)
 - [ ] ![stable-diffusion-webui-rembg translated 10%](https://geps.dev/progress/10?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-rembg](https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg)
-- [ ] ![sd-webui-aspect-ratio-helper translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
-- [ ] ![stable-diffusion-webui-state translated 11%](https://geps.dev/progress/11?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
+- [x] ![sd-webui-aspect-ratio-helper translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
+- [ ] ![stable-diffusion-webui-state translated 16%](https://geps.dev/progress/16?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [ ] ![stable-diffusion-webui-wd14-tagger translated 6%](https://geps.dev/progress/6?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-wd14-tagger]()
 </details>
 
