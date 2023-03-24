@@ -1,7 +1,7 @@
 {
   "API Key": {
     "key": "API 金鑰",
-    "tooltip": "用於保護 Web API。單擊右側的重新整理按鈕以（重新）生成您的密鑰，單擊垃圾桶圖標將其刪除。"
+    "tooltip": "用於保護 Web API。單擊右側的重新整理按鈕以（重新）生成您的金鑰，單擊垃圾桶圖示將其刪除。"
   },
   "AdamW Weight Decay": {
     "key": "AdamW 權重衰減",

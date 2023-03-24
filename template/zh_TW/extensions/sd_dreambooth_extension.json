@@ -189,7 +189,7 @@
   "Swap Steps": "交換疊代步數",
   "Swap Batch": "交換批次",
   "Use txt2img": "使用文生圖",
-  "Deterministic": "確定",
+  "Deterministic": "確定性的訓練",
   "Use EMA for prediction.": "使用 EMA 進行預測。",
   "Calculate Split Loss": "計算分割損失",
   "Use TensorFloat 32": "使用TensorFloat 32",
@@ -223,5 +223,14 @@
   "Optionally use [filewords] to read image captions from files.": "可以選擇使用 [filewords] 從檔案中讀取圖像標題。",
   "Leave blank to use instance prompt. Optionally use [filewords] to base sample captions on instance images.": "留空以使用實例提示。可以選擇使用 [filewords] 以實例圖像為基礎生成樣本標題。",
   "Enter the path to a txt file containing sample prompts.": "輸入包含樣本提示的 txt 檔案的路徑。",
-  "Enter a model name for saving checkpoints and lora models.": "輸入模型名稱以保存檢查點和 lora 模型。"
+  "Enter a model name for saving checkpoints and lora models.": "輸入模型名稱以保存檢查點和 lora 模型。",
+  "Training Prompts": "訓練提示詞",
+  "Sample Prompts": "樣本提示詞",
+  "Class Image Generation": "生成分類/正則圖像",
+  "Sample Image Generation": "生成樣本圖像",
+  "Class Generation Schedulers": "分類圖像生成調度器",
+  "Image Generation Library": "圖像生成",
+  "Image Generation Scheduler": "圖像生成採樣方式",
+  "Experimental Settings": "實驗性設定",
+  "Use EMA for prediction": "使用 EMA 進行預測"
 }
