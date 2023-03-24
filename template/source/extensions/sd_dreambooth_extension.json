@@ -223,5 +223,14 @@
   "Optionally use [filewords] to read image captions from files.": "Optionally use [filewords] to read image captions from files.",
   "Leave blank to use instance prompt. Optionally use [filewords] to base sample captions on instance images.": "Leave blank to use instance prompt. Optionally use [filewords] to base sample captions on instance images.",
   "Enter the path to a txt file containing sample prompts.": "Enter the path to a txt file containing sample prompts.",
-  "Enter a model name for saving checkpoints and lora models.": "Enter a model name for saving checkpoints and lora models."
+  "Enter a model name for saving checkpoints and lora models.": "Enter a model name for saving checkpoints and lora models.",
+  "Training Prompts": "Training Prompts",
+  "Sample Prompts": "Sample Prompts",
+  "Class Image Generation": "Class Image Generation",
+  "Sample Image Generation": "Sample Image Generation",
+  "Class Generation Schedulers": "Class Generation Schedulers",
+  "Image Generation Library": "Image Generation Library",
+  "Image Generation Scheduler": "Image Generation Scheduler",
+  "Experimental Settings": "Experimental Settings",
+  "Use EMA for prediction": "Use EMA for prediction"
 }
