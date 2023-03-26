@@ -4,11 +4,11 @@ run-name: Merging translated files to zh_TW.json in localization folder
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0,12 * * *"
+    - cron: "0 4,10,16,22 * * *"
 
 jobs:       
   buid:
-    if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
+    if: github.repository == 'benlisquare/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository content
