@@ -16,6 +16,8 @@
   "Interrupt": "Interrupt",
   "Skip": "Skip",
   "Generate": "Generate",
+  "Generate forever": "Generate forever",
+  "Cancel generate forever": "Cancel generate forever",
   "Run": "Run",
   "Styles": "Styles",
   "Label": "Label",
