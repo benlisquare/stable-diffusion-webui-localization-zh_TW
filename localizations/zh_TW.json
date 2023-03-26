@@ -1574,6 +1574,7 @@
     "sd-webui-bilingual-localization": "sd-webui-bilingual-localization",
     "https://github.com/journey-ad/sd-webui-bilingual-localization.git": "https://github.com/journey-ad/sd-webui-bilingual-localization.git",
     "Multiplication (2^N)": "倍率 (2^N)",
+    "Weight": "權重",
     "Force convert half to float on interpolation (for some platforms)": "在插值時強制將一半賺換為浮點（對於某些平台）",
     "I know what I am doing.": "我知道我在做什麼。",
     "Layers": "圖層",
