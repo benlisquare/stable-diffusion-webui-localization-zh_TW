@@ -13,8 +13,8 @@
 <details>
 <summary>Stable Diffusion web UI 本地化進度</summary>
 
-- [ ] ![StableDiffusion translated 94%](https://geps.dev/progress/94?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-- [ ] ![ExtensionList translated 74%](https://geps.dev/progress/74?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
+- [ ] ![StableDiffusion translated 96%](https://geps.dev/progress/96?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [StableDiffusion](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [ ] ![ExtensionList translated 73%](https://geps.dev/progress/73?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [ExtensionList](https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Extensions-index.md)
 </details>
 
 <details>
@@ -27,7 +27,7 @@
 - [x] ![a1111-sd-webui-tagcomplete translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [a1111-sd-webui-tagcomplete](https://github.com/DominikDoom/a1111-sd-webui-tagcomplete)
 - [x] ![a1111-stable-diffusion-webui-vram-estimator translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [a1111-stable-diffusion-webui-vram-estimator](https://github.com/space-nuko/a1111-stable-diffusion-webui-vram-estimator)
 - [ ] ![auto-sd-paint-ext translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [auto-sd-paint-ext](https://github.com/Interpause/auto-sd-paint-ext)
-- [ ] ![deforum-for-automatic1111-webui translated 2%](https://geps.dev/progress/2?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
+- [ ] ![deforum-for-automatic1111-webui translated 3%](https://geps.dev/progress/3?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [deforum-for-automatic1111-webui](https://github.com/deforum-art/deforum-for-automatic1111-webui)
 - [x] ![novelai-2-local-prompt translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [novelai-2-local-prompt](https://github.com/animerl/novelai-2-local-prompt)
 - [x] ![openOutpaint-webUI-extension translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [openOutpaint-webUI-extension](https://github.com/zero01101/openOutpaint-webUI-extension)
 - [x] ![openpose-editor translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [openpose-editor](https://github.com/fkunn1326/openpose-editor)
@@ -41,7 +41,7 @@
 - [x] ![sd-webui-depth-lib translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-depth-lib](https://github.com/jexom/sd-webui-depth-lib)
 - [ ] ![sd-webui-llul translated 27%](https://geps.dev/progress/27?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-llul](https://github.com/hnmr293/sd-webui-llul)
 - [x] ![sd-webui-tunnels translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-tunnels](https://github.com/Bing-su/sd-webui-tunnels)
-- [x] ![sd_dreambooth_extension translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_dreambooth_extension]()
+- [ ] ![sd_dreambooth_extension translated 96%](https://geps.dev/progress/96?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_dreambooth_extension]()
 - [ ] ![sd_smartprocess translated 60%](https://geps.dev/progress/60?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd_smartprocess](https://github.com/d8ahazard/sd_smartprocess)
 - [x] ![seed_travel translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [seed_travel](https://github.com/yownas/seed_travel)
 - [x] ![shift-attention translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [shift-attention](https://github.com/yownas/shift-attention)
@@ -68,6 +68,8 @@
 - [x] ![sd-webui-aspect-ratio-helper translated 100%](https://geps.dev/progress/100?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-aspect-ratio-helper](https://github.com/thomasasfk/sd-webui-aspect-ratio-helper)
 - [ ] ![stable-diffusion-webui-state translated 16%](https://geps.dev/progress/16?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-state](https://github.com/ilian6806/stable-diffusion-webui-state)
 - [ ] ![stable-diffusion-webui-wd14-tagger translated 6%](https://geps.dev/progress/6?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-wd14-tagger]()
+- [ ] ![stable-diffusion-webui-auto-translate-language translated 0%](https://geps.dev/progress/0?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [stable-diffusion-webui-auto-translate-language]()
+- [ ] ![sd-webui-cutoff translated 4%](https://geps.dev/progress/4?dangerColor=c9f2dc&warningColor=6cc570&successColor=00ff7f) [sd-webui-cutoff]()
 </details>
 
 # 安裝說明
