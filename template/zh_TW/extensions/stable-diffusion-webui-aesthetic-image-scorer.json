@@ -2,7 +2,7 @@
   "Aesthetic Image Scorer": "美學圖像評分器",
   "Save score as EXIF or PNG Info Chunk": "將分數儲存為 EXIF 或 PNG Info Chunk",
   "aesthetic_score": "美學分數",
-  "sampler": "採樣器",
+  "sampler": "取樣器",
   "cfg_scale": "提示詞相關性（CFG）",
   "sd_model_hash": "SD模型雜湊值",
   "seed": "種子",

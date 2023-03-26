@@ -1,7 +1,7 @@
 {
   "API Key": {
     "key": "API 金鑰",
-    "tooltip": "用於保護 Web API。單擊右側的重新整理按鈕以（重新）生成您的密鑰，單擊垃圾桶圖標將其刪除。"
+    "tooltip": "用於保護 Web API。點選右側的重新整理按鈕以（重新）產生您的金鑰，點選垃圾桶圖示將其刪除。"
   },
   "AdamW Weight Decay": {
     "key": "AdamW 權重衰減",
@@ -29,7 +29,7 @@
   },
   "Class Batch Size": {
     "key": "類別每批數量",
-    "tooltip": "一次要生成多少分類/正則化圖像。"
+    "tooltip": "一次要產生多少分類 / 正則化圖像。"
   },
   "Class Images Per Instance Image": {
     "key": "每個實例圖像的分類圖片數量",
@@ -112,60 +112,60 @@
     "tooltip": "在訓練期間保持 CLIP 的規範化層凍結。高級用法，可能會提高模型性能和可編輯性。"
   },
   "Generate Ckpt": {
-    "key": "產生 ckpt",
-    "tooltip": "在當前訓練級別生成一個CKPT。"
+    "key": "產生 Ckpt",
+    "tooltip": "在當前訓練級別產生一個模型權重存檔點。"
   },
   "Generate Class Images": {
-    "key": "生成分類圖片",
+    "key": "產生分類圖片",
     "tooltip": "在沒有訓練的情況下使用訓練設置創建分類圖像。"
   },
   "Generate Classification Images Using txt2img": {
     "key": "使用文生圖產生分類圖",
-    "tooltip": "使用源模型權重存檔點和文生圖生成類圖像。"
+    "tooltip": "使用源模型權重存檔點和文生圖產生類圖像。"
   },
   "Generate Classification Images to match Instance Resolutions": {
     "key": "Generate Classification Images to match Instance Resolutions",
-    "tooltip": "而不是生成正方形類圖像，它們將以與類圖像相同的分辨率生成。"
+    "tooltip": "而不是產生正方形類圖像，它們將以與類圖像相同的分辨率產生。"
   },
   "Generate Graph": {
-    "key": "生成圖形",
-    "tooltip": "從訓練日誌中生成圖表，顯示訓練過程中的學習率和平均損失。"
+    "key": "產生圖形",
+    "tooltip": "從訓練日誌中產生圖表，顯示訓練過程中的學習率和平均損失。"
   },
   "Generate Sample Images": {
-    "key": "生成樣本圖像",
-    "tooltip": "使用當前保存的模型生成樣本圖像。"
+    "key": "產生樣本圖像",
+    "tooltip": "使用當前保存的模型產生樣本圖像。"
   },
   "Generate Samples": {
     "key": "產生樣本",
-    "tooltip": "在下一個訓練週期後生成樣本。"
+    "tooltip": "在下一個訓練週期後產生樣本。"
   },
   "Generate a .ckpt file when saving during training.": {
-    "key": "在訓練期間保存時生成 .ckpt 文件。",
-    "tooltip": "啟用後，將在訓練進行時以指定的訓練週期生成CKPT。這也可以在訓練進行時使用“保存權重”按鈕控製手動生成。"
+    "key": "在訓練期間保存時產生 .ckpt 文件。",
+    "tooltip": "啟用後，將在訓練進行時以指定的訓練週期生成模型權重存檔點。這也可以在訓練進行時使用 \"保存權重\" 按鈕控製手動產生。"
   },
   "Generate a .ckpt file when training completes.": {
-    "key": "在訓練完成時生成 .ckpt 文件。",
-    "tooltip": "啟用後，訓練成功完成後將生成一個CKPT。"
+    "key": "在訓練完成時產生 .ckpt 檔案。",
+    "tooltip": "啟用後，訓練成功完成後將產生一個模型權重存檔點。"
   },
   "Generate a .ckpt file when training is cancelled.": {
-    "key": "在訓練取消時生成 .ckpt 文件。",
-    "tooltip": "啟用後，當用戶取消訓練時將生成一個CKPT。"
+    "key": "在訓練取消時產生 .ckpt 檔案。",
+    "tooltip": "啟用後，當用戶取消訓練時將產生一個模型權重存檔點。"
   },
   "Generate lora weights Generate lora weights for additional networks.": {
-    "key": "生成附加網路的 LoRA。（警告：如有使用 LoRA 擴充功能，此選項無效）",
-    "tooltip": "啟用後，將在modelsLoRA目錄生成相容的lora.safetensors模型。與[lora擴充]不相容。"
+    "key": "產生附加網路的 LoRA。（警告：如有使用 LoRA 擴充功能，此選項無效）",
+    "tooltip": "啟用後，將在 LoRA 目錄產生相容的 lora.safetensors 模型。與 LoRA 擴充不相容。"
   },
   "Generate lora weights when saving during training.": {
-    "key": "在訓練期間保存時生成 lora。",
-    "tooltip": "啟用後，將在訓練期間在每個指定的訓練週期生成 lora .pt 文件。這也會影響手動點擊“保存權重”按鈕時是否生成 .pt 文件。"
+    "key": "在訓練期間儲存時產生 LoRA。",
+    "tooltip": "啟用後，將在訓練期間在每個指定的訓練週期產生 lora .pt 文件。這也會影響手動點擊“保存權重”按鈕時是否產生 .pt 檔案。"
   },
   "Generate lora weights when training completes.": {
-    "key": "在訓練完成時生成 lora。",
-    "tooltip": "啟用後，訓練完成後將生成 lora .pt 文件。"
+    "key": "在訓練完成時產生 LoRA。",
+    "tooltip": "啟用後，訓練完成後將產生 lora .pt 文件。"
   },
   "Generate lora weights when training is canceled.": {
-    "key": "在訓練取消時生成 lora。",
-    "tooltip": "啟用後，當用戶取消訓練時，將生成 lora .pt 文件。"
+    "key": "在訓練取消時產生 LoRA。",
+    "tooltip": "啟用後，當用戶取消訓練時，將產生 lora .pt 文件。"
   },
   "Gradient Accumulation Steps": {
     "key": "梯度累積疊代步數",
@@ -181,7 +181,7 @@
   },
   "Half Model": {
     "key": "半精度模型",
-    "tooltip": "啟用此功能以生成具有fp16精度的模型。結果是更小的檢查點，品質幾乎沒有損失。"
+    "tooltip": "啟用此功能以產生具有 fp16 精度的模型。結果是更小的檢查點，品質幾乎沒有損失。"
   },
   "HuggingFace Token": {
     "key": "HuggingFace 標記",
@@ -284,8 +284,8 @@
     "tooltip": "cosine_with_restarts 調度器中 lr 的硬重置次數。"
   },
   "Number of Samples to Generate": {
-    "key": "生成樣本的數量",
-    "tooltip": "每個主題要生成的樣本數量。"
+    "key": "產生樣本的數量",
+    "tooltip": "每個主題要產生的樣本數量。"
   },
   "Offset Noise": {
     "key": "噪聲偏移",
@@ -313,7 +313,7 @@
   },
   "Preview Prompts": {
     "key": "預覽提示",
-    "tooltip": "生成用於訓練的提示數據的 JSON。"
+    "tooltip": "產生用於訓練的提示數據的 JSON。"
   },
   "Prior Loss Weight": {
     "key": "先前損失權重",
@@ -337,7 +337,7 @@
   },
   "Sample Prompt": {
     "key": "樣本提詞",
-    "tooltip": "生成樣本圖像時要使用的提示。"
+    "tooltip": "產生樣本圖像時要使用的提示。"
   },
   "Sample Seed": {
     "key": "樣本種子",
@@ -349,7 +349,7 @@
   },
   "Sanity Sample Prompt": {
     "key": "樣本提示詞",
-    "tooltip": "用於生成“基準”圖像的提示，此圖像將與其他樣本一起創建以驗證模型的忠實度。"
+    "tooltip": "用於產生 \"基準\" 圖像的提示，此圖像將與其他樣本一起創建以驗證模型的忠實度。"
   },
   "Sanity Sample Seed": {
     "key": "樣本種子",
@@ -369,11 +369,11 @@
   },
   "Save Preview(s) Frequency (Epochs)": {
     "key": "儲存預覽頻率（訓練週期）",
-    "tooltip": "每N個訓練週期生成一次預覽圖像。"
+    "tooltip": "每 N 個訓練週期產生一次預覽圖像。"
   },
   "Save Preview(s) Frequency (Step)": {
     "key": "保存預覽頻率（訓練週期）",
-    "tooltip": "每N個訓練週期生成預覽圖像。必須能夠被批次數整除。"
+    "tooltip": "每 N 個訓練週期產生預覽圖像。必須能夠被批次數整除。"
   },
   "Save Settings": {
     "key": "儲存設定",
@@ -400,7 +400,7 @@
     "tooltip": "啟用時，當訓練被取消時，會保存擴散權重的階段。這會使用更多HDD空間，但允許從訓練中恢復，包括優化器狀態。"
   },
   "Save EMA Weights to Generated Models": {
-    "key": "將EMA權重保存到生成的模型中",
+    "key": "將 EMA 權重儲存到產生的模型中",
     "tooltip": "如果模型是使用 EMA weights 提取或訓練的，這些權重將被分別附加到模型上，以供稍後在訓練中使用。"
   },
   "Scale Position": {
@@ -437,7 +437,7 @@
   },
   "Total Number of Class/Reg Images": {
     "key": "分類/正則化圖片的總數",
-    "tooltip": "要使用的分類/正則化圖像的總數。如果不存在圖像，將生成圖像。將其設置為 0 以禁用先前的保留。"
+    "tooltip": "要使用的分類 / 正則化圖像的總數。如果不存在圖像，將產生圖像。將其設置為 0 以禁用先前的保留。"
   },
   "Train Imagic Only": {
     "key": "僅意象訓練",
