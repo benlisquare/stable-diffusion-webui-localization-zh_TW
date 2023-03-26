@@ -4,7 +4,7 @@ run-name: Updating each file's traslate progress into README.md
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 1,13 * * *"
 
 jobs:
   buid:
