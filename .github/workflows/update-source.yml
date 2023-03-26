@@ -8,6 +8,7 @@ on:
 
 jobs:
   download_and_push:
+    if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository content
