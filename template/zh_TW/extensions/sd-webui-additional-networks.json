@@ -89,7 +89,7 @@
   "Total Images": "圖像總數",
   "Training parameters": "訓練參數",
   "copy to clipboard": "複製到剪貼簿",
-  "Generate Info": "生成資訊",
+  "Generate Info": "產生資訊",
   "Extra paths to scan for LoRA models, comma-separated. Paths containing commas must be enclosed in double quotes. In the path, \" (one quote) must be replaced by \"\" (two quotes).": "掃描 LoRA模型的額外目錄，以逗號分隔。包含逗號的路徑必須用雙引號括起來。在路徑中，一個引號「\"」必須替換為「\"\"」兩個引號。",
   "Sort LoRA models by": "LoRA 模型的排序方式",
   "name": "名稱",

@@ -43,7 +43,7 @@
   "cfg scale": "提示詞相關性",
   "steps": "疊代步數",
   "seed": "種子",
-  "sampler": "採樣器",
+  "sampler": "取樣器",
   "size": "尺寸",
   "model": "模型",
   "model hash": "模型雜湊值",

@@ -8,7 +8,7 @@
   "Pad Images": "Pad Images",
   "Crop Images": "裁切圖像",
   "Captions": "描述",
-  "Generate Captions": "生成描述",
+  "Generate Captions": "產生描述",
   "Max Caption Length (0=unlimited)": "最大描述長度（設 0 為無限制）",
   "Existing Caption Action": "既有描述處理",
   "Add CLIP results to Caption": "將 CLIP 結果加入描述",
