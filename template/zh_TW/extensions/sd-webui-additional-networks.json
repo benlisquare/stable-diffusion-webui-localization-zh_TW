@@ -1,7 +1,7 @@
 {
   "Additional Networks": "附加網路（LoRA擴充功能）",
   "Enable": "啟用",
-  "Separate UNet/Text Encoder weights": "單獨設置 UNet 及文字編碼器的權重",
+  "Separate UNet/Text Encoder weights": "單獨設定 UNet 及文字編碼器的權重",
   "Network module 1": "附加網路類型 1️⃣",
   "LoRA": "LoRA",
   "Model 1": "模型 1️⃣",
