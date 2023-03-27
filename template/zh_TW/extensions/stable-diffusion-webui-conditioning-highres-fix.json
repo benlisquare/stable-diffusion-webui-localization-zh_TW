@@ -1,7 +1,7 @@
 {
   "Conditioning Highres": "調整高解析度",
   "Conditioning Highres.fix strength (for sd-v1-5-inpainting)": "高解析度修復原圖調節強度（專為 sd-v1-5-inpainting 設計）",
-  "Cond.fix: Disabled (none)": "條件修復： 禁用（無）",
+  "Cond.fix: Disabled (none)": "條件修復：停用（無）",
   "Cond.fix: Empty": "條件修復： 無",
   "Cond.fix: Lowest": "條件修復： 最小",
   "Cond.fix: Low": "條件修復： 小",
