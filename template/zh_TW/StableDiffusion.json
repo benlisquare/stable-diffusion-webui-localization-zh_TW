@@ -476,7 +476,7 @@
   "Use old emphasis implementation. Can be useful to reproduce old seeds.": "使用舊的強調符實作。可用於復現舊隨機種子",
   "Use old karras scheduler sigmas (0.1 to 10).": "使用舊的 karras 調度器 sigma（0.1 至 10）",
   "Do not make DPM++ SDE deterministic across different batch sizes.": "Do not make DPM++ SDE deterministic across different batch sizes.",
-  "For hires fix, use width/height sliders to set final resolution rather than first pass (disables Upscale by, Resize width/height to).": "為了 hires fix，使用寬度/高度滑桿設置最終解析度，而不是第一遍（禁用放大比例、調整寬度/高度）",
+  "For hires fix, use width/height sliders to set final resolution rather than first pass (disables Upscale by, Resize width/height to).": "為了 hires fix，使用寬度/高度滑桿設定最終解析度，而不是第一遍（停用放大比例、調整寬度/高度）",
   "Interrogate: keep models in VRAM": "反推：將模型儲存在顯存（VRAM）中",
   "Interrogate: include ranks of model tags matches in results (Has no effect on caption-based interrogators).": "反推：在生成結果中包含與模型標記相匹配的等級（對基於生成自然語言描述的反推沒有影響）",
   "Interrogate: num_beams for BLIP": "反推：BLIP 的 num_beams",
