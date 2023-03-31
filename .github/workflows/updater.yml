@@ -1,18 +1,28 @@
-name: Update source
-run-name: Downloading and pushing source files from stable-diffusion-webui-localization-source
+name: Update source & progress
+run-name: Updating translation source & progress
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 1,13 * * *"
 
 jobs:
-  download_and_push:
+  update-source-and-progress:
     if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository content
         uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4.5.0
+        with:
+          python-version: "3.10.6"
+
+      - name: install python dependencies
+        uses: py-actions/py-dependency-install@v4
+        with:
+          path: "./requirements.txt"
 
       - name: download folder from stable-diffusion-webui-localization-source
         run: |
@@ -24,6 +34,11 @@ jobs:
           mkdir -p template/source
           cp -rf temp/source/* template/source
 
+      - name: run crowdin tool.py
+        env:
+          crowdin_api_token: ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
+        run: python 'tools/crowdin-tool.py'
+
       - name: configure git
         run: |
           git config --local user.name "github-actions[bot]"
@@ -32,7 +47,8 @@ jobs:
       - name: commit changes
         run: |
           git add template
-          git diff-index --quiet HEAD || (git commit -a -m "✨ feat(source files): update extension source" --allow-empty)
+          git add README.md
+          git diff-index --quiet HEAD || (git commit -a -m "✨ feat: update translation source & progress" --allow-empty)
 
       - name: push changes
         uses: ad-m/github-push-action@master
