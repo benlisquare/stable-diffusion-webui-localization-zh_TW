@@ -3,6 +3,8 @@ run-name: Updating translation source & progress
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 1,13 * * *"
 
 jobs:
   update-source-and-progress:
