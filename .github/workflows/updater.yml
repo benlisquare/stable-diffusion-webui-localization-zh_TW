@@ -44,7 +44,8 @@ jobs:
 
       - name: commit changes
         run: |
-          git add template README.md
+          git add template
+          git add README.md
           git diff-index --quiet HEAD || (git commit -a -m "✨ feat: update translation source & progress" --allow-empty)
 
       - name: push changes
