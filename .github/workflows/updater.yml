@@ -5,24 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-source:
-    if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout repository content
-        uses: actions/checkout@v3
-
-      - name: download folder from stable-diffusion-webui-localization-source
-        run: |
-          mkdir -p temp/source
-          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-source/archive/refs/heads/main.tar.gz | tar -xz --strip-components=2 -C temp/source stable-diffusion-webui-localization-source-main/source
-
-      - name: copy and overwrite source files
-        run: |
-          mkdir -p template/source
-          cp -rf temp/source/* template/source
-
-  update-progress:
+  update-source&progress:
     if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
@@ -39,19 +22,21 @@ jobs:
         with:
           path: "./requirements.txt"
 
+      - name: download folder from stable-diffusion-webui-localization-source
+        run: |
+          mkdir -p temp/source
+          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-source/archive/refs/heads/main.tar.gz | tar -xz --strip-components=2 -C temp/source stable-diffusion-webui-localization-source-main/source
+
+      - name: copy and overwrite source files
+        run: |
+          mkdir -p template/source
+          cp -rf temp/source/* template/source
+
       - name: run crowdin tool.py
         env:
           crowdin_api_token: ${{ secrets.CROWDIN_PROGRESS_CHECKER_API_KEY }}
         run: python 'tools/crowdin-tool.py'
-        
-  push-to-repo:
-    needs: [update-progress, update-source]
-    if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout repository content
-        uses: actions/checkout@v3
-        
+
       - name: configure git
         run: |
           git config --local user.name "github-actions[bot]"
