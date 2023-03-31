@@ -49,6 +49,9 @@ jobs:
     if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
+      - name: checkout repository content
+        uses: actions/checkout@v3
+        
       - name: configure git
         run: |
           git config --local user.name "github-actions[bot]"
