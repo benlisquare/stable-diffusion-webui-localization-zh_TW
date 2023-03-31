@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-source&progress:
+  update-source-and-progress:
     if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
