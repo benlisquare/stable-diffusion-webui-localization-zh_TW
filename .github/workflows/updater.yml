@@ -3,8 +3,6 @@ run-name: Updating translation source & progress
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 4,10,16,22 * * *"
 
 jobs:
   update-source:
@@ -47,7 +45,7 @@ jobs:
         run: python 'tools/crowdin-tool.py'
         
   push-to-repo:
-    need: [update-progress, update-source]
+    needs: [update-progress, update-source]
     if: github.repository == 'harukaxxxx/stable-diffusion-webui-localization-zh_TW'
     runs-on: ubuntu-latest
     steps:
