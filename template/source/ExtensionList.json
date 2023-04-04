@@ -1,4 +1,6 @@
 {
+  "Negative Prompt Weight": "Negative Prompt Weight",
+  "Allows users to set a global weight for the negative prompt.": "Allows users to set a global weight for the negative prompt.",
   "Prompt Translator": "Prompt Translator",
   "Allows users to generate images based on prompts written in 50 different languages. It translates the prompts to english from a selected source language before generating the image.": "Allows users to generate images based on prompts written in 50 different languages. It translates the prompts to english from a selected source language before generating the image.",
   "Aesthetic Gradients": "Aesthetic Gradients",
@@ -261,5 +263,7 @@
   "Auto Translate": "Auto Translate",
   "Language extension allows users to write prompts in their native language and automatically translate UI, without the need to manually download configuration files. New plugins can also be translated.": "Language extension allows users to write prompts in their native language and automatically translate UI, without the need to manually download configuration files. New plugins can also be translated.",
   "old localizations": "old localizations",
-  "Old unmaintained localizations that used to be a part of main repository": "Old unmaintained localizations that used to be a part of main repository"
+  "Old unmaintained localizations that used to be a part of main repository": "Old unmaintained localizations that used to be a part of main repository",
+  "Abysz LAB": "Abysz LAB",
+  "Temporal Coherence Tools": "Temporal Coherence Tools"
 }
