@@ -1,5 +1,7 @@
 {
-  "Prompt Translator": "提示翻譯器",
+  "Negative Prompt Weight": "反向提示詞權重",
+  "Allows users to set a global weight for the negative prompt.": "允許使用者設定反向提示詞的全域權重",
+  "Prompt Translator": "提示詞翻譯器",
   "Allows users to generate images based on prompts written in 50 different languages. It translates the prompts to english from a selected source language before generating the image.": "Allows users to generate images based on prompts written in 50 different languages. It translates the prompts to english from a selected source language before generating the image.",
   "Aesthetic Gradients": "美學梯度",
   "Allows training an embedding from one or few pictures, specifically meant for applying styles. Also, allows use of these specific embeddings to generated images.": "Allows training an embedding from one or few pictures, specifically meant for applying styles. Also, allows use of these specific embeddings to generated images.",
@@ -261,5 +263,7 @@
   "Auto Translate": "自動翻譯",
   "Language extension allows users to write prompts in their native language and automatically translate UI, without the need to manually download configuration files. New plugins can also be translated.": "Language extension allows users to write prompts in their native language and automatically translate UI, without the need to manually download configuration files. New plugins can also be translated.",
   "old localizations": "過時的本地化語言包",
-  "Old unmaintained localizations that used to be a part of main repository": "曾經在主分支上但現在不再維護的舊語言包"
+  "Old unmaintained localizations that used to be a part of main repository": "曾經在主分支上但現在不再維護的舊語言包",
+  "Abysz LAB": "Abysz LAB",
+  "Temporal Coherence Tools": "Temporal Coherence Tools"
 }
