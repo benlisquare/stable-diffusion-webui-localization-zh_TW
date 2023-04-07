@@ -86,7 +86,7 @@
   "fp16": "fp16",
   "Memory Attention": "記憶體注意力",
   "default": "default",
-  "Cache Latents": "緩存潛在的",
+  "Cache Latents": "快取潛在變數",
   "Train UNET": "訓練 UNET",
   "Step Ratio of Text Encoder Training": "文字編碼器訓練步驟比率",
   "Offset Noise": "噪聲偏移",
