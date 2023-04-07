@@ -3,7 +3,7 @@ run-name: Merging translated files to zh_TW.json in localization folder
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_request_target:
     branches:
       - main
     types:
@@ -11,7 +11,7 @@ on:
 
 jobs:       
   buid:
-    if: github.repository == 'benlisquare/stable-diffusion-webui-localization-zh_TW'
+    if: github.repository == 'benlisquare/stable-diffusion-webui-localization-zh_TW' && github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository content
