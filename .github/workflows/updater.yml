@@ -1,0 +1,37 @@
+name: Update translations
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 16 * * *"
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: download translations from harukaxxxx/stable-diffusion-webui-localization-zh_TW
+        run: |
+          mkdir -p temp
+          curl -sSL https://github.com/harukaxxxx/stable-diffusion-webui-localization-zh_TW/archive/refs/heads/main.tar.gz | tar -xz --strip-components=1 -C temp
+          mkdir -p localizations
+          cp -rf temp/localizations/* localizations
+          cp -rf temp/javascript/* javascript
+
+      - name: configure git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: commit changes
+        run: |
+          git add localizations
+          git add javascript
+          git diff-index --quiet HEAD || (git commit -m "✨ feat: update translations")
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
