@@ -1,7 +1,0 @@
-{
-  "Enable pixelization": "啟用像素化",
-  "Keep resolution": "保持解析度",
-  "Pixel size": "像素尺寸",
-  "stable-diffusion-webui-pixelization": "stable-diffusion-webui-pixelization",
-  "https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization.git": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization.git"
-}
