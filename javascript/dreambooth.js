@@ -1,19 +1,19 @@
-//更新翻譯時，複製'/template/zh_TW/extensions/tooltips/sd_dreambooth_extension.json'內容至'zh_TW_db_titles'。
+//更新翻譯時，複製 `translations` 分支的 '/template/zh_TW/extensions/tooltips/sd_dreambooth_extension.json' 內容至 'zh_TW_db_titles' 變數。
 const zh_TW_db_titles = {
   "API Key": {
     key: "API 金鑰",
     tooltip:
-      "用於保護 Web API。單擊右側的重新整理按鈕以（重新）生成您的密鑰，單擊垃圾桶圖標將其刪除。",
+      "用於保護 Web API。點選右側的重新整理按鈕以（重新）產生您的金鑰，點選垃圾桶圖示將其刪除。",
   },
   "AdamW Weight Decay": {
     key: "AdamW 權重衰減",
     tooltip:
-      "The weight decay of the AdamW Optimizer. Values closer to 0 closely match your training dataset, and values closer to 1 generalize more and deviate from your training dataset. Default is 1e-2, values lower than 0.1 are recommended.",
+      "AdamW 優化器的權重衰減。數值越接近 0，越能與訓練資料集匹配，數值越接近 1，越能泛化且與訓練資料集偏離。預設值為 1e-2，建議使用低於 0.1 的數值。",
   },
   "Amount of time to pause between Epochs (s)": {
     key: "每訓練週期之間暫停的時間（秒）",
     tooltip:
-      "When 'Pause After N Epochs' is greater than 0, this is the amount of time, in seconds, that training will be paused for",
+      "當「訓練 N 個 Epochs 後暫停」設置大於 0 時，表示訓練將會在指定秒數內暫停。",
   },
   "Apply Horizontal Flip": {
     key: "套用水平翻轉",
@@ -24,9 +24,9 @@ const zh_TW_db_titles = {
     tooltip: "每個訓練步驟一次要處理多少圖像？",
   },
   "Cache Latents": {
-    key: "緩存潛在的",
+    key: "快取潛在變數",
     tooltip:
-      "選中此框時，將緩存潛伏。緩存潛伏將使用更多 VRAM，但會提高訓練速度。",
+      "選中此框時，將快取潛在變數。快取潛在變數將使用更多 VRAM，但會提高訓練速度。",
   },
   Cancel: {
     key: "取消",
@@ -34,7 +34,7 @@ const zh_TW_db_titles = {
   },
   "Class Batch Size": {
     key: "類別每批數量",
-    tooltip: "一次要生成多少分類/正則化圖像。",
+    tooltip: "一次要產生多少分類 / 正則化圖像。",
   },
   "Class Images Per Instance Image": {
     key: "每個實例圖像的分類圖片數量",
@@ -76,7 +76,7 @@ const zh_TW_db_titles = {
   "Constant/Linear Starting Factor": {
     key: "常數/線性起始因子",
     tooltip:
-      "將初始學習率設置為 main_lr * 此值。如果您的目標 LR 為 .000006 並將其設置為 .5，則調度程序將從 .000003 開始並增加直到達到 .000006。",
+      "將初始學習率設定為 main_lr * 此值。如果您的目標 LR 為 .000006 並將其設定為 .5，則排程器將從 .000003 開始並增加直到達到 .000006。",
   },
   "Create From Hub": {
     key: "從 huggingface 建立",
@@ -104,7 +104,7 @@ const zh_TW_db_titles = {
     tooltip: "檢查實例和類圖像並報告沒有相應類圖像的任何實例圖像。",
   },
   "Discord Webhook": {
-    key: "Discord Webhook",
+    key: "Discord 網絡鉤手",
     tooltip: "生成後將訓練樣本發送到 Discord 頻道。",
   },
   "Existing Prompt Contents": {
@@ -119,71 +119,71 @@ const zh_TW_db_titles = {
   "Freeze CLIP Normalization Layers": {
     key: "凍結 CLIP 正規化層",
     tooltip:
-      "在訓練期間保持 CLIP 的規範化層凍結。高級用法，可能會提高模型性能和可編輯性。",
+      "在訓練期間保持 CLIP 的規範化層凍結。進階用法，可能會提高模型效能和可編輯性。",
   },
   "Generate Ckpt": {
-    key: "產生 ckpt",
-    tooltip: "在當前訓練級別生成一個CKPT。",
+    key: "產生 Ckpt",
+    tooltip: "在當前訓練級別產生一個模型權重存檔點。",
   },
   "Generate Class Images": {
-    key: "生成分類圖片",
-    tooltip: "在沒有訓練的情況下使用訓練設置創建分類圖像。",
+    key: "產生分類圖片",
+    tooltip: "在沒有訓練的情況下使用訓練設定建立分類圖像。",
   },
   "Generate Classification Images Using txt2img": {
     key: "使用文生圖產生分類圖",
-    tooltip: "使用源模型權重存檔點和文生圖生成類圖像。",
+    tooltip: "使用源模型權重存檔點和文生圖產生類圖像。",
   },
   "Generate Classification Images to match Instance Resolutions": {
-    key: "Generate Classification Images to match Instance Resolutions",
-    tooltip: "而不是生成正方形類圖像，它們將以與類圖像相同的分辨率生成。",
+    key: "生成與實例解析度相匹配的分類圖像",
+    tooltip: "而不是產生正方形類圖像，它們將以與類圖像相同的分辨率產生。",
   },
   "Generate Graph": {
-    key: "生成圖形",
-    tooltip: "從訓練日誌中生成圖表，顯示訓練過程中的學習率和平均損失。",
+    key: "產生圖形",
+    tooltip: "從訓練日誌中產生圖表，顯示訓練過程中的學習率和平均損失。",
   },
   "Generate Sample Images": {
-    key: "生成樣本圖像",
-    tooltip: "使用當前保存的模型生成樣本圖像。",
+    key: "產生樣本圖像",
+    tooltip: "使用當前保存的模型產生樣本圖像。",
   },
   "Generate Samples": {
     key: "產生樣本",
-    tooltip: "在下一個訓練週期後生成樣本。",
+    tooltip: "在下一個訓練週期後產生樣本。",
   },
   "Generate a .ckpt file when saving during training.": {
-    key: "在訓練期間保存時生成 .ckpt 文件。",
+    key: "在訓練期間保存時產生 .ckpt 文件。",
     tooltip:
-      "啟用後，將在訓練進行時以指定的訓練週期生成CKPT。這也可以在訓練進行時使用“保存權重”按鈕控製手動生成。",
+      '啟用後，將在訓練進行時以指定的訓練週期生成模型權重存檔點。這也可以在訓練進行時使用 "保存權重" 按鈕控製手動產生。',
   },
   "Generate a .ckpt file when training completes.": {
-    key: "在訓練完成時生成 .ckpt 文件。",
-    tooltip: "啟用後，訓練成功完成後將生成一個CKPT。",
+    key: "在訓練完成時產生 .ckpt 檔案。",
+    tooltip: "啟用後，訓練成功完成後將產生一個模型權重存檔點。",
   },
   "Generate a .ckpt file when training is cancelled.": {
-    key: "在訓練取消時生成 .ckpt 文件。",
-    tooltip: "啟用後，當用戶取消訓練時將生成一個CKPT。",
+    key: "在訓練取消時產生 .ckpt 檔案。",
+    tooltip: "啟用後，當用戶取消訓練時將產生一個模型權重存檔點。",
   },
   "Generate lora weights Generate lora weights for additional networks.": {
-    key: "生成附加網路的 LoRA。（警告：如有使用 LoRA 擴充功能，此選項無效）",
+    key: "產生附加網路的 LoRA。（警告：如有使用 LoRA 擴充功能，此選項無效）",
     tooltip:
-      "啟用後，將在modelsLoRA目錄生成相容的lora.safetensors模型。與[lora擴充]不相容。",
+      "啟用後，將在 LoRA 目錄產生相容的 lora.safetensors 模型。與 LoRA 擴充不相容。",
   },
   "Generate lora weights when saving during training.": {
-    key: "在訓練期間保存時生成 lora。",
+    key: "在訓練期間儲存時產生 LoRA。",
     tooltip:
-      "啟用後，將在訓練期間在每個指定的訓練週期生成 lora .pt 文件。這也會影響手動點擊“保存權重”按鈕時是否生成 .pt 文件。",
+      "啟用後，將在訓練期間在每個指定的訓練週期產生 lora .pt 文件。這也會影響手動點擊“保存權重”按鈕時是否產生 .pt 檔案。",
   },
   "Generate lora weights when training completes.": {
-    key: "在訓練完成時生成 lora。",
-    tooltip: "啟用後，訓練完成後將生成 lora .pt 文件。",
+    key: "在訓練完成時產生 LoRA。",
+    tooltip: "啟用後，訓練完成後將產生 lora .pt 文件。",
   },
   "Generate lora weights when training is canceled.": {
-    key: "在訓練取消時生成 lora。",
-    tooltip: "啟用後，當用戶取消訓練時，將生成 lora .pt 文件。",
+    key: "在訓練取消時產生 LoRA。",
+    tooltip: "啟用後，當用戶取消訓練時，將產生 lora .pt 文件。",
   },
   "Gradient Accumulation Steps": {
     key: "梯度累積疊代步數",
     tooltip:
-      "在進行反向傳播/更新之前累積的更新步驟數前。您應該嘗試將其設置為與您的批次大小相同。",
+      "在進行反向傳播/更新之前累積的更新步驟數前。您應該嘗試將其設定為與您的批次大小相同。",
   },
   "Gradient Checkpointing": {
     key: "梯度進度記錄 - 以時間換顯存",
@@ -198,7 +198,7 @@ const zh_TW_db_titles = {
   "Half Model": {
     key: "半精度模型",
     tooltip:
-      "啟用此功能以生成具有fp16精度的模型。結果是更小的檢查點，品質幾乎沒有損失。",
+      "啟用此功能以產生具有 fp16 精度的模型。結果是更小的檢查點，品質幾乎沒有損失。",
   },
   "HuggingFace Token": {
     key: "HuggingFace 標記",
@@ -277,7 +277,7 @@ const zh_TW_db_titles = {
   },
   "Max Token Length": {
     key: "最大標記長度",
-    tooltip: "要讀取的最大提詞長度。您可能希望將其設置為75。",
+    tooltip: "要讀取的最大提詞長度。您可能希望將其設定為 75。",
   },
   "Memory Attention": {
     key: "記憶體注意力",
@@ -310,13 +310,13 @@ const zh_TW_db_titles = {
     tooltip: "cosine_with_restarts 調度器中 lr 的硬重置次數。",
   },
   "Number of Samples to Generate": {
-    key: "生成樣本的數量",
-    tooltip: "每個主題要生成的樣本數量。",
+    key: "產生樣本的數量",
+    tooltip: "每個主題要產生的樣本數量。",
   },
   "Offset Noise": {
     key: "噪聲偏移",
     tooltip:
-      "此功能允許模型在訓練期間更詳細地學習亮度和對比度。該值控制效果的強度，0 表示禁用該功能。",
+      "此功能允許模型在訓練期間更詳細地學習亮度和對比度。該值控制效果的強度，0 表示停用該功能。",
   },
   "Pad Tokens": {
     key: "填充標記",
@@ -329,7 +329,7 @@ const zh_TW_db_titles = {
   },
   "Performance Wizard (WIP)": {
     key: "效能嚮導（半成品）",
-    tooltip: "嘗試根據 VRAM 自動設置訓練參數。仍在開發中。",
+    tooltip: "嘗試根據 VRAM 自動設定訓練參數。仍在開發中。",
   },
   "Polynomial Power": {
     key: "多項式功率",
@@ -341,7 +341,7 @@ const zh_TW_db_titles = {
   },
   "Preview Prompts": {
     key: "預覽提示",
-    tooltip: "生成用於訓練的提示數據的 JSON。",
+    tooltip: "產生用於訓練的提示數據的 JSON。",
   },
   "Prior Loss Weight": {
     key: "先前損失權重",
@@ -366,11 +366,11 @@ const zh_TW_db_titles = {
   },
   "Sample Prompt": {
     key: "樣本提詞",
-    tooltip: "生成樣本圖像時要使用的提示。",
+    tooltip: "產生樣本圖像時要使用的提示。",
   },
   "Sample Seed": {
     key: "樣本種子",
-    tooltip: "生成樣本時要使用的種子。設置為-1以在每次使用時使用隨機種子。",
+    tooltip: "生成樣本時要使用的種子。設定為 -1 以在每次使用時使用隨機種子。",
   },
   "Sample Steps": {
     key: "樣本步數",
@@ -379,7 +379,7 @@ const zh_TW_db_titles = {
   "Sanity Sample Prompt": {
     key: "樣本提示詞",
     tooltip:
-      "用於生成“基準”圖像的提示，此圖像將與其他樣本一起創建以驗證模型的忠實度。",
+      '用於產生 "基準" 圖像的提示，此圖像將與其他樣本一起創建以驗證模型的忠實度。',
   },
   "Sanity Sample Seed": {
     key: "樣本種子",
@@ -399,11 +399,11 @@ const zh_TW_db_titles = {
   },
   "Save Preview(s) Frequency (Epochs)": {
     key: "儲存預覽頻率（訓練週期）",
-    tooltip: "每N個訓練週期生成一次預覽圖像。",
+    tooltip: "每 N 個訓練週期產生一次預覽圖像。",
   },
   "Save Preview(s) Frequency (Step)": {
     key: "保存預覽頻率（訓練週期）",
-    tooltip: "每N個訓練週期生成預覽圖像。必須能夠被批次數整除。",
+    tooltip: "每 N 個訓練週期產生預覽圖像。必須能夠被批次數整除。",
   },
   "Save Settings": {
     key: "儲存設定",
@@ -434,33 +434,33 @@ const zh_TW_db_titles = {
       "啟用時，當訓練被取消時，會保存擴散權重的階段。這會使用更多HDD空間，但允許從訓練中恢復，包括優化器狀態。",
   },
   "Save EMA Weights to Generated Models": {
-    key: "將EMA權重保存到生成的模型中",
+    key: "將 EMA 權重儲存到產生的模型中",
     tooltip:
       "如果模型是使用 EMA weights 提取或訓練的，這些權重將被分別附加到模型上，以供稍後在訓練中使用。",
   },
   "Scale Position": {
     key: "比例位置",
     tooltip:
-      "訓練百分比，在此百分比處應實現“最終”學習率。如果在100個訓練週期中將其設置為0.25，則最終LR將在第25個訓練週期達到。",
+      "訓練百分比，在此百分比處應實現“最終”學習率。如果在 100 個訓練週期中將其設定為 0.25，則最終 LR 將在第 25 個訓練週期達到。",
   },
   Scheduler: {
     key: "排程器",
     tooltip: "使用的模型排程器。僅適用於 2.0 之前的模型。",
   },
   "Set Gradients to None When Zeroing": {
-    key: "將梯度設置為 0 的時候設置為無",
+    key: "將梯度設定為 0 的時候設定為無",
     tooltip:
-      "在進行反向傳遞時，梯度將設置為無，而不是創建一個新的空張量。這將稍微提高 VRAM。",
+      "在進行反向傳遞時，梯度將設定為無，而不是建立一個新的空張量。這將稍微提高 VRAM。",
   },
   "Shuffle After Epoch": {
     key: "訓練週期後隨機排序",
     tooltip:
-      "啟用後，將在第一個訓練週期後對數據集進行隨機排序。這將啟用文字編碼器訓練和潛在緩存（更多 VRAM）。",
+      "啟用後，將在第一個訓練週期後對數據集進行隨機排序。這將啟用文字編碼器訓練和潛在變數快取（更多 VRAM）。",
   },
   "Shuffle Tags": {
     key: "洗牌標籤",
     tooltip:
-      "啟用後，將在第一個 epoch 後對數據集進行隨機排序。這將啟用文本編碼器訓練和潛在緩存（更多 VRAM）。",
+      '啟用後，提示詞中 "," 後的第一個標記將被隨機排序，有可能優化訓練。',
   },
   "Source Checkpoint": {
     key: "源模型權重存檔點",
@@ -469,7 +469,7 @@ const zh_TW_db_titles = {
   "Step Ratio of Text Encoder Training": {
     key: "文字編碼器訓練步驟比率",
     tooltip:
-      "每個圖像（訓練週期）訓練文本編碼器的步數。將 0.5 設置為 50% 的 epoch。",
+      "每個圖像（訓練週期）訓練文字編碼器的步數。將 0.5 設定為 50% 的 epoch。",
   },
   "Strict Tokens": {
     key: "嚴格的提詞",
@@ -479,7 +479,7 @@ const zh_TW_db_titles = {
   "Total Number of Class/Reg Images": {
     key: "分類/正則化圖片的總數",
     tooltip:
-      "要使用的分類/正則化圖像的總數。如果不存在圖像，將生成圖像。將其設置為 0 以禁用先前的保留。",
+      "要使用的分類 / 正則化圖像的總數。如果不存在圖像，將產生圖像。將其設定為 0 以停用先前的保留。",
   },
   "Train Imagic Only": {
     key: "僅意象訓練",
@@ -499,14 +499,14 @@ const zh_TW_db_titles = {
     tooltip: "這是在每個實例圖像上執行的總訓練步數。",
   },
   "Training Wizard (Object/Style)": {
-    key: "訓練嚮導（物件 / 風格）",
+    key: "訓練嚮導（物件 / 樣式）",
     tooltip:
-      "根據示例圖像的數量計算非人類主體的訓練參數並設置學習率。禁用先前保留功能。",
+      "根據示例圖像的數量計算非人類主體的訓練參數並設定學習率。停用先前保留功能。",
   },
   "Training Wizard (Person)": {
     key: "訓練嚮導（人物）",
     tooltip:
-      "根據示例圖像的數量計算人類主體的訓練參數並設置學習率。啟用先前保留功能。",
+      "根據示例圖像的數量計算人類主體的訓練參數並設定學習率。啟用先前保留功能。",
   },
   "Unfreeze Model": {
     key: "解凍模型",
@@ -534,9 +534,9 @@ const zh_TW_db_titles = {
       "啟用此功能將會將 EMA UNET 的權重儲存為「正常」模型的權重並忽略常規 UNET 的權重。",
   },
   "Use Epoch Values for Save Frequency": {
-    key: "啟用此功能時，保存頻率是基於訓練週期。當禁用時，頻率是基於訓練步驟數的。",
+    key: "啟用此功能時，保存頻率是基於訓練週期。當停用時，頻率是基於訓練步驟數的。",
     tooltip:
-      "啟用此功能時，保存頻率是基於訓練週期。當禁用時，頻率是基於訓練步驟數的。",
+      "啟用此功能時，保存頻率是基於訓練週期。當停用時，頻率是基於訓練步驟數的。",
   },
   "Use LORA": {
     key: "使用 LoRA",
@@ -544,14 +544,14 @@ const zh_TW_db_titles = {
       "使用低秩適應進行快速文本到圖像擴散微調。使用較少的 VRAM，保存為 .pt 文件而不是完整的檢查點",
   },
   "Use Lifetime Epochs When Saving": {
-    key: "Use Lifetime Epochs When Saving",
+    key: "在保存時使用生命週期（Lifetime Epochs）",
     tooltip:
-      "When checked, will save preview images and checkpoints using lifetime epochs, versus current training epochs.",
+      "當勾選此選項時，將使用生命週期（Lifetime Epochs）來保存預覽圖像和檢查點，而不是使用當前的訓練週期（Current Training Epochs）。",
   },
   "Use Lifetime Steps When Saving": {
-    key: "Use Lifetime Steps When Saving",
+    key: "在保存時使用生命週期步數（Lifetime Steps）",
     tooltip:
-      "When checked, will save preview images and checkpoints using lifetime steps, versus current training steps.",
+      "當勾選此選項時，將使用生命週期步數（Lifetime Steps）來保存預覽圖像和檢查點，而不是使用當前的訓練步數（Current Training Steps）。",
   },
 }
 
