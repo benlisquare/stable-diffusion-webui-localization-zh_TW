@@ -867,6 +867,8 @@
   "Create masks for img2img based on a depth estimation made by MiDaS.": "根據 MiDaS 的深度估計為圖生圖創建遮罩。",
   "ABG_extension": "ABG_擴展",
   "Automatically remove backgrounds. Uses an onnx model fine-tuned for anime images. Runs on GPU.": "自動刪除背景。使用為動漫圖像微調的 onnx 模型。在 GPU 上運行。",
+  "Pixel": "Pixel",
+  "Quickly and easily perform downscaling, color palette limiting, and other useful pixel art effects through the extras tab.": "Quickly and easily perform downscaling, color palette limiting, and other useful pixel art effects through the extras tab.",
   "Pixelization": "像素化",
   "Using pre-trained models, produce pixel art out of images in the extras tab.": "使用預先訓練的模型，在附加標籤中將圖像轉換為像素藝術。",
   "haku-img": "HAKU 圖像工具",
