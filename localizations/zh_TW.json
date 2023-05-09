@@ -1026,6 +1026,8 @@
   "Simplified Chinese localization.": "簡體中文本地化。",
   "old localizations": "過時的本地化語言包",
   "Old unmaintained localizations that used to be a part of main repository": "曾經在主分支上但現在不再維護的舊語言包",
+  "SD-CN-Animation": "SD-CN-Animation",
+  "Allows users to create video2video and text2video animations using any SD models as a backbone. Please, make sure that 'sd-webui-controlnet' extension is also installed.": "Allows users to create video2video and text2video animations using any SD models as a backbone. Please, make sure that 'sd-webui-controlnet' extension is also installed.",
   "openOutpaint": "開源圖像擴展",
   "Send to openOutpaint": ">> openOutpaint",
   "openOutpaint-webUI-extension": "openOutpaint-webUI-extension",
