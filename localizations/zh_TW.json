@@ -1048,6 +1048,8 @@
   "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.": "Allows you to dynamically change the weights of tokens during generation. Useful in morphing.",
   "One Button Prompt": "One Button Prompt",
   "One Button Prompt is a script for beginners and advanced users that generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it inspire you.": "One Button Prompt is a script for beginners and advanced users that generates an entire prompt from scratch. It is random, but controlled. You simply load up the script and press generate, and let it inspire you.",
+  "miniPaint": "miniPaint",
+  "The miniPaint extension allows for better image editing capabilites. Edit images simply direct inside the webui!": "The miniPaint extension allows for better image editing capabilites. Edit images simply direct inside the webui!",
   "The untranslated characters will be translated automatically and will not affect the old translations. Use the function in the lower right corner to easily check and quickly modify the current translation.1,Save the setting;2,Click start button;3,Reload your browser.": "未被翻譯的字句將會自動翻譯且不會影響原有的翻譯。使用右下角的功能來簡單的查看並快速編輯正確的翻譯：1. 儲存設定 2. 點選開始按鈕 3. 重新載入 UI",
   "Translated Status": "翻譯狀態",
   "Start Auto Translate": "開始自動翻譯",
