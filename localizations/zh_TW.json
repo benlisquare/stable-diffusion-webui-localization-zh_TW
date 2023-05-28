@@ -726,7 +726,7 @@
   "softsign": "softsign",
   "tanhshrink": "tanhshrink",
   "threshold": "threshold",
-  "Normal": "正態",
+  "Normal": "普通",
   "KaimingUniform": "Kaiming 均勻",
   "KaimingNormal": "Kaiming 正態",
   "XavierUniform": "Xavier 均勻",
