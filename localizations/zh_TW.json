@@ -974,7 +974,7 @@
   "stable-diffusion-webui-state": "stable-diffusion-webui-state",
   "Preserves the UI state after reload/restart.": "Preserves the UI state after reload/restart.",
   "text2video": "text2video",
-  "Implementation of text2video diffusion models, such as ModelScope or VideoCrafter, using only Auto1111 webui dependencies.": "Implementation of text2video diffusion models, such as ModelScope or VideoCrafter, using only Auto1111 webui dependencies.",
+  "Brings a range of true text2video models, such as ModelScope and Videocrafter, into the WebUI.": "Brings a range of true text2video models, such as ModelScope and Videocrafter, into the WebUI.",
   "Aspect Ratio Helper": "長寬比小幫手",
   "Easily scale dimensions while retaining the same aspect ratio.": "Easily scale dimensions while retaining the same aspect ratio.",
   "Canvas Zoom": "Canvas Zoom",
