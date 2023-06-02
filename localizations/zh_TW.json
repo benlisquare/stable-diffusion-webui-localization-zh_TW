@@ -745,6 +745,8 @@
   "subject.txt": "subject.txt",
   "subject_filewords.txt": "subject_filewords.txt",
   "Current": "Current",
+  "Stable Diffusion AWS Extension": "Stable Diffusion AWS Extension",
+  "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS": "Allow user to migrate existing workloads including ckpt merge, model training, model inferencing onto AWS",
   "Aesthetic Gradients": "美學梯度",
   "Allows training an embedding from one or few pictures, specifically meant for applying styles. Also, allows use of these specific embeddings to generated images.": "允許從一張或多張圖像中訓練一個嵌入（embedding），專門用於套用風格。同時，也允許使用這些特定的嵌入來產生圖像。",
   "Dreambooth": "Dreambooth",
