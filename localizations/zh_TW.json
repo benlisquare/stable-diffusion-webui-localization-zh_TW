@@ -995,6 +995,8 @@
   "This SD extension allows you to turn posts from various image boorus into stable diffusion prompts. It does so by pulling a list of tags down from their API. You can copy-paste in a link to the post you want yourself, or use the built-in search feature to do it all without leaving SD.": "這個 SD 延伸可以將各種圖像 boorus 的文章轉換為穩定擴散提示。它通過從API下載標籤列表來完成此操作。您可以自行複製粘貼您想要的文章的網址，或使用內置的搜索功能在不離開 SD 的情況下完成所有操作。",
   "Gelbooru Prompt": "Gelbooru 提示",
   "Extension that gets tags for saved gelbooru images in AUTOMATIC1111's Stable Diffusion webui": "擴充功能，可獲取在 AUTOMATIC1111 的 Stable Diffusion webui 中儲存的 Gelbooru 圖像的標籤",
+  "e621 Prompt": "e621 Prompt",
+  "Request tags of an image from e621 and convert them into a prompt": "Request tags of an image from e621 and convert them into a prompt",
   "NSFW checker": "NSFW 檢查器",
   "Replaces NSFW images with black.": "用黑色替換 NSFW 圖像。",
   "Diffusion Defender": "擴散防御者",
