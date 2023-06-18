@@ -827,6 +827,8 @@
   "subject.txt": "subject.txt",
   "subject_filewords.txt": "subject_filewords.txt",
   "Current": "Current",
+  "Batch Checkpoints and Prompts": "Batch Checkpoints and Prompts",
+  "Test a base prompt with different checkpoints and for the checkpoints specific prompt templates ": "Test a base prompt with different checkpoints and for the checkpoints specific prompt templates ",
   "Kandinsky": "Kandinsky",
   "Adds a script to run Kandinsky 2.1": "Adds a script to run Kandinsky 2.1",
   "Txt/Img to 3D Model": "Txt/Img to 3D Model",
