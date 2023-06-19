@@ -1172,7 +1172,7 @@
   "The Inpaint Anything extension performs SD inpainting, cleaner, ControlNet inpaint, and sending a mask to img2img, using a mask selected from the segmentation output of Segment Anything.": "The Inpaint Anything extension performs SD inpainting, cleaner, ControlNet inpaint, and sending a mask to img2img, using a mask selected from the segmentation output of Segment Anything.",
   "QR Code Generator": "QR Code Generator",
   "Create QR Codes for ControlNet.": "Create QR Codes for ControlNet.",
-  "sd-webui-faceswap": "sd-webui-faceswap",
+  "sd-webui-roop": "sd-webui-roop",
   "Enable face swapping with reference image.": "Enable face swapping with reference image.",
   "sd-webui-color-enhance": "sd-webui-color-enhance",
   "Enhance image colors using GIMP/GEGL \"Color Enhance\" algorithm.": "Enhance image colors using GIMP/GEGL \"Color Enhance\" algorithm.",
