@@ -1186,6 +1186,8 @@
   "Upload generated images to a Bluescape workspace for review and collaboration.": "Upload generated images to a Bluescape workspace for review and collaboration.",
   "sd-webui-prompt_history": "sd-webui-prompt_history",
   "Automatic store your generation info with image and apply back anytime.": "Automatic store your generation info with image and apply back anytime.",
+  "Danbooru Prompt": "Danbooru Prompt",
+  "Fetch tags from Danbooru images link": "Fetch tags from Danbooru images link",
   "openOutpaint": "開源圖像擴展",
   "Send to openOutpaint": ">> openOutpaint",
   "openOutpaint-webUI-extension": "openOutpaint-webUI-extension",
