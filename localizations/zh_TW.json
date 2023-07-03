@@ -1200,6 +1200,8 @@
   "Fork of Aspect Ratio selector with new features and logic for aspect ratio": "Fork of Aspect Ratio selector with new features and logic for aspect ratio",
   "SD Delete Button": "SD Delete Button",
   "Add a delete button for txt2img and img2img using Send2Trash": "Add a delete button for txt2img and img2img using Send2Trash",
+  "sd-webui-qrcode-toolkit": "sd-webui-qrcode-toolkit",
+  "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.": "Integration with Anthony's QR Toolkit for easy QR Code generation and verification.",
   "Ebsynth Utility": "Ebsynth Utility",
   "Project directory": "Project directory",
   "Generation TEST!!(Ignore Project directory and use the image and mask specified in the main UI)": "Generation TEST!!(Ignore Project directory and use the image and mask specified in the main UI)",
