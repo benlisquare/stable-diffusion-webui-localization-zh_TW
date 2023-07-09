@@ -378,6 +378,8 @@
   "Generating talking head videos with facial image and speech audio": "Generating talking head videos with facial image and speech audio",
   "Auto-Photoshop-StableDiffusion-Plugin": "Auto-Photoshop-StableDiffusion-Plugin",
   "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin": "Adds API routes for Auto-Photoshop-StableDiffusion-Plugin",
+  "Civitai Shortcut": "Civitai Shortcut",
+  "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed.": "This extension allows you to register the models available on civitai as favorites (shortcuts) in sdui, and then you can download the models using the registered shortcuts when needed.",
   "Stable Diffusion checkpoint": "Stable Diffusion 模型權重存檔點",
   "txt2img": "文生圖",
   "img2img": "圖生圖",
