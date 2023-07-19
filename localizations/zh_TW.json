@@ -263,7 +263,7 @@
   "PBRemTools": "PBRemTools",
   "PBRemTools(Precise background remover tools) is a collection of tools to crop backgrounds from a single picture with high accuracy.": "PBRemTools(Precise background remover tools) is a collection of tools to crop backgrounds from a single picture with high accuracy.",
   "a1111-sd-webui-lycoris": "a1111-sd-webui-lycoris",
-  "Load lycoris: non-conventional rank adapters; in separate networks gallery tab.": "Load lycoris: non-conventional rank adapters; in separate networks gallery tab.",
+  "No longer needed for webui >= 1.5.0, Load lycoris: non-conventional rank adapters; in separate networks gallery tab.": "No longer needed for webui >= 1.5.0, Load lycoris: non-conventional rank adapters; in separate networks gallery tab.",
   "sd-canvas-editor": "sd-canvas-editor",
   "A full capability canvas editor which you can use layer, text, image, elements and so on.": "A full capability canvas editor which you can use layer, text, image, elements and so on.",
   "Infinite Zoom": "無限縮放",
