@@ -420,6 +420,8 @@
   "All-in-one solution for creating high-quality lip-sync videos based on video or image": "All-in-one solution for creating high-quality lip-sync videos based on video or image",
   "Controlnet Fastload": "Controlnet Fastload",
   "Save and load controlnet parameters": "Save and load controlnet parameters",
+  "LoRA Control": "LoRA Control",
+  "Dynamically control the weights of LoRAs during image generation": "Dynamically control the weights of LoRAs during image generation",
   "Stable Diffusion checkpoint": "Stable Diffusion 模型權重存檔點",
   "txt2img": "文生圖",
   "img2img": "圖生圖",
