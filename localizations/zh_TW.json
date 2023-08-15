@@ -431,7 +431,7 @@
   "sd-webui-chatgpt": "sd-webui-chatgpt",
   "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image.": "Using ChatGPT in Stable Diffusion web UI. When you say something like 'generate an image', ChatGPT will automatically generate a prompt and generate an image.",
   "sd-webui-auto-tweet.json": "sd-webui-auto-tweet.json",
-  "The generated images are automatically posted to your Twitter feed.": "The generated images are automatically posted to your Twitter feed.",
+  "The generated images are automatically posted to your Twitter feed. There is also a button to post the generated image to Twitter.": "The generated images are automatically posted to your Twitter feed. There is also a button to post the generated image to Twitter.",
   "zh_Hant Localization": "zh_Hant Localization",
   "Traditional Chinese localization (mixin zh_TW and zh_Hans)": "Traditional Chinese localization (mixin zh_TW and zh_Hans)",
   "Stable Diffusion checkpoint": "Stable Diffusion 模型權重存檔點",
