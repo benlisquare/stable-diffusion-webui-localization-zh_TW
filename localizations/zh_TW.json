@@ -1272,6 +1272,8 @@
   "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images": "Personalizing Diffusion Models with Iterative Feedback, a training-free approach that conditions the diffusion process on a set of feedback images",
   "Webpage close confirmation dialogue": "Webpage close confirmation dialogue",
   "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage": "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage",
+  "sd-webui-discord-ex": "sd-webui-discord-ex",
+  "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot": "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot",
   "Attention Heatmap": "注意力熱度圖",
   "Attention texts for visualization. (comma separated)": "視覺化的注意文字（以逗號分隔）",
   "Hide heatmap images": "隱藏熱度圖",
