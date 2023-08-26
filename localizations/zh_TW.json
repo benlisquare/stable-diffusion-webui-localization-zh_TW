@@ -1274,6 +1274,8 @@
   "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage": "Adds a confirmation dialogue when you try to \"close\" leave\" or \"reload\" the webpage",
   "sd-webui-discord-ex": "sd-webui-discord-ex",
   "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot": "Supports distributed deployment of SD node's Stable Diffusion WebUi Discord bot",
+  "CivitAI Browser Plus": "CivitAI Browser Plus",
+  "This extension allows you to browse and download any model from CivitAi without leaving WebUI!": "This extension allows you to browse and download any model from CivitAi without leaving WebUI!",
   "Attention Heatmap": "注意力熱度圖",
   "Attention texts for visualization. (comma separated)": "視覺化的注意文字（以逗號分隔）",
   "Hide heatmap images": "隱藏熱度圖",
