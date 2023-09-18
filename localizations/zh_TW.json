@@ -1288,6 +1288,8 @@
   "An extension to quickly work with, explore, and catalog prompts.": "An extension to quickly work with, explore, and catalog prompts.",
   "Model Mixer": "Model Mixer",
   "Checkpoint Model Mixer/Merger extension - merges models without saving a merged model, and is used for image generation. Support Merge Block Weights, XYZ plots, etc.": "Checkpoint Model Mixer/Merger extension - merges models without saving a merged model, and is used for image generation. Support Merge Block Weights, XYZ plots, etc.",
+  "Fast PNG Info": "Fast PNG Info",
+  "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.": "Allows you to view PNG Info of an image without upload to webui's backend server, significantly faster when webui is hosted remotely like on Colab.",
   "Travel mode": "Travel mode",
   "replace": "replace",
   "Linear interp method": "Linear interp method",
