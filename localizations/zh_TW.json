@@ -502,6 +502,8 @@
   "Use the difference between 2 images to generate an inpaint mask. Adds a new operation mode.": "Use the difference between 2 images to generate an inpaint mask. Adds a new operation mode.",
   "Temporal": "Temporal",
   "A \"loopback on steroids\" that allows either processing images in a slightly more advanced way, or making the morphing animations out of them.": "A \"loopback on steroids\" that allows either processing images in a slightly more advanced way, or making the morphing animations out of them.",
+  "FaceChain": "FaceChain",
+  "FaceChain is a deep-learning toolchain for generating your Digital-Twin. With a minimum of 1 portrait-photo, you can create a Digital-Twin of your own and start generating personal portraits in different settings ": "FaceChain is a deep-learning toolchain for generating your Digital-Twin. With a minimum of 1 portrait-photo, you can create a Digital-Twin of your own and start generating personal portraits in different settings ",
   "Stable Diffusion checkpoint": "Stable Diffusion 模型權重存檔點",
   "txt2img": "文生圖",
   "img2img": "圖生圖",
